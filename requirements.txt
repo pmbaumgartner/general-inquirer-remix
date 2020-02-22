@@ -1,0 +1,4 @@
+jsonlines>=1.2.0
+pydantic>=1.4
+pandas>=0.25.3
+spacy>=2.2.3
