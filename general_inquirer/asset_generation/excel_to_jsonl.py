@@ -13,7 +13,7 @@ d = pd.read_excel(spreadsheet_url).fillna(value={"Othtags": "", "Defined": ""})
 
 keep_cols = ["Entry", "Source", "Othtags", "Defined"]
 category_cols = [col for col in d.columns if col not in keep_cols]
-Path("../categories.json").write_text(json.dumps(category_cols, indent=4))
+Path("../assets/categories.json").write_text(json.dumps(category_cols, indent=4))
 
 data = []
 for i in range(len(d)):
