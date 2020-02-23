@@ -2,6 +2,14 @@
 
 This is a version of the [General Inquirer](http://www.wjh.harvard.edu/~inquirer/) (GI) that operates as a [spaCy](https://spacy.io/) extension.
 
+## Installation
+
+Install from GitHub. 
+
+```
+pip install git+https://github.com/pmbaumgartner/general-inquirer-remix
+```
+
 ## Example
 
 ```python
@@ -91,9 +99,23 @@ research ['Active', 'Academ', 'Means', 'EnlOth', 'EnlTot']
 ```
 ## License
 
-Still figuring this out...
+TBD (Unknown)
 
-Please note the unclear copyright status for commercial use. From the [original spreadsheet documentation](http://www.wjh.harvard.edu/~inquirer/spreadsheet_guide.htm):
+Here are a few places the copyright and licenses are mentioned in the original GI documentation.
+
+### Java Software Manual
+
+>  License
+>
+> This version of the General Inquirer is made available exclusively for educational and research purposes. In publications please reference this document and [ref]. Harvard University and The Gallup Organization have supported the development of this version of the General Inquirer; please consider acknowledging their support. Please do not distribute the General Inquirer on your own. We are more than happy to give copies to other researchers, but we would like to know who is using it.
+>
+> This program is provided ``as is'' and carries no warranties of any kind. Comments and questions are always welcome. 
+
+[ref]: STONE, P. J., DUNPHY, D. C., OGILVIE, D. M., & SMITH, M. S. (1966). The General inquirer: a computer approach to content analysis. [By] Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M. Ogilvie, with associates. Pp. xx. 651. M.I.T. Press: Cambridge, Mass., & London. 
+
+### From the Spreadsheet Download Page
+
+From the [original spreadsheet documentation](http://www.wjh.harvard.edu/~inquirer/spreadsheet_guide.htm):
 
 > **General Inquirer Categories as Intellectual Property.**
 >
