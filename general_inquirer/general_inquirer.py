@@ -6,6 +6,9 @@ import json
 
 
 class GICategories(object):
+
+    name = "general_inquirer"
+
     def __init__(self, nlp):
         Token.set_extension("gi_cats", default=[])
         Doc.set_extension("gi_cats", default={})
