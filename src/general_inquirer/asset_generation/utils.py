@@ -1,5 +1,6 @@
 from typing import List, Optional, Dict
 from pydantic.dataclasses import dataclass
+import re
 
 
 @dataclass
@@ -34,12 +35,12 @@ def primary_term(term: str) -> bool:
 def gi_term_to_lemma(term: str) -> str:
     """Converts the GI term to the
     lemma by removing the # and lowercasing.
-    
+
     Arguments:
-        term {str} -- [description]
-    
+        term {str} -- Entry from GI spreadsheet (TERM#N)
+
     Returns:
-        str -- [description]
+        str -- "Lemma" - term with no pound or number
     """
     return term.split("#")[0].lower()
 
@@ -56,7 +57,7 @@ def gi_tags_to_spacy_pos(tags: List[str]) -> Optional[Dict[str, str]]:
     """
     if "Noun" in tags:
         return {"POS": "NOUN"}
-    elif "MODIF" in tags:
+    elif "Modif" in tags:
         return {"POS": "ADJ"}
     elif "SUPV" in tags:
         return {"POS": "VERB"}
@@ -66,8 +67,19 @@ def gi_tags_to_spacy_pos(tags: List[str]) -> Optional[Dict[str, str]]:
         return None
 
 
-def data2rules(entry: GIEntry) -> Dict[str, str]:
-    lemma = {"LEMMA": gi_term_to_lemma(entry["term"])}
+cap = re.compile(r'\% adj: "(\S+)"')
+
+
+def parse_lemma(entry: GIEntry) -> str:
+    if "Modif" in entry["othtags"]:
+        adj_described = re.search(cap, entry["defined"])
+        if adj_described:
+            return adj_described.group(1).lower()
+    return gi_term_to_lemma(entry["term"])
+
+
+def gi_data_to_match_rules(entry: GIEntry) -> Dict[str, str]:
+    lemma = {"LEMMA": parse_lemma(entry)}
     pos = gi_tags_to_spacy_pos(entry["othtags"])
     if pos:
         return {**lemma, **pos}

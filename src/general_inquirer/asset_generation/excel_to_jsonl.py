@@ -1,8 +1,11 @@
-import jsonlines
-from utils import primary_term, GIEntry
-from pydantic import ValidationError
+import json
+from pathlib import Path
 
 import pandas as pd
+
+import jsonlines
+from pydantic import ValidationError
+from utils import GIEntry, primary_term
 
 spreadsheet_url = "http://www.wjh.harvard.edu/~inquirer/inquirerbasic.xls"
 
@@ -10,6 +13,7 @@ d = pd.read_excel(spreadsheet_url).fillna(value={"Othtags": "", "Defined": ""})
 
 keep_cols = ["Entry", "Source", "Othtags", "Defined"]
 category_cols = [col for col in d.columns if col not in keep_cols]
+Path("../categories.json").write_text(json.dumps(category_cols, indent=4))
 
 data = []
 for i in range(len(d)):
