@@ -27,7 +27,42 @@ print(doc._.gi_cats)
 ```
 
 ```
-{'Know': 2, 'Active': 6, 'Abs@': 1, 'ABS': 1, 'EnlOth': 5, 'EnlTot': 5, 'Strong': 7, 'Ovrst': 2, 'Quan': 2, 'Positiv': 5, 'Pstv': 5, 'Virtue': 4, 'AffOth': 1, 'AffTot': 1, 'Increas': 1, 'IAV': 2, 'EndsLw': 2, 'Means': 4, 'SklOth': 1, 'SklTot': 1, 'Academ': 2, 'ECON': 1, 'Object': 1, 'Tool': 1, 'Submit': 1, 'ComForm': 2, 'COM': 2, 'FormLw': 2, 'Solve': 1, 'Work': 1, 'PowCoop': 1, 'PowTot': 1, 'EVAL': 2, 'Undrst': 1, 'Compare': 1, 'PosAff': 1}
+{'ABS': 1,
+ 'Abs@': 1,
+ 'Academ': 2,
+ 'Active': 6,
+ 'AffOth': 1,
+ 'AffTot': 1,
+ 'COM': 2,
+ 'ComForm': 2,
+ 'Compare': 1,
+ 'ECON': 1,
+ 'EVAL': 2,
+ 'EndsLw': 2,
+ 'EnlOth': 5,
+ 'EnlTot': 5,
+ 'FormLw': 2,
+ 'IAV': 2,
+ 'Increas': 1,
+ 'Know': 2,
+ 'Means': 4,
+ 'Object': 1,
+ 'Ovrst': 2,
+ 'PosAff': 1,
+ 'Positiv': 5,
+ 'PowCoop': 1,
+ 'PowTot': 1,
+ 'Pstv': 5,
+ 'Quan': 2,
+ 'SklOth': 1,
+ 'SklTot': 1,
+ 'Solve': 1,
+ 'Strong': 7,
+ 'Submit': 1,
+ 'Tool': 1,
+ 'Undrst': 1,
+ 'Virtue': 4,
+ 'Work': 1}
 ```
 
 ```python
