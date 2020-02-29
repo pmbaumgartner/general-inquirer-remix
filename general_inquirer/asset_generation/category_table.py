@@ -18,10 +18,11 @@ pct_completed = (completed_ct / (completed_ct + incomplete_ct)) * 100
 
 output_md = f"""# Category Porting Statistics
 
-Original Terms Completed: {completed_ct}
-Original Terms Incomplete: {incomplete_ct}
+**Original Terms Completed:** `{completed_ct}`
 
-Percent Completed: {pct_completed:.2f}
+**Original Terms Incomplete:** `{incomplete_ct}`
+
+**Percent Completed:** `{pct_completed:.2f}`
 
 """
 
