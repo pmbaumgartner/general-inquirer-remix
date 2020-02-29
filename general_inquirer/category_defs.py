@@ -1,5 +1,11 @@
 """Definitions of categories from
-http://apmc.newmdsx.com/CATA/block3/General%20Inquirer%20Categories.txt"""
+http://apmc.newmdsx.com/CATA/block3/General%20Inquirer%20Categories.txt
+
+Edited and updated the following:
+
+['Nonadlt', 'PLACE', 'EVAL', 'ABS', 'NUMB', 'ORD', 'CARD', 'TIME', 'POS', 'DIM', 'Name']
+
+"""
 
 category_definitions = {
     "Positiv": "1,915 words of positive outlook. (It does not contain words for yes, which has been made a separate category of 20 entries.)",
@@ -43,10 +49,10 @@ category_definitions = {
     "Kin@": "50 terms denoting kinship.",
     "MALE": "56 words referring to men and social roles associated with men. (Also used as a marker in disambiguation)",
     "Female": "43 words referring to women and social roles associated with women.",
-    "NonAdlt": "25 words associated with infants through adolescents.",
+    "Nonadlt": "25 words associated with infants through adolescents.",
     "HU": "795 general references to humans, including roles",
     "ANI": "72 references to animals, fish, birds, and insects, including their collectivities.",
-    "Place": "category with 318 words subdivided",
+    "PLACE": "category with 318 words subdivided",
     "Social": "111 words for created locations that typically provide for social interaction and occupy limited space",
     "Region": "61 words",
     "Route": "23 words",
@@ -89,20 +95,29 @@ category_definitions = {
     "Ought": "26 words indicating moral imperative.",
     "Perceiv": "192 words referring to the perceptual process of recognizing or identifying something by means of the senses.",
     "Compare": "21 words of comparison.",
-    "Eval@": "205 words which imply judgment and evaluation, whether positive or negative, including means-ends judgments.",
+    "Eval@": "205 words which imply judgment and evaluation, whether positive or negative, including means-ends judgments. Note: there is also a broader, different EVAL category with 314 evaluative words that is used in disambiguation.",
+    "EVAL": "Under `Eval@`: Note: there is also a broader, different EVAL category with 314 evaluative words that is used in disambiguation.",
     "Solve": "189 words (mostly verbs) referring to the mental processes associated with problem solving.",
     "Abs@": "185 words reflecting tendency to use abstract vocabulary. There is also an ABS category (276 words) used as a marker.",
+    "ABS": "Under `Abs@`: There is also an ABS category (276 words) used as a marker.",
     "Quality": "344 words indicating qualities or degrees of qualities which can be detected or measured by the human senses. Virtues and vices are separate.",
-    "Quan": "314 words indicating the assessment of quantity, including the use of numbers. Numbers are also identified by the NUMBcategory (51 words) which in turn divides into ORDof 15 ordinal words and CARDfor 36 cardinal words.",
+    "Quan": "314 words indicating the assessment of quantity, including the use of numbers. Numbers are also identified by the NUMB category (51 words) which in turn divides into ORD of 15 ordinal words and CARD for 36 cardinal words.",
+    "NUMB": "Under `Quan`: Numbers are also identified by the NUMB category (51 words) which in turn divides into ORD of 15 ordinal words and CARD for 36 cardinal words.",
+    "ORD": "Under `Quan`: Numbers are also identified by the NUMB category (51 words) which in turn divides into ORD of 15 ordinal words and CARD for 36 cardinal words.",
+    "CARD": "Under `Quan`: Numbers are also identified by the NUMB category (51 words) which in turn divides into ORD of 15 ordinal words and CARD for 36 cardinal words.",
     "FREQ": "46 words indicating an assessment of frequency or pattern of recurrences, as well as words indicating an assessment of nonoccurrence or low frequency. (Also used in disambiguation)",
     "DIST": "19 words referring to distance and its measures. (Used in disambiguation)",
     "Time@": "273 words indicating a time consciousness, including when events take place and time taken in an action. Includes velocity words as well. There is also a more restrictive TIME category (75 words) used as a marker for disambiguation.",
+    "TIME": "Under `Time@`: There is also a more restrictive TIME category (75 words) used as a marker for disambiguation.",
     "Space": "302 words indicating a consciousness of location in space and spatial relationships. There are also two more specialized marker categories for disambiguation POS (35 words for position) and DIM (49 words for dimension).",
+    "POS": "Under `Space`: There are also two more specialized marker categories for disambiguation POS (35 words for position) and DIM (49 words for dimension).",
+    "DIM": "Under `Space`: There are also two more specialized marker categories for disambiguation POS (35 words for position) and DIM (49 words for dimension).",
     "Rel": "36 words indicating a consciousness of abstract relationships between people, places, objects and ideas, apart from relations in space and time.",
     "COLOR": "21 words of color, used in disambiguation.",
     "Self": "7 pronouns referring to the singular self",
     "Our": '6 pronouns referring to the inclusive self ("we", etc.)',
     "You": "9 pronouns indicating another person is being addressed directly.",
+    "Name": "Name only contains 86 names identified in the Harvard IV dictionary. More names are recognized by the Lasswell dictionary, as in the category Nation.",
     "Yes": '20 words directly indicating agreement, including word senses "of course", "to say the least", "all right".',
     "No": '7 words directly indicating disagreement, with the word "no" itself disambiguated to separately identify absence or negation.',
     "Negate": '217 words that refer to reversal or negation, including about 20 "dis" words, 40 "in" words, and 100 "un" words, as well as several senses of the word "no" itself; generally signals a downside view.',
