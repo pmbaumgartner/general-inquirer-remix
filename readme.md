@@ -26,12 +26,12 @@ text = (
 # Krippendorff, K. (2019). Content analysis : an introduction to its methodology.
 
 nlp = spacy.load("en")
-gi_cats = GICategories(nlp)
-nlp.add_pipe(gi_cats, last=True)
+gi_tags = GICategories(nlp)
+nlp.add_pipe(gi_tags, last=True)
 doc = nlp(text)
 
 # Counter of categories per document
-print(doc._.gi_cats)
+print(doc._.gi_tags)
 ```
 
 ```
@@ -76,7 +76,7 @@ print(doc._.gi_cats)
 ```python
 # categories per token also available
 for token in next(doc.sents):
-    print(token.text, token._.gi_cats)
+    print(token.text, token._.gi_tags)
 ```
 
 ```
