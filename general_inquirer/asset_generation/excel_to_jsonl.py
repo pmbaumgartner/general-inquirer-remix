@@ -7,13 +7,16 @@ import jsonlines
 from pydantic import ValidationError
 from utils import GIEntry, primary_term
 
+file_path = Path(__file__).parent
+assets_path = file_path / ".." / "assets"
+
 spreadsheet_url = "http://www.wjh.harvard.edu/~inquirer/inquirerbasic.xls"
 
 d = pd.read_excel(spreadsheet_url).fillna(value={"Othtags": "", "Defined": ""})
 
 keep_cols = ["Entry", "Source", "Othtags", "Defined"]
 category_cols = [col for col in d.columns if col not in keep_cols]
-Path("../assets/categories.json").write_text(json.dumps(category_cols, indent=4))
+(assets_path / "categories.json").write_text(json.dumps(category_cols, indent=4))
 
 data = []
 for i in range(len(d)):
@@ -45,5 +48,7 @@ for i in range(len(d)):
     except ValidationError as e:
         print(e)
 
-with jsonlines.open("../assets/inquirer.jsonl", mode="w") as writer:
+file_path = Path(__file__).parent
+
+with jsonlines.open(str(assets_path / "inquirer.jsonl"), mode="w") as writer:
     writer.write_all(data)
