@@ -12,6 +12,20 @@ with jsonlines.open(assets_path / "category_statistics.jsonl") as reader:
 
 category_statistics_df = pd.DataFrame(category_statistics).set_index("category")
 
-(assets_path / "category_statistics_table.md").write_text(
-    category_statistics_df.to_markdown()
-)
+completed_ct = category_statistics_df["output_category_counts"].sum()
+incomplete_ct = category_statistics_df["excluded_category_counts"].sum()
+pct_completed = (completed_ct / (completed_ct + incomplete_ct)) * 100
+
+output_md = f"""# Category Porting Statistics
+
+Original Terms Completed: {completed_ct}
+Original Terms Incomplete: {incomplete_ct}
+
+Percent Completed: {pct_completed:.2f}
+
+"""
+
+output_md += category_statistics_df.to_markdown()
+
+(assets_path / "category_statistics_table.md").write_text(output_md)
+

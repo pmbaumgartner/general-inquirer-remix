@@ -1,3 +1,10 @@
+# Category Porting Statistics
+
+Original Terms Completed: 42327
+Original Terms Incomplete: 4425
+
+Percent Completed: 90.54
+
 | category   |   input_category_counts |   output_category_counts |   excluded_category_counts |   percent_included |
 |:-----------|------------------------:|-------------------------:|---------------------------:|-------------------:|
 | Positiv    |                    1915 |                     1823 |                         92 |               0.95 |
