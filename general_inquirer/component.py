@@ -17,7 +17,7 @@ class GICategories(object):
         Token.set_extension("gi_tags", default=[], force=True)
         Doc.set_extension("gi_tags", default={}, force=True)
         self.matcher_lookup = json.loads(
-            (Path(assets_dir / "matcher-lookup.json")).read_text()
+            (Path(assets_dir / "gi-matcher-rules.json")).read_text()
         )
         self.matcher = Matcher(nlp.vocab)
         for _id, match_data in self.matcher_lookup.items():

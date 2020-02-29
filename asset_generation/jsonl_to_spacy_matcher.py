@@ -8,15 +8,16 @@ import jsonlines
 from utils import GIEntry, gi_data_to_match_rules, gi_term_to_lemma
 
 file_path = Path(__file__).parent
-assets_path = file_path / ".." / "assets"
-
+artifacts = file_path / "artifacts"
+repo_root = Path.cwd()
+gi_assets = repo_root / "general_inquirer" / "assets"
 
 _input = []
 output = []
 excluded = []
 term_rule_cache = defaultdict(list)
 matcher_loookup = {}
-with jsonlines.open(assets_path / "inquirer.jsonl") as reader:
+with jsonlines.open(artifacts / "inquirer.jsonl") as reader:
     for entry in reader:
         GIEntry(**entry)
         _input.append(entry)
@@ -45,17 +46,17 @@ for entry in _input:
         excluded.append(entry)
 
 
-# with jsonlines.open(
-#     "../assets/inquirer_spacy-matcher_inclusions.jsonl", mode="w"
-# ) as writer:
-#     writer.write_all(output)
+with jsonlines.open(
+    artifacts / "inquirer_spacy-matcher_inclusions.jsonl", mode="w"
+) as writer:
+    writer.write_all(output)
 
-# with jsonlines.open(
-#     "../assets/inquirer_spacy-matcher_exclusions.jsonl", mode="w"
-# ) as writer:
-#     writer.write_all(excluded)
+with jsonlines.open(
+    artifacts / "inquirer_spacy-matcher_exclusions.jsonl", mode="w"
+) as writer:
+    writer.write_all(excluded)
 
-(assets_path / "matcher-lookup.json").write_text(json.dumps(matcher_loookup, indent=4))
+(gi_assets / "gi-matcher-rules.json").write_text(json.dumps(matcher_loookup, indent=4))
 
 ## Statistics
 
@@ -64,7 +65,7 @@ output_category_counts = Counter(chain.from_iterable(e["categories"] for e in ou
 excluded_category_counts = Counter(
     chain.from_iterable(e["categories"] for e in excluded)
 )
-categories = json.loads((assets_path / "categories.json").read_text())
+categories = json.loads((artifacts / "categories.json").read_text())
 
 category_statistics = []
 for category in categories:
@@ -80,5 +81,5 @@ for category in categories:
     category_data["percent_included"] = f"{pct_included:.2f}"
     category_statistics.append(category_data)
 
-with jsonlines.open(assets_path / "category_statistics.jsonl", mode="w") as writer:
+with jsonlines.open(artifacts / "category_statistics.jsonl", mode="w") as writer:
     writer.write_all(category_statistics)

@@ -3,10 +3,10 @@ import jsonlines
 from pathlib import Path
 
 file_path = Path(__file__).parent
-assets_path = file_path / ".." / "assets"
+artifacts = file_path / "artifacts"
 
 category_statistics = []
-with jsonlines.open(assets_path / "category_statistics.jsonl") as reader:
+with jsonlines.open(artifacts / "category_statistics.jsonl") as reader:
     for entry in reader:
         category_statistics.append(entry)
 
@@ -28,5 +28,4 @@ output_md = f"""# Category Porting Statistics
 
 output_md += category_statistics_df.to_markdown()
 
-(assets_path / "category_statistics_table.md").write_text(output_md)
-
+(file_path / "category_statistics_table.md").write_text(output_md)

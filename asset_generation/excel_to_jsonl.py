@@ -8,7 +8,7 @@ from pydantic import ValidationError
 from utils import GIEntry, primary_term
 
 file_path = Path(__file__).parent
-assets_path = file_path / ".." / "assets"
+artifacts = file_path / "artifacts"
 
 spreadsheet_url = "http://www.wjh.harvard.edu/~inquirer/inquirerbasic.xls"
 
@@ -16,7 +16,7 @@ d = pd.read_excel(spreadsheet_url).fillna(value={"Othtags": "", "Defined": ""})
 
 keep_cols = ["Entry", "Source", "Othtags", "Defined"]
 category_cols = [col for col in d.columns if col not in keep_cols]
-(assets_path / "categories.json").write_text(json.dumps(category_cols, indent=4))
+(artifacts / "categories.json").write_text(json.dumps(category_cols, indent=4))
 
 data = []
 for i in range(len(d)):
@@ -50,5 +50,5 @@ for i in range(len(d)):
 
 file_path = Path(__file__).parent
 
-with jsonlines.open(str(assets_path / "inquirer.jsonl"), mode="w") as writer:
+with jsonlines.open(str(artifacts / "inquirer.jsonl"), mode="w") as writer:
     writer.write_all(data)
