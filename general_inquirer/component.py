@@ -3,6 +3,7 @@ from spacy.tokens import Token, Doc
 from collections import Counter
 from pathlib import Path
 import json
+from .category_defs import category_definitions
 
 file_path = Path(__file__).parent
 assets_dir = file_path / "assets"
@@ -22,6 +23,8 @@ class GICategories(object):
         for _id, match_data in self.matcher_lookup.items():
             self.matcher.add(_id, None, [match_data["match_rules"]])
 
+        self.category_definitions = category_definitions
+
     def __call__(self, doc):
         matches = self.matcher(doc)
         doc_gi_categories = []
@@ -35,3 +38,6 @@ class GICategories(object):
         doc._.gi_tags = dict(Counter(doc_gi_categories))
         return doc
 
+    def explain(self, category: str):
+        no_def = f"No definition for category given: {category}"
+        return self.category_definitions.get(category, no_def)
