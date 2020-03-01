@@ -9,7 +9,9 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
-
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.6'
       - name: Deploy MkDocs
         uses: mhausenblas/mkdocs-deploy-gh-pages@1.11
         env:
