@@ -1,0 +1,16 @@
+site_name: General Inquirer
+
+theme:
+  name: 'material'
+  font:
+    text: 'IBM Plex'
+    code: 'IBM Plex Mono'
+  palette:
+    primary: 'blue grey'
+    accent: 'blue'
+  logo:
+    icon: 'import_contacts'
+
+
+repo_name: 'pmbaumgarnter/general-inquirer-remix'
+repo_url: 'https://github.com/pmbaumgartner/general-inquirer-remix'
