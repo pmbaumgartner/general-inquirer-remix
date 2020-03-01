@@ -5,6 +5,12 @@ on: push
 jobs:
   build-docs:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Deploy MkDocs
-      uses: mhausenblas/mkdocs-deploy-gh-pages@1.11
+      - name: Checkout master
+        uses: actions/checkout@v1
+
+      - name: Deploy MkDocs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@1.11
+        env:
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
