@@ -1,2 +1,8 @@
-- name: Deploy MkDocs
-  uses: mhausenblas/mkdocs-deploy-gh-pages@1.11
+name: Documentation Build
+
+on: push
+
+jobs:
+  build:
+  - name: Deploy MkDocs
+    uses: mhausenblas/mkdocs-deploy-gh-pages@1.11
