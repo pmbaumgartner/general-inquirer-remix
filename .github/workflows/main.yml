@@ -3,6 +3,7 @@ name: Documentation Build
 on: push
 
 jobs:
-  build:
-  - name: Deploy MkDocs
-    uses: mhausenblas/mkdocs-deploy-gh-pages@1.11
+  build-docs:
+    steps:
+    - name: Deploy MkDocs
+      uses: mhausenblas/mkdocs-deploy-gh-pages@1.11
