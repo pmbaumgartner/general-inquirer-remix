@@ -101,20 +101,6 @@ research ['Active', 'Academ', 'Means', 'EnlOth', 'EnlTot']
 
 TBD (Unknown)
 
-Here are a few places the copyright and licenses are mentioned in the original GI documentation.
-
-### Java Software Manual
-
->  License
->
-> This version of the General Inquirer is made available exclusively for educational and research purposes. In publications please reference this document and [ref]. Harvard University and The Gallup Organization have supported the development of this version of the General Inquirer; please consider acknowledging their support. Please do not distribute the General Inquirer on your own. We are more than happy to give copies to other researchers, but we would like to know who is using it.
->
-> This program is provided ``as is'' and carries no warranties of any kind. Comments and questions are always welcome. 
-
-[ref]: Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M. Ogilvie, and associates.
-The General Inquirer: A Computer Approach to Content Analysis.
-MIT Press, 1966.  
-
 ### From the Spreadsheet Download Page
 
 From the [original spreadsheet documentation](http://www.wjh.harvard.edu/~inquirer/spreadsheet_guide.htm):
@@ -122,3 +108,7 @@ From the [original spreadsheet documentation](http://www.wjh.harvard.edu/~inquir
 > **General Inquirer Categories as Intellectual Property.**
 >
 > The development of the General Inquirer has been supported by grants from American, British and Australian government science foundations and by industry. Those who developed and contributed categories have done so with the understanding that they could be used by others for academic research. Many categories have a long and complicated history and may be copyrighted at one point or another. Persons who would like to use any category for any commercial use should first send an email to inquirer@wjh.harvard.edu describing its intended use and arrange a permission for that application.
+
+[ref]: Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M. Ogilvie, and associates.
+The General Inquirer: A Computer Approach to Content Analysis.
+MIT Press, 1966.  
