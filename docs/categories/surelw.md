@@ -1,0 +1,188 @@
+# SureLw
+
+175 words indicating "a feeling of sureness, certainty and firmness."
+
+## Completed
+
+|    id | term           | source   | defined                                                                                                                                                                               |
+|------:|:---------------|:---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    38 | ABSOLUTE#1     | H4Lvd    | 27% adj: Perfect, without limitation or qualification                                                                                                                                 |
+|    39 | ABSOLUTE#2     | H4Lvd    | 73% adv: "Absolutely"--without qualification, certainly, totally                                                                                                                      |
+|    94 | ACCOUNT#8      | H4Lvd    | 3% adv: "On no account"--under no circumstances                                                                                                                                       |
+|   138 | ACTUAL#1       | H4Lvd    | 27% adjective: Existing in act or fact, real.                                                                                                                                         |
+|   139 | ACTUAL#2       | H4Lvd    | 73% adverb: "Actually"--really                                                                                                                                                        |
+|   140 | ACTUALITY      | H4Lvd    |                                                                                                                                                                                       |
+|   141 | ACUTE          | H4Lvd    |                                                                                                                                                                                       |
+|   348 | ALL#1          | H4Lvd    | 40% adj: Every, any, the whole                                                                                                                                                        |
+|   353 | ALL#2          | H4Lvd    | 36% pron-adv: Each and every one or thing, the whole--entirely, completely                                                                                                            |
+|   406 | ALTOGETHER     | H4Lvd    |                                                                                                                                                                                       |
+|   410 | ALWAYS         | H4Lvd    | adverb: Perpetually, everlastingly, continually.                                                                                                                                      |
+|   552 | APPARENT#1     | H4Lvd    | 42% adj: Perceptible, evident                                                                                                                                                         |
+|   736 | ASSURE#3       | H4Lvd    | 17% adj: "Assured"--confident (2), guaranteed (1)                                                                                                                                     |
+|   737 | ASSUREDLY      | H4Lvd    |                                                                                                                                                                                       |
+|   738 | ASSUREDNESS    | H4Lvd    |                                                                                                                                                                                       |
+|   956 | BASIC#1        | H4Lvd    | 74% adjective: Of, or pertaining to, or forming a base, fundamental                                                                                                                   |
+|  1198 | BOARD#6        | H4Lvd    | 2% idiom-adv: 'across the board,' without exception, general                                                                                                                          |
+|  1549 | CASE#3         | H4Lvd    | 2% idiom: 'in any case'--regardless                                                                                                                                                   |
+|  1613 | CERTAIN#1      | H4Lvd    | 57% adjective: Fixed, definite or particular but not named or specified                                                                                                               |
+|  1616 | CERTAIN#4      | H4Lvd    | 31% adverb: 'certainly'--inevitably, unquestionably, definitely                                                                                                                       |
+|  1617 | CERTAINTY      | H4Lvd    |                                                                                                                                                                                       |
+|  2042 | COMPLETE#1     | H4Lvd    | 30% adjective: Whole, entire, lacking nothing                                                                                                                                         |
+|  2045 | COMPLETE#4     | H4Lvd    | 46% adverb: Wholly, entirely--"completely"                                                                                                                                            |
+|  2140 | CONFIRM#1      | H4Lvd    |                                                                                                                                                                                       |
+|  2201 | CONSIDERABLE#1 | H4Lvd    | 77% adj: Substantial                                                                                                                                                                  |
+|  2202 | CONSIDERABLE#2 | H4Lvd    | 23% adv: "Considerably"--substantially                                                                                                                                                |
+|  2391 | COUNTLESS      | H4Lvd    |                                                                                                                                                                                       |
+|  2404 | COURSE#3       | H4Lvd    | 44% interjec: "Of course"--naturally, as would be expected                                                                                                                            |
+|  2508 | CRUCIAL        | H4Lvd    |                                                                                                                                                                                       |
+|  2639 | DEAR#2         | H4Lvd    | 2% adv: "Dearly"                                                                                                                                                                      |
+|  2665 | DECIDE#2       | H4Lvd    | 1% adjective: "Decided"--definite, pronounced                                                                                                                                         |
+|  2666 | DECIDE#3       | H4Lvd    | 1% adv: "Decidedly"--definitely                                                                                                                                                       |
+|  2670 | DECISIVE       | H4Lvd    |                                                                                                                                                                                       |
+|  2718 | DEFINITE       | H4Lvd    | adj: Clearly defined, exact, certain                                                                                                                                                  |
+|  2721 | DEFINITIVE     | H4Lvd    |                                                                                                                                                                                       |
+|  2880 | DETERMINE#2    | H4Lvd    | 43% adj: 'determined'--resolute, unwaveringly decided                                                                                                                                 |
+|  3183 | DOUBT#3        | H4Lvd    | 7% idiom-adv: 'no doubt'--doubtlessly                                                                                                                                                 |
+|  3186 | DOUBTLESS      | H4Lvd    |                                                                                                                                                                                       |
+|  3204 | DRASTIC        | Lvd      |                                                                                                                                                                                       |
+|  3325 | EARTH#2        | H4Lvd    | 28% idiom-adj: "On earth"--in this life, existing--"no enemy on earth  dare attack us," "i have little time on earth"; used for emphasis or surprise--"what  on earth are you doing?" |
+|  3473 | EMPHASIS       | H4Lvd    |                                                                                                                                                                                       |
+|  3475 | EMPHASIZE      | H4Lvd    |                                                                                                                                                                                       |
+|  3476 | EMPHATIC       | H4Lvd    |                                                                                                                                                                                       |
+|  3574 | ENTIRE         | H4Lvd    | adjective: Complete, whole.                                                                                                                                                           |
+|  3625 | ESPECIALLY     | H4Lvd    | adverb: Particularly                                                                                                                                                                  |
+|  3629 | ESSENTIAL#1    | H4Lvd    | 13% noun: That which is indispensable, "the essentials"                                                                                                                               |
+|  3630 | ESSENTIAL#2    | H4Lvd    | 70% adj: Basic, indispensable                                                                                                                                                         |
+|  3631 | ESSENTIAL#3    | H4Lvd    | 18% adv: "Essentially" - basically                                                                                                                                                    |
+|  3688 | EVIDENT        | H4Lvd    |                                                                                                                                                                                       |
+|  3717 | EXCEPTIONAL    | H4Lvd    |                                                                                                                                                                                       |
+|  3818 | EXTENSIVE      | H4Lvd    |                                                                                                                                                                                       |
+|  3827 | EXTRAORDINARY  | H4Lvd    |                                                                                                                                                                                       |
+|  3833 | EXTREME#2      | H4Lvd    | 72% adverb: "Extremely"--exceedingly, extraordinarily                                                                                                                                 |
+|  3860 | FACT#2         | H4Lvd    | 20% idiom-adverb: "In fact"--actually, in actuality                                                                                                                                   |
+|  3922 | FAR-REACHING   | Lvd      |                                                                                                                                                                                       |
+|  4117 | FIRST#3        | H4Lvd    | 4% pron: The initial or foremost one                                                                                                                                                  |
+|  4434 | FUNDAMENTAL    | H4Lvd    |                                                                                                                                                                                       |
+|  4632 | GOOD#2         | H4Lvd    | 1% idiom-adv: "For good"--finally, for keeps                                                                                                                                          |
+|  4706 | GREAT#4        | H4Lvd    | 6% adv: 'greatly'                                                                                                                                                                     |
+|  5264 | IMMODERATE     | Lvd      |                                                                                                                                                                                       |
+|  5368 | INCONCEIVABLE  | H4Lvd    |                                                                                                                                                                                       |
+|  5373 | INCONTESTABLE  | H4Lvd    |                                                                                                                                                                                       |
+|  5395 | INDEED         | H4Lvd    | adverb: In fact, in reality, in truth                                                                                                                                                 |
+|  5424 | INDISPUTABLE   | H4Lvd    |                                                                                                                                                                                       |
+|  5452 | INESTIMABLE    | Lvd      |                                                                                                                                                                                       |
+|  5454 | INEVITABILITY  | H4Lvd    |                                                                                                                                                                                       |
+|  5455 | INEVITABLE     | H4Lvd    | adj: Unavoidable, certain to happen                                                                                                                                                   |
+|  5462 | INFALLIBLE     | H4Lvd    |                                                                                                                                                                                       |
+|  5474 | INFINITE       | H4Lvd    |                                                                                                                                                                                       |
+|  5545 | INSISTENT      | H4Lvd    |                                                                                                                                                                                       |
+|  5577 | INSTRUMENTAL   | H4Lvd    |                                                                                                                                                                                       |
+|  5600 | INTENSE        | H4Lvd    | adj: Very strong, fervent                                                                                                                                                             |
+|  5603 | INTENSIVE      | H4Lvd    |                                                                                                                                                                                       |
+|  5665 | INVARIABLY     | H4Lvd    |                                                                                                                                                                                       |
+|  5709 | IRREFUTABLE    | H4Lvd    |                                                                                                                                                                                       |
+|  5999 | LEAST#1        | H4Lvd    | 87% idiom-adv: 'at least'--at any rate, at lowest estimate                                                                                                                            |
+|  6002 | LEAST#4        | H4Lvd    | 2% idiom-interject: 'to say the least'                                                                                                                                                |
+|  6282 | MAD#3          | H4Lvd    | 3% adv: "Madly," used mostly figuratively, for emphasis--"he is madly in love"                                                                                                        |
+|  6302 | MAIN#1         | H4Lvd    | 74% adj: Principal, chief                                                                                                                                                             |
+|  6303 | MAIN#2         | H4Lvd    | 26% adv: "Mainly," "in the main"--principally, chiefly                                                                                                                                |
+|  6394 | MARK#2         | H4Lvd    | 9% adv-adj: "Marked," "markedly"--considerable, conspicuously                                                                                                                         |
+|  6436 | MATERIAL#3     | H4Lvd    | 1% adv: "Materially"--substantially                                                                                                                                                   |
+|  6444 | MATTER#2       | H4Lvd    | 23% adv-adj: "No matter"--regardless of                                                                                                                                               |
+|  6540 | MERE#1         | H4Lvd    | 38% adjective: Only this and nothing else, nothing more than, such and no more                                                                                                        |
+|  6541 | MERE#2         | H4Lvd    | 62% adverb: 'merely'--not otherwise than, simply, barely, only.                                                                                                                       |
+|  6885 | NECESSARY#1    | H4Lvd    | 84% adj: Essential, required                                                                                                                                                          |
+|  6886 | NECESSARY#2    | H4Lvd    | 16% adv: "Necessarily"--of necessity                                                                                                                                                  |
+|  7104 | OBVIOUS        | H4Lvd    | adj: Easily perceived or understood, not needed to be said, patent                                                                                                                    |
+|  7158 | ONCE#4         | H4Lvd    | 0% idiom: 'once and for all'--with decision and finality                                                                                                                              |
+|  7402 | PARAMOUNT      | H4Lvd    |                                                                                                                                                                                       |
+|  7437 | PARTICULAR#1   | H4Lvd    | 33% adj-noun: Specific, unique, special; a specific aspect or detail                                                                                                                  |
+|  7439 | PARTICULAR#3   | H4Lvd    | 22% idiom-adv: 'in particular'--specifically, especially                                                                                                                              |
+|  7773 | POINT#6        | H4Lvd    | 1% adj: "Pointed"--incisive, penetrating, cutting                                                                                                                                     |
+|  7831 | POSITIVE       | H4Lvd    |                                                                                                                                                                                       |
+|  7894 | PRECISE        | H4Lvd    |                                                                                                                                                                                       |
+|  7989 | PRINCIPAL#1    | H4Lvd    | 32% adj: Chief or most important                                                                                                                                                      |
+|  7991 | PRINCIPAL#3    | H4Lvd    | 0% adv: "Principally"--mainly                                                                                                                                                         |
+|  8127 | PROVE#3        | H4Lvd    | 2% adj: "Proven"--demonstrated, certain                                                                                                                                               |
+|  8171 | PURELY         | H4Lvd    |                                                                                                                                                                                       |
+|  8177 | PURPOSE#2      | H4Lvd    | 1% adv: "On purpose," "purposely"--with intent                                                                                                                                        |
+|  8235 | QUITE          | H4Lvd    | adv: Considerably, to a considerable extent, entirely.                                                                                                                                |
+|  8337 | REAFFIRM       | H4Lvd    |                                                                                                                                                                                       |
+|  8338 | REAL#1         | H4Lvd    | 79% adv: Actually or in fact--genuinely, truly (as an intensifier usually  with adjectives--'that was really nice')                                                                   |
+|  8339 | REAL#2         | H4Lvd    | 20% adj: Actual, true, genuine                                                                                                                                                        |
+|  8534 | REMARKABLE     | H4Lvd    |                                                                                                                                                                                       |
+|  8535 | REMARKABLY     | H4Lvd    |                                                                                                                                                                                       |
+|  9287 | SHARP          | H4Lvd    |                                                                                                                                                                                       |
+|  9426 | SIGNIFICANCE   | H4Lvd    |                                                                                                                                                                                       |
+|  9427 | SIGNIFICANT    | H4Lvd    |                                                                                                                                                                                       |
+|  9720 | SPECIFICALLY   | H4Lvd    |                                                                                                                                                                                       |
+| 10208 | SURE#1         | H4Lvd    | 65% adj: Certain                                                                                                                                                                      |
+| 10209 | SURE#2         | H4Lvd    | 26% adv: "Surely," "sure"--certainly, of course                                                                                                                                       |
+| 10525 | THOROUGH       | H4Lvd    |                                                                                                                                                                                       |
+| 10828 | TRUE#1         | H4Lvd    | 83% adj: Genuine, valid, conforming to reality or fact, actual                                                                                                                        |
+| 10829 | TRUE#2         | H4Lvd    | 12% adverb: "Truly"--genuinely, correctly                                                                                                                                             |
+| 10831 | TRUE#4         | H4Lvd    | 0% adj: "Truer"--comparative of sense 1                                                                                                                                               |
+| 10832 | TRUE#5         | H4Lvd    | 1% adj: "Truest"--superlative of sense 1                                                                                                                                              |
+| 10914 | UNAVOIDABLE    | H4Lvd    |                                                                                                                                                                                       |
+| 10932 | UNCONDITIONAL  | H4Lvd    |                                                                                                                                                                                       |
+| 10940 | UNDENIABLE     | H4Lvd    |                                                                                                                                                                                       |
+| 10968 | UNDISPUTED     | H4Lvd    |                                                                                                                                                                                       |
+| 10973 | UNDOUBTABLY    | Lvd      |                                                                                                                                                                                       |
+| 10974 | UNDOUBTED      | H4Lvd    |                                                                                                                                                                                       |
+| 10983 | UNEQUIVOCAL    | H4Lvd    |                                                                                                                                                                                       |
+| 10988 | UNFAILING      | H4Lvd    |                                                                                                                                                                                       |
+| 11023 | UNIQUE         | H4Lvd    |                                                                                                                                                                                       |
+| 11034 | UNIVERSAL      | H4Lvd    |                                                                                                                                                                                       |
+| 11047 | UNLIMITED      | H4Lvd    |                                                                                                                                                                                       |
+| 11049 | UNMISTAKABLE   | H4Lvd    |                                                                                                                                                                                       |
+| 11050 | UNMITIGATED    | H4Lvd    |                                                                                                                                                                                       |
+| 11057 | UNPARALLELED   | Lvd      |                                                                                                                                                                                       |
+| 11060 | UNPRECEDENTED  | H4Lvd    |                                                                                                                                                                                       |
+| 11066 | UNQUESTIONABLE | H4Lvd    |                                                                                                                                                                                       |
+| 11083 | UNSHAKEN       | Lvd      |                                                                                                                                                                                       |
+| 11108 | UNUSUAL        | H4Lvd    | adjective: Not common or ordinary.                                                                                                                                                    |
+| 11109 | UNWAVERIMG     | Lvd      |                                                                                                                                                                                       |
+| 11172 | UTMOST         | H4Lvd    |                                                                                                                                                                                       |
+| 11177 | UTTERLY        | H4Lvd    |                                                                                                                                                                                       |
+| 11244 | VERY#1         | H4Lvd    | 93% adv: To a high or superlative degree                                                                                                                                              |
+| 11245 | VERY#2         | H4Lvd    | 6% adj: Actual, precise, absolutely identical--'that very day'                                                                                                                        |
+| 11246 | VERY#3         | H4Lvd    | 1% idiom-interj: 'very well'--o.k., all right                                                                                                                                         |
+| 11298 | VIRTUAL        | H4Lvd    |                                                                                                                                                                                       |
+| 11751 | YES            | H4Lvd    | adv-noun: A word used to express affirmation contradiction of a previously  negative statement.                                                                                       |
+
+## Incomplete
+
+|    id | term         | source   | defined                                                                                                              |
+|------:|:-------------|:---------|:---------------------------------------------------------------------------------------------------------------------|
+|    27 | ABOVE#3      | H4Lvd    | 19% idiom-adv: "Above all"                                                                                           |
+|   265 | AFTER#2      | H4Lvd    | 3% idiom: "After all"                                                                                                |
+|   354 | ALL#3        | H4Lvd    | 4% idiom-adv: "At all"--(with negatives)--whatsoever                                                                 |
+|   387 | ALONE#2      | H4Lvd    | 18% adj-adv: To the exclusion of all others, only                                                                    |
+|  1269 | BOUND#4      | H4Lvd    | 35% idiom-adj: Certain, destined--"bound to"                                                                         |
+|  1614 | CERTAIN#2    | H4Lvd    | 7% adjective: Free from doubt, sure, confident (state of mind)                                                       |
+|  1615 | CERTAIN#3    | H4Lvd    | 4% adjective: Inevitable, unquestionable, definite                                                                   |
+|  2881 | DETERMINE#3  | H4Lvd    | 2% adv: 'determinedly'--with determination                                                                           |
+|  3340 | EASY#2       | H4Lvd    | 31% adverb: Easily--in an easy manner, with ease, without trouble.                                                   |
+|  3554 | ENOUGH#4     | H4Lvd    | 1% adv-idiom: "Sure enough"--real, really                                                                            |
+|  3666 | EVEN#2       | H4Lvd    | 90% adv: Used to suggest that something is extreme, remarkable, unexpected--"the  dictionary doesn't even define it" |
+|  3919 | FAR#2        | H4Lvd    | 16% adv: "As far as"--to the degree or extent that, as regards                                                       |
+|  4091 | FINE#3       | H4Lvd    | 28% adj-adv: All right, o.k., well, good                                                                             |
+|  4561 | GIVE#4       | H4Lvd    | 1% noun-adj: "Given"--specific, assumed, granted                                                                     |
+|  5081 | HONEST#3     | H4Lvd    | 8% adv: "Honestly" - truly, really - an intensive                                                                    |
+|  6001 | LEAST#3      | H4Lvd    | 4% idiom-adv: '(not) in the least,' (not) at all                                                                     |
+|  6036 | LENGTH#3     | H4Lvd    | 17% idiom-adv: "At length"--at or to the full extent, completely                                                     |
+|  6048 | LET#2        | H4Lvd    | 33% verb: Used as an auxiliary in the hortatory                                                                      |
+|  6449 | MATTER#7     | H4Lvd    | 5% idiom: "As a matter of fact"                                                                                      |
+|  6472 | MEAN#6       | H4Lvd    | 0% idiom-adv: "By all means"--certainly                                                                              |
+|  7438 | PARTICULAR#2 | H4Lvd    | 1% adj: Fussy, choosy                                                                                                |
+|  7440 | PARTICULAR#4 | H4Lvd    | 43% adv: "Particularly,"--especially                                                                                 |
+|  7772 | POINT#5      | H4Lvd    | 0% adv: "Pointedly"--incisively                                                                                      |
+|  8304 | RATHER#4     | H4Lvd    | 3% adv: More correctly, precisely                                                                                    |
+|  8770 | RIGHT#4      | H4Lvd    | 27% adj-adv: Proper, correct--properly, correctly (sometimes used as interjection)                                   |
+|  8771 | RIGHT#5      | H4Lvd    | 22% idiom: "All right"--okay                                                                                         |
+|  9022 | SAY#6        | H4Lvd    | 0% verb: "Needless to say"--obviously                                                                                |
+|  9839 | STAND#5      | H4Lvd    | 1% idiom-verb: "Stand out"--to be conspicuous or prominent                                                           |
+| 10210 | SURE#3       | H4Lvd    | 2% idiom-adv: "To be sure"--certainly                                                                                |
+| 10211 | SURE#4       | H4Lvd    | 3% idiom-adv: "For sure"--as a certainty                                                                             |
+| 10213 | SURE#6       | H4Lvd    | 0% adj: "Surest"--most certain                                                                                       |
+| 11540 | WHITE#4      | H4Lvd    | 1% idiom-adj: 'black and white'--clear cut--not handled                                                              |
