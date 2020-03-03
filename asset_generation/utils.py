@@ -45,7 +45,11 @@ def gi_term_to_lemma(term: str) -> str:
     return term.split("#")[0].lower()
 
 
-def gi_tags_to_spacy_pos(tags: List[str]) -> Optional[Dict[str, str]]:
+adj_re = re.compile(r'\% adj: "(\S+)"')
+adv_re = re.compile(r'\% adv: "(\S+)"')
+
+
+def gi_tags_to_spacy_pos(entry: GIEntry) -> Optional[Dict[str, str]]:
     """Detects relevant `othtags` from GI and converts to
     a single spacy `POS`.
     
@@ -55,10 +59,15 @@ def gi_tags_to_spacy_pos(tags: List[str]) -> Optional[Dict[str, str]]:
     Returns:
         Optional[Dict[str, str]] -- A Dictionary of {'POS' : POS}. `None` if no mapping.
     """
+    tags = entry["othtags"]
     if "Noun" in tags:
         return {"POS": "NOUN"}
     elif "Modif" in tags:
-        return {"POS": "ADJ"}
+        adv_described = re.search(adv_re, entry["defined"])
+        if adv_described:  # CONTINUAL#2
+            return {"POS": "ADV"}
+        else:
+            return {"POS": "ADJ"}
     elif "SUPV" in tags:
         return {"POS": "VERB"}
     elif "LY" in tags:
@@ -67,20 +76,20 @@ def gi_tags_to_spacy_pos(tags: List[str]) -> Optional[Dict[str, str]]:
         return None
 
 
-cap = re.compile(r'\% adj: "(\S+)"')
-
-
 def parse_lemma(entry: GIEntry) -> str:
     if "Modif" in entry["othtags"]:
-        adj_described = re.search(cap, entry["defined"])
+        adj_described = re.search(adj_re, entry["defined"])
         if adj_described:
             return adj_described.group(1).lower()
+        adv_described = re.search(adv_re, entry["defined"])
+        if adv_described:  # CONTINUAL#2
+            return adv_described.group(1).lower()
     return gi_term_to_lemma(entry["term"])
 
 
 def gi_data_to_match_rules(entry: GIEntry) -> Dict[str, str]:
     lemma = {"LEMMA": parse_lemma(entry)}
-    pos = gi_tags_to_spacy_pos(entry["othtags"])
+    pos = gi_tags_to_spacy_pos(entry)
     if pos:
         return {**lemma, **pos}
     else:

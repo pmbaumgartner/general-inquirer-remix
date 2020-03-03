@@ -1,6 +1,5 @@
 import json
-from collections import Counter, defaultdict
-from itertools import chain
+from collections import defaultdict
 from pathlib import Path
 
 
@@ -13,8 +12,8 @@ repo_root = Path.cwd()
 gi_assets = repo_root / "general_inquirer" / "assets"
 
 _input = []
-output = []
-excluded = []
+complete = []
+incomplete = []
 term_rule_cache = defaultdict(list)
 matcher_loookup = {}
 with jsonlines.open(artifacts / "inquirer.jsonl") as reader:
@@ -25,10 +24,11 @@ with jsonlines.open(artifacts / "inquirer.jsonl") as reader:
 for entry in _input:
     categories = entry["categories"]
     if categories:
-        lemma = gi_term_to_lemma(entry["term"])
+        # lemma = gi_term_to_lemma(entry["term"])
         match_rules = gi_data_to_match_rules(entry)
+        lemma = match_rules["LEMMA"]
         if match_rules in term_rule_cache[lemma]:
-            excluded.append(entry)
+            incomplete.append(entry)
         else:
             term_rule_cache[lemma].append(match_rules)
             _id = f"gi.{entry['term']}"
@@ -36,50 +36,16 @@ for entry in _input:
                 "match_rules": match_rules,
                 "categories": categories,
             }
-            data = {
-                "id": f"gi.{entry['term']}",
-                "match_rules": match_rules,
-                "categories": categories,
-            }
-            output.append(data)
+            complete.append(entry)
     else:
-        excluded.append(entry)
+        incomplete.append(entry)
 
 
-with jsonlines.open(
-    artifacts / "inquirer_spacy-matcher_inclusions.jsonl", mode="w"
-) as writer:
-    writer.write_all(output)
+with jsonlines.open(artifacts / "complete.jsonl", mode="w") as writer:
+    writer.write_all(complete)
 
-with jsonlines.open(
-    artifacts / "inquirer_spacy-matcher_exclusions.jsonl", mode="w"
-) as writer:
-    writer.write_all(excluded)
+with jsonlines.open(artifacts / "incomplete.jsonl", mode="w") as writer:
+    writer.write_all(incomplete)
 
 (gi_assets / "gi-matcher-rules.json").write_text(json.dumps(matcher_loookup, indent=4))
 
-## Statistics
-
-input_category_counts = Counter(chain.from_iterable(e["categories"] for e in _input))
-output_category_counts = Counter(chain.from_iterable(e["categories"] for e in output))
-excluded_category_counts = Counter(
-    chain.from_iterable(e["categories"] for e in excluded)
-)
-categories = json.loads((artifacts / "categories.json").read_text())
-
-category_statistics = []
-for category in categories:
-    category_data = {
-        "category": category,
-        "input_category_counts": input_category_counts.get(category, 0),
-        "output_category_counts": output_category_counts.get(category, 0),
-        "excluded_category_counts": excluded_category_counts.get(category, 0),
-    }
-    pct_included = (
-        category_data["output_category_counts"] / category_data["input_category_counts"]
-    )
-    category_data["percent_included"] = f"{pct_included:.2f}"
-    category_statistics.append(category_data)
-
-with jsonlines.open(artifacts / "category_statistics.jsonl", mode="w") as writer:
-    writer.write_all(category_statistics)
