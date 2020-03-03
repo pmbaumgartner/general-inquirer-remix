@@ -5838,6 +5838,17 @@
             "SureLw"
         ]
     },
+    "gi.APPARENT#2": {
+        "match_rules": {
+            "LEMMA": "apparently",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Undrst",
+            "Perceiv",
+            "If"
+        ]
+    },
     "gi.APPEAL#1": {
         "match_rules": {
             "LEMMA": "appeal",
@@ -12151,8 +12162,8 @@
     },
     "gi.BLIND#3": {
         "match_rules": {
-            "LEMMA": "blind",
-            "POS": "ADJ"
+            "LEMMA": "blindly",
+            "POS": "ADV"
         },
         "categories": [
             "Negativ",
@@ -15246,8 +15257,8 @@
     },
     "gi.CALM#3": {
         "match_rules": {
-            "LEMMA": "calm",
-            "POS": "ADJ"
+            "LEMMA": "calmly",
+            "POS": "ADV"
         },
         "categories": [
             "Positiv",
@@ -23633,6 +23644,16 @@
             "EndsLw"
         ]
     },
+    "gi.CONSTANT#2": {
+        "match_rules": {
+            "LEMMA": "constantly",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Strong",
+            "EndsLw"
+        ]
+    },
     "gi.CONSTERNATION": {
         "match_rules": {
             "LEMMA": "consternation",
@@ -24082,6 +24103,20 @@
             "WlbTot"
         ]
     },
+    "gi.CONTENT#4": {
+        "match_rules": {
+            "LEMMA": "contentedly",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Positiv",
+            "Pstv",
+            "Passive",
+            "Pleasur",
+            "WlbGain",
+            "WlbTot"
+        ]
+    },
     "gi.CONTENT#5": {
         "match_rules": {
             "LEMMA": "content",
@@ -24205,6 +24240,18 @@
         "match_rules": {
             "LEMMA": "continual",
             "POS": "ADJ"
+        },
+        "categories": [
+            "Strong",
+            "Active",
+            "Ovrst",
+            "Persist"
+        ]
+    },
+    "gi.CONTINUAL#2": {
+        "match_rules": {
+            "LEMMA": "continually",
+            "POS": "ADV"
         },
         "categories": [
             "Strong",
@@ -25255,6 +25302,19 @@
             "Work",
             "IAV",
             "TrnGain"
+        ]
+    },
+    "gi.CORRECT#3": {
+        "match_rules": {
+            "LEMMA": "correctly",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Positiv",
+            "Pstv",
+            "Virtue",
+            "Ovrst",
+            "PosAff"
         ]
     },
     "gi.CORRECT#4": {
@@ -26767,6 +26827,20 @@
             "Active",
             "Arousal",
             "EMOT",
+            "NegAff"
+        ]
+    },
+    "gi.CROSS#7": {
+        "match_rules": {
+            "LEMMA": "crossly",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Negativ",
+            "Ngtv",
+            "Hostile",
+            "Active",
+            "Arousal",
             "NegAff"
         ]
     },
@@ -28352,6 +28426,19 @@
             "Virtue",
             "AffOth",
             "AffTot"
+        ]
+    },
+    "gi.DEAR#2": {
+        "match_rules": {
+            "LEMMA": "dearly",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Positiv",
+            "Pstv",
+            "Affil",
+            "Virtue",
+            "SureLw"
         ]
     },
     "gi.DEARTH": {
@@ -32355,8 +32442,8 @@
     },
     "gi.DISAPPOINT#4": {
         "match_rules": {
-            "LEMMA": "disappoint",
-            "POS": "ADJ"
+            "LEMMA": "disappointingly",
+            "POS": "ADV"
         },
         "categories": [
             "Negativ",
@@ -34667,8 +34754,8 @@
     },
     "gi.DOMINATE#3": {
         "match_rules": {
-            "LEMMA": "dominate",
-            "POS": "ADJ"
+            "LEMMA": "dominatingly",
+            "POS": "ADV"
         },
         "categories": [
             "Negativ",
@@ -37815,6 +37902,18 @@
             "Passive",
             "Arousal",
             "EMOT",
+            "WlbPsyc",
+            "WlbTot"
+        ]
+    },
+    "gi.EMOTIONAL#2": {
+        "match_rules": {
+            "LEMMA": "emotionally",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Passive",
+            "Arousal",
             "WlbPsyc",
             "WlbTot"
         ]
@@ -52502,6 +52601,20 @@
             "WlbTot"
         ]
     },
+    "gi.HEALTHY#3": {
+        "match_rules": {
+            "LEMMA": "healthily",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Positiv",
+            "Pstv",
+            "Strong",
+            "Virtue",
+            "WlbPhys",
+            "WlbTot"
+        ]
+    },
     "gi.HEAP#1": {
         "match_rules": {
             "LEMMA": "heap",
@@ -61649,8 +61762,8 @@
     },
     "gi.JOKE#3": {
         "match_rules": {
-            "LEMMA": "joke",
-            "POS": "ADJ"
+            "LEMMA": "jokingly",
+            "POS": "ADV"
         },
         "categories": [
             "Positiv",
@@ -65596,22 +65709,6 @@
         "match_rules": {
             "LEMMA": "loneliness",
             "POS": "NOUN"
-        },
-        "categories": [
-            "Negativ",
-            "Affil",
-            "Ngtv",
-            "Weak",
-            "Passive",
-            "Pain",
-            "AffOth",
-            "AffTot"
-        ]
-    },
-    "gi.LONELY": {
-        "match_rules": {
-            "LEMMA": "lonely",
-            "POS": "ADJ"
         },
         "categories": [
             "Negativ",
@@ -79834,6 +79931,18 @@
             "RspTot"
         ]
     },
+    "gi.PERSONAL#2": {
+        "match_rules": {
+            "LEMMA": "personally",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Role",
+            "HU",
+            "RspOth",
+            "RspTot"
+        ]
+    },
     "gi.PERSONALITY": {
         "match_rules": {
             "LEMMA": "personality",
@@ -80842,6 +80951,18 @@
             "Land"
         ]
     },
+    "gi.PLAIN#3": {
+        "match_rules": {
+            "LEMMA": "plainly",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Positiv",
+            "Pstv",
+            "Ovrst",
+            "Perceiv"
+        ]
+    },
     "gi.PLAIN#4": {
         "match_rules": {
             "LEMMA": "plainer",
@@ -81230,6 +81351,18 @@
             "Pstv",
             "Pleasur",
             "EVAL",
+            "PosAff"
+        ]
+    },
+    "gi.PLEASANT#2": {
+        "match_rules": {
+            "LEMMA": "pleasantly",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Positiv",
+            "Pstv",
+            "Virtue",
             "PosAff"
         ]
     },
@@ -87476,6 +87609,17 @@
         "match_rules": {
             "LEMMA": "rapid",
             "POS": "ADJ"
+        },
+        "categories": [
+            "Active",
+            "Ovrst",
+            "Time@"
+        ]
+    },
+    "gi.RAPID#2": {
+        "match_rules": {
+            "LEMMA": "rapidly",
+            "POS": "ADV"
         },
         "categories": [
             "Active",
@@ -94558,6 +94702,18 @@
             "MeansLw"
         ]
     },
+    "gi.SAFE#4": {
+        "match_rules": {
+            "LEMMA": "safely",
+            "POS": "ADV"
+        },
+        "categories": [
+            "Positiv",
+            "Pstv",
+            "Virtue",
+            "MeansLw"
+        ]
+    },
     "gi.SAFEGUARD": {
         "match_rules": {
             "LEMMA": "safeguard",
@@ -96716,8 +96872,8 @@
     },
     "gi.SEEM#2": {
         "match_rules": {
-            "LEMMA": "seem",
-            "POS": "ADJ"
+            "LEMMA": "seemingly",
+            "POS": "ADV"
         },
         "categories": [
             "Undrst",
