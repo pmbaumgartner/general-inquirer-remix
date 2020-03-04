@@ -6,7 +6,7 @@ This is a version of the [General Inquirer](http://www.wjh.harvard.edu/~inquirer
 
 Install from GitHub. 
 
-```
+```bash
 pip install git+https://github.com/pmbaumgartner/general-inquirer-remix
 ```
 
@@ -25,7 +25,7 @@ text = (
 )
 # Krippendorff, K. (2019). Content analysis : an introduction to its methodology.
 
-nlp = spacy.load("en")
+nlp = spacy.load("en_core_web_lg")
 gi_tags = GICategories(nlp)
 nlp.add_pipe(gi_tags, last=True)
 doc = nlp(text)
@@ -34,42 +34,47 @@ doc = nlp(text)
 print(doc._.gi_tags)
 ```
 
-```
+```python
 {'ABS': 1,
  'Abs@': 1,
  'Academ': 2,
- 'Active': 6,
+ 'Active': 9,
  'AffOth': 1,
  'AffTot': 1,
  'COM': 2,
  'ComForm': 2,
- 'Compare': 1,
  'ECON': 1,
- 'EVAL': 2,
+ 'EVAL': 1,
  'EndsLw': 2,
  'EnlOth': 5,
  'EnlTot': 5,
  'FormLw': 2,
- 'IAV': 2,
+ 'IAV': 3,
  'Increas': 1,
+ 'Intrj': 1,
  'Know': 2,
  'Means': 4,
  'Object': 1,
- 'Ovrst': 2,
- 'PosAff': 1,
+ 'Ovrst': 4,
  'Positiv': 5,
  'PowCoop': 1,
  'PowTot': 1,
+ 'Power': 1,
  'Pstv': 5,
  'Quan': 2,
+ 'Rel': 1,
  'SklOth': 1,
  'SklTot': 1,
  'Solve': 1,
  'Strong': 7,
  'Submit': 1,
+ 'Time@': 2,
+ 'TimeSpc': 1,
  'Tool': 1,
- 'Undrst': 1,
- 'Virtue': 4,
+ 'Undrst': 2,
+ 'Virtue': 3,
+ 'WlbPhys': 1,
+ 'WlbTot': 1,
  'Work': 1}
 ```
 
@@ -89,7 +94,7 @@ the []
 most ['Strong', 'Ovrst', 'Quan']
 popular ['Positiv', 'Pstv', 'Strong', 'Virtue', 'AffOth', 'AffTot']
 and []
-rapidly []
+rapidly ['Active', 'Ovrst', 'Time@']
 expanding ['Strong', 'Active', 'Increas', 'IAV', 'EndsLw']
 techniques ['Means', 'SklOth', 'SklTot']
 for []
