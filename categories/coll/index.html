@@ -1,0 +1,3863 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>COLL - General Inquirer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#546e7a">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex:300,400,400i,700%7CIBM+Plex+Mono&display=fallback">
+        <style>body,input{font-family:"IBM Plex","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"IBM Plex Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#coll" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="General Inquirer" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">import_contacts</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              General Inquirer
+            </span>
+            <span class="md-header-nav__topic">
+              
+                COLL
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="General Inquirer" class="md-nav__button md-logo">
+      
+        <i class="md-icon">import_contacts</i>
+      
+    </a>
+    General Inquirer
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="General Inquirer" class="md-nav__link">
+      General Inquirer
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../category-statistics-table/" title="Category Porting Statistics" class="md-nav__link">
+      Category Porting Statistics
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../porting-info/" title="Porting Process" class="md-nav__link">
+      Porting Process
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Categories
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Categories
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs/" title="Abs@" class="md-nav__link">
+      Abs@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs1/" title="ABS" class="md-nav__link">
+      ABS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../academ/" title="Academ" class="md-nav__link">
+      Academ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../active/" title="Active" class="md-nav__link">
+      Active
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affgain/" title="AffGain" class="md-nav__link">
+      AffGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affil/" title="Affil" class="md-nav__link">
+      Affil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affloss/" title="AffLoss" class="md-nav__link">
+      AffLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affoth/" title="AffOth" class="md-nav__link">
+      AffOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affpt/" title="AffPt" class="md-nav__link">
+      AffPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../afftot/" title="AffTot" class="md-nav__link">
+      AffTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ani/" title="ANI" class="md-nav__link">
+      ANI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../anomie/" title="Anomie" class="md-nav__link">
+      Anomie
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aquatic/" title="Aquatic" class="md-nav__link">
+      Aquatic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arenalw/" title="ArenaLw" class="md-nav__link">
+      ArenaLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arousal/" title="Arousal" class="md-nav__link">
+      Arousal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../begin/" title="Begin" class="md-nav__link">
+      Begin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bldgpt/" title="BldgPt" class="md-nav__link">
+      BldgPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bodypt/" title="BodyPt" class="md-nav__link">
+      BodyPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../card/" title="CARD" class="md-nav__link">
+      CARD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../causal/" title="Causal" class="md-nav__link">
+      Causal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        COLL
+      </label>
+    
+    <a href="./" title="COLL" class="md-nav__link md-nav__link--active">
+      COLL
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../color/" title="COLOR" class="md-nav__link">
+      COLOR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../com/" title="COM" class="md-nav__link">
+      COM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comform/" title="ComForm" class="md-nav__link">
+      ComForm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comnobj/" title="ComnObj" class="md-nav__link">
+      ComnObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../compare/" title="Compare" class="md-nav__link">
+      Compare
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../complet/" title="Complet" class="md-nav__link">
+      Complet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dav/" title="DAV" class="md-nav__link">
+      DAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../decreas/" title="Decreas" class="md-nav__link">
+      Decreas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dim/" title="DIM" class="md-nav__link">
+      DIM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dist/" title="DIST" class="md-nav__link">
+      DIST
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doctrin/" title="Doctrin" class="md-nav__link">
+      Doctrin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ/" title="Econ@" class="md-nav__link">
+      Econ@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ1/" title="ECON" class="md-nav__link">
+      ECON
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../emot/" title="EMOT" class="md-nav__link">
+      EMOT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../endslw/" title="EndsLw" class="md-nav__link">
+      EndsLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlends/" title="EnlEnds" class="md-nav__link">
+      EnlEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlgain/" title="EnlGain" class="md-nav__link">
+      EnlGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlloss/" title="EnlLoss" class="md-nav__link">
+      EnlLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enloth/" title="EnlOth" class="md-nav__link">
+      EnlOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlpt/" title="EnlPt" class="md-nav__link">
+      EnlPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enltot/" title="EnlTot" class="md-nav__link">
+      EnlTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval/" title="Eval@" class="md-nav__link">
+      Eval@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval1/" title="EVAL" class="md-nav__link">
+      EVAL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exch/" title="Exch" class="md-nav__link">
+      Exch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exert/" title="Exert" class="md-nav__link">
+      Exert
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exprsv/" title="Exprsv" class="md-nav__link">
+      Exprsv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fail/" title="Fail" class="md-nav__link">
+      Fail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fall/" title="Fall" class="md-nav__link">
+      Fall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../feel/" title="Feel" class="md-nav__link">
+      Feel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../female/" title="Female" class="md-nav__link">
+      Female
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fetch/" title="Fetch" class="md-nav__link">
+      Fetch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../finish/" title="Finish" class="md-nav__link">
+      Finish
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../food/" title="Food" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../formlw/" title="FormLw" class="md-nav__link">
+      FormLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../freq/" title="FREQ" class="md-nav__link">
+      FREQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../goal/" title="Goal" class="md-nav__link">
+      Goal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hostile/" title="Hostile" class="md-nav__link">
+      Hostile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hu/" title="HU" class="md-nav__link">
+      HU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../iav/" title="IAV" class="md-nav__link">
+      IAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../if/" title="If" class="md-nav__link">
+      If
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../increas/" title="Increas" class="md-nav__link">
+      Increas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../indadj/" title="IndAdj" class="md-nav__link">
+      IndAdj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../intrj/" title="Intrj" class="md-nav__link">
+      Intrj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ipadj/" title="IPadj" class="md-nav__link">
+      IPadj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kin/" title="Kin@" class="md-nav__link">
+      Kin@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../know/" title="Know" class="md-nav__link">
+      Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../land/" title="Land" class="md-nav__link">
+      Land
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../legal/" title="Legal" class="md-nav__link">
+      Legal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../male/" title="MALE" class="md-nav__link">
+      MALE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../means/" title="Means" class="md-nav__link">
+      Means
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../meanslw/" title="MeansLw" class="md-nav__link">
+      MeansLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../milit/" title="Milit" class="md-nav__link">
+      Milit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../name/" title="Name" class="md-nav__link">
+      Name
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nation/" title="Nation" class="md-nav__link">
+      Nation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natobj/" title="NatObj" class="md-nav__link">
+      NatObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natrpro/" title="NatrPro" class="md-nav__link">
+      NatrPro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../need/" title="Need" class="md-nav__link">
+      Need
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negaff/" title="NegAff" class="md-nav__link">
+      NegAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negate/" title="Negate" class="md-nav__link">
+      Negate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negativ/" title="Negativ" class="md-nav__link">
+      Negativ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ngtv/" title="Ngtv" class="md-nav__link">
+      Ngtv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../no/" title="No" class="md-nav__link">
+      No
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nonadlt/" title="Nonadlt" class="md-nav__link">
+      Nonadlt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../notlw/" title="NotLw" class="md-nav__link">
+      NotLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../numb/" title="NUMB" class="md-nav__link">
+      NUMB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../object/" title="Object" class="md-nav__link">
+      Object
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ord/" title="ORD" class="md-nav__link">
+      ORD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ought/" title="Ought" class="md-nav__link">
+      Ought
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../our/" title="Our" class="md-nav__link">
+      Our
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ovrst/" title="Ovrst" class="md-nav__link">
+      Ovrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pain/" title="Pain" class="md-nav__link">
+      Pain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../passive/" title="Passive" class="md-nav__link">
+      Passive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perceiv/" title="Perceiv" class="md-nav__link">
+      Perceiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../persist/" title="Persist" class="md-nav__link">
+      Persist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../place/" title="PLACE" class="md-nav__link">
+      PLACE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pleasur/" title="Pleasur" class="md-nav__link">
+      Pleasur
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit/" title="Polit@" class="md-nav__link">
+      Polit@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit1/" title="POLIT" class="md-nav__link">
+      POLIT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pos/" title="POS" class="md-nav__link">
+      POS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../posaff/" title="PosAff" class="md-nav__link">
+      PosAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../positiv/" title="Positiv" class="md-nav__link">
+      Positiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaren/" title="PowAren" class="md-nav__link">
+      PowAren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaupt/" title="PowAuPt" class="md-nav__link">
+      PowAuPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powauth/" title="PowAuth" class="md-nav__link">
+      PowAuth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcon/" title="PowCon" class="md-nav__link">
+      PowCon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcoop/" title="PowCoop" class="md-nav__link">
+      PowCoop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powdoct/" title="PowDoct" class="md-nav__link">
+      PowDoct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powends/" title="PowEnds" class="md-nav__link">
+      PowEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../power/" title="Power" class="md-nav__link">
+      Power
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powgain/" title="PowGain" class="md-nav__link">
+      PowGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powloss/" title="PowLoss" class="md-nav__link">
+      PowLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powoth/" title="PowOth" class="md-nav__link">
+      PowOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powpt/" title="PowPt" class="md-nav__link">
+      PowPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powtot/" title="PowTot" class="md-nav__link">
+      PowTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pstv/" title="Pstv" class="md-nav__link">
+      Pstv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ptlw/" title="PtLw" class="md-nav__link">
+      PtLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quality/" title="Quality" class="md-nav__link">
+      Quality
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quan/" title="Quan" class="md-nav__link">
+      Quan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../race/" title="Race" class="md-nav__link">
+      Race
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcends/" title="RcEnds" class="md-nav__link">
+      RcEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcethic/" title="RcEthic" class="md-nav__link">
+      RcEthic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcgain/" title="RcGain" class="md-nav__link">
+      RcGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcloss/" title="RcLoss" class="md-nav__link">
+      RcLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcrelig/" title="RcRelig" class="md-nav__link">
+      RcRelig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rctot/" title="RcTot" class="md-nav__link">
+      RcTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../region/" title="Region" class="md-nav__link">
+      Region
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rel/" title="Rel" class="md-nav__link">
+      Rel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../relig/" title="Relig" class="md-nav__link">
+      Relig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rise/" title="Rise" class="md-nav__link">
+      Rise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ritual/" title="Ritual" class="md-nav__link">
+      Ritual
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../role/" title="Role" class="md-nav__link">
+      Role
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../route/" title="Route" class="md-nav__link">
+      Route
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspgain/" title="RspGain" class="md-nav__link">
+      RspGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsploss/" title="RspLoss" class="md-nav__link">
+      RspLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspoth/" title="RspOth" class="md-nav__link">
+      RspOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsptot/" title="RspTot" class="md-nav__link">
+      RspTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../say/" title="Say" class="md-nav__link">
+      Say
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../self/" title="Self" class="md-nav__link">
+      Self
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklasth/" title="SklAsth" class="md-nav__link">
+      SklAsth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skloth/" title="SklOth" class="md-nav__link">
+      SklOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklpt/" title="SklPt" class="md-nav__link">
+      SklPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skltot/" title="SklTot" class="md-nav__link">
+      SklTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sky/" title="Sky" class="md-nav__link">
+      Sky
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../social/" title="Social" class="md-nav__link">
+      Social
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../socrel/" title="SocRel" class="md-nav__link">
+      SocRel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../solve/" title="Solve" class="md-nav__link">
+      Solve
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../space/" title="Space" class="md-nav__link">
+      Space
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stay/" title="Stay" class="md-nav__link">
+      Stay
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../strong/" title="Strong" class="md-nav__link">
+      Strong
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../submit/" title="Submit" class="md-nav__link">
+      Submit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../surelw/" title="SureLw" class="md-nav__link">
+      SureLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sv/" title="SV" class="md-nav__link">
+      SV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../think/" title="Think" class="md-nav__link">
+      Think
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time/" title="Time@" class="md-nav__link">
+      Time@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time1/" title="TIME" class="md-nav__link">
+      TIME
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../timespc/" title="TimeSpc" class="md-nav__link">
+      TimeSpc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tool/" title="Tool" class="md-nav__link">
+      Tool
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tranlw/" title="TranLw" class="md-nav__link">
+      TranLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../travel/" title="Travel" class="md-nav__link">
+      Travel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trngain/" title="TrnGain" class="md-nav__link">
+      TrnGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trnloss/" title="TrnLoss" class="md-nav__link">
+      TrnLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../try/" title="Try" class="md-nav__link">
+      Try
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../undrst/" title="Undrst" class="md-nav__link">
+      Undrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vary/" title="Vary" class="md-nav__link">
+      Vary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vehicle/" title="Vehicle" class="md-nav__link">
+      Vehicle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vice/" title="Vice" class="md-nav__link">
+      Vice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../virtue/" title="Virtue" class="md-nav__link">
+      Virtue
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../weak/" title="Weak" class="md-nav__link">
+      Weak
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbgain/" title="WlbGain" class="md-nav__link">
+      WlbGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbloss/" title="WlbLoss" class="md-nav__link">
+      WlbLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbphys/" title="WlbPhys" class="md-nav__link">
+      WlbPhys
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpsyc/" title="WlbPsyc" class="md-nav__link">
+      WlbPsyc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpt/" title="WlbPt" class="md-nav__link">
+      WlbPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbtot/" title="WlbTot" class="md-nav__link">
+      WlbTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltoth/" title="WltOth" class="md-nav__link">
+      WltOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltpt/" title="WltPt" class="md-nav__link">
+      WltPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttot/" title="WltTot" class="md-nav__link">
+      WltTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttran/" title="WltTran" class="md-nav__link">
+      WltTran
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../work/" title="Work" class="md-nav__link">
+      Work
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../yes/" title="Yes" class="md-nav__link">
+      Yes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../you/" title="You" class="md-nav__link">
+      You
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pmbaumgartner/general-inquirer-remix/edit/master/docs/categories/coll.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="coll">COLL</h1>
+<p>191 words referring to all human collectivities (not animal). Used in disambiguation.</p>
+<h2 id="completed">Completed</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">177</td>
+<td align="left">ADMINISTRATION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">69% noun-adj: A body entrusted with executive or administrative powers,  the time span over which such power is exercised (2)</td>
+</tr>
+<tr>
+<td align="right">277</td>
+<td align="left">AGENCY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A commercial or other bureau furnishing some form of service for  the public, the office of an agent.</td>
+</tr>
+<tr>
+<td align="right">370</td>
+<td align="left">ALLIANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">639</td>
+<td align="left">ARMY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The military forces of a nation</td>
+</tr>
+<tr>
+<td align="right">708</td>
+<td align="left">ASSEMBLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">728</td>
+<td align="left">ASSOCIATION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% noun: An organization of people with a common purpose, having a formal  structure</td>
+</tr>
+<tr>
+<td align="right">794</td>
+<td align="left">AUDIENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">913</td>
+<td align="left">BAND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">97% noun: A company of persons, a group of animals (1), a group of musicians  (4), a strip, stripe or binding (4)</td>
+</tr>
+<tr>
+<td align="right">921</td>
+<td align="left">BANK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% noun: Financial institution . . . the business of finance ('banking')</td>
+</tr>
+<tr>
+<td align="right">1169</td>
+<td align="left">BLOC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1193</td>
+<td align="left">BOARD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% noun: An administrative body, examination ("college boards")</td>
+</tr>
+<tr>
+<td align="right">1447</td>
+<td align="left">CABINET</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1495</td>
+<td align="left">CANNERY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1572</td>
+<td align="left">CATHOLIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1584</td>
+<td align="left">CAVALRY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1761</td>
+<td align="left">CIVIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1783</td>
+<td align="left">CLASS</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: The instruction of a given set of students, usually by a teacher,  any or all the things associated with it--the instruction itself, the  group of students, or the p</td>
+</tr>
+<tr>
+<td align="right">1843</td>
+<td align="left">CLUB#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">86% noun: A group of persons organized for social or other activities</td>
+</tr>
+<tr>
+<td align="right">1862</td>
+<td align="left">COALITION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1891</td>
+<td align="left">COHORT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1914</td>
+<td align="left">COLLECTIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1923</td>
+<td align="left">COLONY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1925</td>
+<td align="left">COLOR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">37% noun-adj: "Color"--racial complexion; "colored"--having a racial complexion  other than white</td>
+</tr>
+<tr>
+<td align="right">1982</td>
+<td align="left">COMMITTEE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun adjective: Group of persons elected or appointed to carry out a specific  task or function</td>
+</tr>
+<tr>
+<td align="right">1987</td>
+<td align="left">COMMON#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">18% noun-idiom: "Common market"--the eec</td>
+</tr>
+<tr>
+<td align="right">1996</td>
+<td align="left">COMMONWEALTH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2008</td>
+<td align="left">COMMUNITY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adjective: Town, collectivity formed by proximity or common interest.</td>
+</tr>
+<tr>
+<td align="right">2012</td>
+<td align="left">COMPANY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">78% noun-adj: A body of men joined in a common purpose, usually economic</td>
+</tr>
+<tr>
+<td align="right">2128</td>
+<td align="left">CONFERENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A meeting for consultation or negotiation</td>
+</tr>
+<tr>
+<td align="right">2167</td>
+<td align="left">CONGREGATE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2168</td>
+<td align="left">CONGREGATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2169</td>
+<td align="left">CONGREGATIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2170</td>
+<td align="left">CONGRESS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">97% noun: The legislative branch of the u.s. government</td>
+</tr>
+<tr>
+<td align="right">2172</td>
+<td align="left">CONGRESSIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2215</td>
+<td align="left">CONSPIRACY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2298</td>
+<td align="left">CONVENE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2302</td>
+<td align="left">CONVENTION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A meeting or assembly of delegates or representatives for action  on particular matters</td>
+</tr>
+<tr>
+<td align="right">2328</td>
+<td align="left">COOPERATIVE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">68% noun-adj: An organization for the benefit of producers or consumers</td>
+</tr>
+<tr>
+<td align="right">2344</td>
+<td align="left">CORP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2346</td>
+<td align="left">CORPORATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2347</td>
+<td align="left">CORPORATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2348</td>
+<td align="left">CORPS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">93% idiom-noun: "Peace corps"</td>
+</tr>
+<tr>
+<td align="right">2380</td>
+<td align="left">COUNCIL</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: A body of persons summoned or convened for deliberation, consultation  or advice</td>
+</tr>
+<tr>
+<td align="right">2392</td>
+<td align="left">COUNTRY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">90% noun: A nation or sovereign territory, a region, area (e.g. "indian country")</td>
+</tr>
+<tr>
+<td align="right">2398</td>
+<td align="left">COUPLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">41% noun: Two persons of opposite sex considered together</td>
+</tr>
+<tr>
+<td align="right">2405</td>
+<td align="left">COURT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">65% noun-adj: A place where trials are held and the law is carried on--by  metonymy the process or authority of the law, or a given court or judge;  a sovereig</td>
+</tr>
+<tr>
+<td align="right">2465</td>
+<td align="left">CREW</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2503</td>
+<td align="left">CROWD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% noun: A throng</td>
+</tr>
+<tr>
+<td align="right">2528</td>
+<td align="left">CULMINATE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2529</td>
+<td align="left">CULMINATION</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2532</td>
+<td align="left">CULT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2734</td>
+<td align="left">DELEGATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2776</td>
+<td align="left">DENOMINATIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2786</td>
+<td align="left">DEPARTMENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">96% noun: A division of a complex whole, as of a government, business, or faculty</td>
+</tr>
+<tr>
+<td align="right">3129</td>
+<td align="left">DIVISION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3257</td>
+<td align="left">DROVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% noun: A flock, herd, crowd</td>
+</tr>
+<tr>
+<td align="right">3423</td>
+<td align="left">ELECTORAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3443</td>
+<td align="left">ELITE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3561</td>
+<td align="left">ENSEMBLE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3568</td>
+<td align="left">ENTERPRISE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3634</td>
+<td align="left">ESTABLISHMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3866</td>
+<td align="left">FACULTY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">91% noun-adj: All the teachers of a school</td>
+</tr>
+<tr>
+<td align="right">3906</td>
+<td align="left">FAMILY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun adjective: A specifically related group, usually referring to the  immediate kinship group of father, mother, and children, sometimes a biological  term.</td>
+</tr>
+<tr>
+<td align="right">3984</td>
+<td align="left">FEDERAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adjective: Pertaining to the independent central government of a union of states.</td>
+</tr>
+<tr>
+<td align="right">3986</td>
+<td align="left">FEDERATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4109</td>
+<td align="left">FIRM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% noun: A partnership or unincorporated association for carrying out business</td>
+</tr>
+<tr>
+<td align="right">4163</td>
+<td align="left">FLEET</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4213</td>
+<td align="left">FOLK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% noun: People in general or people as a representation of a culture  esp. the composite of social mores, customs</td>
+</tr>
+<tr>
+<td align="right">4214</td>
+<td align="left">FOLK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">19% adjective: Originating among the common people</td>
+</tr>
+<tr>
+<td align="right">4224</td>
+<td align="left">FOLLOW#6</td>
+<td align="left">H4</td>
+<td align="left">0% noun: "Following"--a group of followers</td>
+</tr>
+<tr>
+<td align="right">4476</td>
+<td align="left">GANG</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4494</td>
+<td align="left">GATHER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% noun-adj: A group or collection of things or individuals--'gathering'</td>
+</tr>
+<tr>
+<td align="right">4512</td>
+<td align="left">GENERATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A set of people of the same general age group or the period of time  identified with a generation of men</td>
+</tr>
+<tr>
+<td align="right">4647</td>
+<td align="left">GOVERN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4649</td>
+<td align="left">GOVERNMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun adjective: A specific administrative mechanism by which a body of  people is ruled, an abstract concept of the ruling power</td>
+</tr>
+<tr>
+<td align="right">4744</td>
+<td align="left">GROUP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: A collection (usually small) of individuals (almost never of  things) related in some way</td>
+</tr>
+<tr>
+<td align="right">4785</td>
+<td align="left">GUILD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5097</td>
+<td align="left">HORDE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5136</td>
+<td align="left">HUDDLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5143</td>
+<td align="left">HUMANITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5343</td>
+<td align="left">INC.</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5376</td>
+<td align="left">INCORPORATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5465</td>
+<td align="left">INFANTRY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5472</td>
+<td align="left">INFEST</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5809</td>
+<td align="left">JUNTA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5812</td>
+<td align="left">JURY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5861</td>
+<td align="left">KINDRED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5896</td>
+<td align="left">LABOR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">69% noun: Hard work, effort, wage workers</td>
+</tr>
+<tr>
+<td align="right">5970</td>
+<td align="left">LAY#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: Non-professional; not clergy (0)</td>
+</tr>
+<tr>
+<td align="right">5983</td>
+<td align="left">LEAGUE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">86% noun: An association or alliance</td>
+</tr>
+<tr>
+<td align="right">6022</td>
+<td align="left">LEGION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">98% idiom-noun: "American legion"</td>
+</tr>
+<tr>
+<td align="right">6314</td>
+<td align="left">MAJORITY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The number greater than half or the excess of this greater number--state  of being major or greater, superiority.</td>
+</tr>
+<tr>
+<td align="right">6351</td>
+<td align="left">MANAGEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6362</td>
+<td align="left">MANKIND</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6521</td>
+<td align="left">MEMBERSHIP</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The relation holding between an element and a set to which it belongs,  the credentials for belonging, or the members collectively.</td>
+</tr>
+<tr>
+<td align="right">6573</td>
+<td align="left">MIDDLE-CLASS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6583</td>
+<td align="left">MILITIA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6621</td>
+<td align="left">MINISTRY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6624</td>
+<td align="left">MINORITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6685</td>
+<td align="left">MOB</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6695</td>
+<td align="left">MODERN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: Modern people</td>
+</tr>
+<tr>
+<td align="right">6719</td>
+<td align="left">MONOPOLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6801</td>
+<td align="left">MULTITUDE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6825</td>
+<td align="left">MUTUAL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">91% adjective: Common, joint, reciprocal, reciprocated.</td>
+</tr>
+<tr>
+<td align="right">6826</td>
+<td align="left">MUTUAL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% adverb: "Mutually"--jointly, reciprocally</td>
+</tr>
+<tr>
+<td align="right">6828</td>
+<td align="left">MYRIAD</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6853</td>
+<td align="left">NATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A country or people of a country, political unit</td>
+</tr>
+<tr>
+<td align="right">6854</td>
+<td align="left">NATIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adjective: Of or pertaining to, or maintained by a nation as an organized  whole or independent political unit</td>
+</tr>
+<tr>
+<td align="right">6870</td>
+<td align="left">NAVY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6982</td>
+<td align="left">NOBILITY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7209</td>
+<td align="left">ORCHESTRA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7227</td>
+<td align="left">ORGANIZATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A body of people organized for a purpose--"the veteran's organization";  the quality of having order, being organized, organizing (23)</td>
+</tr>
+<tr>
+<td align="right">7415</td>
+<td align="left">PARLIAMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7445</td>
+<td align="left">PARTNERSHIP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7447</td>
+<td align="left">PARTY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">58% noun-adj: Organized political group</td>
+</tr>
+<tr>
+<td align="right">7495</td>
+<td align="left">PATROL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7549</td>
+<td align="left">PEOPLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Human beings, whether individually--as persons--or collectively  --as a community, group, type, race, tribe, or nation (less frequent)</td>
+</tr>
+<tr>
+<td align="right">7596</td>
+<td align="left">PERSONNEL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7787</td>
+<td align="left">POLICE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adjective: Of or pertaining to officers of the law.</td>
+</tr>
+<tr>
+<td align="right">7811</td>
+<td align="left">POOR#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% noun: Those wanting in material goods</td>
+</tr>
+<tr>
+<td align="right">7817</td>
+<td align="left">POPULATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The body of inhabitants of a given locality</td>
+</tr>
+<tr>
+<td align="right">7818</td>
+<td align="left">POPULOUS</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7834</td>
+<td align="left">POSSE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7847</td>
+<td align="left">POSTERITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7945</td>
+<td align="left">PRESS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% noun-adj: The body of newsmen, news media</td>
+</tr>
+<tr>
+<td align="right">8004</td>
+<td align="left">PRIVATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">95% adj: Relating to a particular person or group of people, not public</td>
+</tr>
+<tr>
+<td align="right">8046</td>
+<td align="left">PROFESSION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Technically specialized vocation</td>
+</tr>
+<tr>
+<td align="right">8149</td>
+<td align="left">PTA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8150</td>
+<td align="left">PUBLIC#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">83% adj: Not private, of the people</td>
+</tr>
+<tr>
+<td align="right">8151</td>
+<td align="left">PUBLIC#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun: The people collectively</td>
+</tr>
+<tr>
+<td align="right">8214</td>
+<td align="left">QUARTET</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8240</td>
+<td align="left">RACE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% noun-adj: A major group of persons united by descent--pertaining to  groupings of this sort</td>
+</tr>
+<tr>
+<td align="right">8246</td>
+<td align="left">RACIAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adjective: Concerning relations between races, e.g., 'racial discrimina-  tion', or characteristic of a race of people.</td>
+</tr>
+<tr>
+<td align="right">8273</td>
+<td align="left">RALLY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8428</td>
+<td align="left">REDS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8463</td>
+<td align="left">REGIME</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8464</td>
+<td align="left">REGIMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8595</td>
+<td align="left">REPUBLIC</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A representative government</td>
+</tr>
+<tr>
+<td align="right">8702</td>
+<td align="left">REUNION</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8727</td>
+<td align="left">REVIVAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8884</td>
+<td align="left">ROYAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8885</td>
+<td align="left">ROYALTY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9172</td>
+<td align="left">SENATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9604</td>
+<td align="left">SOCIAL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% adj: Of or pertaining to human society or collective activity</td>
+</tr>
+<tr>
+<td align="right">9611</td>
+<td align="left">SOCIETY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The socio-political unit, a system of persons and institutions,  society at large</td>
+</tr>
+<tr>
+<td align="right">9798</td>
+<td align="left">SQUAD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9815</td>
+<td align="left">STAFF</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9863</td>
+<td align="left">STATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">39% noun: Body politic--area of government</td>
+</tr>
+<tr>
+<td align="right">10085</td>
+<td align="left">SUBSCRIBE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10087</td>
+<td align="left">SUBSCRIPTION</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10207</td>
+<td align="left">SUPREME#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">90% idiom-noun: "Supreme court" - handled by "court"</td>
+</tr>
+<tr>
+<td align="right">10298</td>
+<td align="left">SYNDICATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10378</td>
+<td align="left">TEAM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10653</td>
+<td align="left">TOGETHERNESS</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10796</td>
+<td align="left">TRIBAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Of or pertaining to a tribe</td>
+</tr>
+<tr>
+<td align="right">10797</td>
+<td align="left">TRIBE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A group of people united by common ancestry or by common custom</td>
+</tr>
+<tr>
+<td align="right">10814</td>
+<td align="left">TROOP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10909</td>
+<td align="left">UNANIMOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11002</td>
+<td align="left">UNFORTUNATE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: "Unfortunates" - unlucky people</td>
+</tr>
+<tr>
+<td align="right">11020</td>
+<td align="left">UNION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">18% noun-adj: A labor organization</td>
+</tr>
+</tbody>
+</table>
+<h2 id="incomplete">Incomplete</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">316</td>
+<td align="left">AIR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% adj: "Air force," "air defense"--referring to airborne military divisions,  and operations</td>
+</tr>
+<tr>
+<td align="right">937</td>
+<td align="left">BAR#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: The legal profession</td>
+</tr>
+<tr>
+<td align="right">1186</td>
+<td align="left">BLUE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% noun-idiom: "Blue cross"--insurance company</td>
+</tr>
+<tr>
+<td align="right">1211</td>
+<td align="left">BODY#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% noun: A group of people, often political--as "electoral body," "student body"</td>
+</tr>
+<tr>
+<td align="right">1763</td>
+<td align="left">CIVIL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% idiom-noun: "Civil rights," "civil liberties"</td>
+</tr>
+<tr>
+<td align="right">1765</td>
+<td align="left">CIVIL#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-noun: "Civil service"</td>
+</tr>
+<tr>
+<td align="right">1991</td>
+<td align="left">COMMON#7</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: House of commons</td>
+</tr>
+<tr>
+<td align="right">2013</td>
+<td align="left">COMPANY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">22% noun: Society, companionship</td>
+</tr>
+<tr>
+<td align="right">2093</td>
+<td align="left">CONCERN#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: Business concern--commercial enterprise</td>
+</tr>
+<tr>
+<td align="right">2171</td>
+<td align="left">CONGRESS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: An organization, society, etc., an official gathering of same</td>
+</tr>
+<tr>
+<td align="right">2349</td>
+<td align="left">CORPS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun: A unit or group, usually of the military</td>
+</tr>
+<tr>
+<td align="right">2407</td>
+<td align="left">COURT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">26% idiom-noun: "Supreme court"</td>
+</tr>
+<tr>
+<td align="right">2496</td>
+<td align="left">CROSS#_10</td>
+<td align="left">H4</td>
+<td align="left">3% idiom-noun: "Red cross"</td>
+</tr>
+<tr>
+<td align="right">2497</td>
+<td align="left">CROSS#_11</td>
+<td align="left">H4</td>
+<td align="left">6% idiom-noun: "Blue cross"--handled by "blue"</td>
+</tr>
+<tr>
+<td align="right">2765</td>
+<td align="left">DEMOCRATIC#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">50% adj: Pertaining to a specific political party--usually the american</td>
+</tr>
+<tr>
+<td align="right">4251</td>
+<td align="left">FORCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">24% noun: A body of men, usually military, "the armed forces"</td>
+</tr>
+<tr>
+<td align="right">4286</td>
+<td align="left">FORM#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun: Grade in british secondary school</td>
+</tr>
+<tr>
+<td align="right">4549</td>
+<td align="left">GIANT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: (the baseball team)</td>
+</tr>
+<tr>
+<td align="right">4926</td>
+<td align="left">HEAD#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun-idiom: 'head start'</td>
+</tr>
+<tr>
+<td align="right">5127</td>
+<td align="left">HOUSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun-adj: Legislative body (includes idiom "house of representatives")</td>
+</tr>
+<tr>
+<td align="right">5897</td>
+<td align="left">LABOR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">25% noun-adj: Specifically used to denote political office, party or organization--  secretary of labor, labor unions, labor party, labor movement</td>
+</tr>
+<tr>
+<td align="right">6015</td>
+<td align="left">LEFT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: Political left</td>
+</tr>
+<tr>
+<td align="right">6023</td>
+<td align="left">LEGION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun-adj: A multitude; an army division (0); numerous (0)</td>
+</tr>
+<tr>
+<td align="right">6416</td>
+<td align="left">MASS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% noun: "The masses"--the lower class, population at large</td>
+</tr>
+<tr>
+<td align="right">7448</td>
+<td align="left">PARTY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">32% noun-adj: A social gathering</td>
+</tr>
+<tr>
+<td align="right">7867</td>
+<td align="left">POWER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">23% noun: Nation, group or individual having power</td>
+</tr>
+<tr>
+<td align="right">9132</td>
+<td align="left">SECURITY#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% idiom-noun: "Security council"--organ of the united nations</td>
+</tr>
+<tr>
+<td align="right">9316</td>
+<td align="left">SHIP#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-noun: "Ship of state" - government</td>
+</tr>
+<tr>
+<td align="right">10842</td>
+<td align="left">TRUST#8</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: A monopolistic organization, usually economic</td>
+</tr>
+<tr>
+<td align="right">11021</td>
+<td align="left">UNION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">31% noun-adj: The state of being united, usually a political union</td>
+</tr>
+<tr>
+<td align="right">11474</td>
+<td align="left">WELFARE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">44% noun-adj: Political-economic organizations of various kinds</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <div class="md-footer-nav">
+        <nav class="md-footer-nav__inner md-grid">
+
+            <!-- Link to previous page -->
+            
+            <a href="../causal/" title="Causal"
+                class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+                </div>
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Previous
+                        </span>
+                        Causal
+                    </span>
+                </div>
+            </a>
+            
+
+            <!-- Link to next page -->
+            
+            <a href="../color/" title="COLOR"
+                class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Next
+                        </span>
+                        COLOR
+                    </span>
+                </div>
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+                </div>
+            </a>
+            
+        </nav>
+    </div>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+                    Material for MkDocs</a>
+                <p>
+                    <a href="http://www.wjh.harvard.edu/~inquirer/">General Inquirer Homepage</a>
+                </p>
+                <p><strong>Original reference: </strong>
+                    Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M.
+                    Ogilvie, and associates.
+                    The General Inquirer: A Computer Approach to Content Analysis.
+                    MIT Press, 1966.</p>
+            </div>
+
+            <!-- Social links -->
+            
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

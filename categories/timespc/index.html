@@ -1,0 +1,5285 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>TimeSpc - General Inquirer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#546e7a">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex:300,400,400i,700%7CIBM+Plex+Mono&display=fallback">
+        <style>body,input{font-family:"IBM Plex","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"IBM Plex Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#timespc" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="General Inquirer" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">import_contacts</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              General Inquirer
+            </span>
+            <span class="md-header-nav__topic">
+              
+                TimeSpc
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="General Inquirer" class="md-nav__button md-logo">
+      
+        <i class="md-icon">import_contacts</i>
+      
+    </a>
+    General Inquirer
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="General Inquirer" class="md-nav__link">
+      General Inquirer
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../category-statistics-table/" title="Category Porting Statistics" class="md-nav__link">
+      Category Porting Statistics
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../porting-info/" title="Porting Process" class="md-nav__link">
+      Porting Process
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Categories
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Categories
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs/" title="Abs@" class="md-nav__link">
+      Abs@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs1/" title="ABS" class="md-nav__link">
+      ABS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../academ/" title="Academ" class="md-nav__link">
+      Academ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../active/" title="Active" class="md-nav__link">
+      Active
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affgain/" title="AffGain" class="md-nav__link">
+      AffGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affil/" title="Affil" class="md-nav__link">
+      Affil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affloss/" title="AffLoss" class="md-nav__link">
+      AffLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affoth/" title="AffOth" class="md-nav__link">
+      AffOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affpt/" title="AffPt" class="md-nav__link">
+      AffPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../afftot/" title="AffTot" class="md-nav__link">
+      AffTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ani/" title="ANI" class="md-nav__link">
+      ANI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../anomie/" title="Anomie" class="md-nav__link">
+      Anomie
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aquatic/" title="Aquatic" class="md-nav__link">
+      Aquatic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arenalw/" title="ArenaLw" class="md-nav__link">
+      ArenaLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arousal/" title="Arousal" class="md-nav__link">
+      Arousal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../begin/" title="Begin" class="md-nav__link">
+      Begin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bldgpt/" title="BldgPt" class="md-nav__link">
+      BldgPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bodypt/" title="BodyPt" class="md-nav__link">
+      BodyPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../card/" title="CARD" class="md-nav__link">
+      CARD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../causal/" title="Causal" class="md-nav__link">
+      Causal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../coll/" title="COLL" class="md-nav__link">
+      COLL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../color/" title="COLOR" class="md-nav__link">
+      COLOR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../com/" title="COM" class="md-nav__link">
+      COM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comform/" title="ComForm" class="md-nav__link">
+      ComForm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comnobj/" title="ComnObj" class="md-nav__link">
+      ComnObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../compare/" title="Compare" class="md-nav__link">
+      Compare
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../complet/" title="Complet" class="md-nav__link">
+      Complet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dav/" title="DAV" class="md-nav__link">
+      DAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../decreas/" title="Decreas" class="md-nav__link">
+      Decreas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dim/" title="DIM" class="md-nav__link">
+      DIM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dist/" title="DIST" class="md-nav__link">
+      DIST
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doctrin/" title="Doctrin" class="md-nav__link">
+      Doctrin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ/" title="Econ@" class="md-nav__link">
+      Econ@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ1/" title="ECON" class="md-nav__link">
+      ECON
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../emot/" title="EMOT" class="md-nav__link">
+      EMOT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../endslw/" title="EndsLw" class="md-nav__link">
+      EndsLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlends/" title="EnlEnds" class="md-nav__link">
+      EnlEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlgain/" title="EnlGain" class="md-nav__link">
+      EnlGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlloss/" title="EnlLoss" class="md-nav__link">
+      EnlLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enloth/" title="EnlOth" class="md-nav__link">
+      EnlOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlpt/" title="EnlPt" class="md-nav__link">
+      EnlPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enltot/" title="EnlTot" class="md-nav__link">
+      EnlTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval/" title="Eval@" class="md-nav__link">
+      Eval@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval1/" title="EVAL" class="md-nav__link">
+      EVAL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exch/" title="Exch" class="md-nav__link">
+      Exch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exert/" title="Exert" class="md-nav__link">
+      Exert
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exprsv/" title="Exprsv" class="md-nav__link">
+      Exprsv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fail/" title="Fail" class="md-nav__link">
+      Fail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fall/" title="Fall" class="md-nav__link">
+      Fall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../feel/" title="Feel" class="md-nav__link">
+      Feel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../female/" title="Female" class="md-nav__link">
+      Female
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fetch/" title="Fetch" class="md-nav__link">
+      Fetch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../finish/" title="Finish" class="md-nav__link">
+      Finish
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../food/" title="Food" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../formlw/" title="FormLw" class="md-nav__link">
+      FormLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../freq/" title="FREQ" class="md-nav__link">
+      FREQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../goal/" title="Goal" class="md-nav__link">
+      Goal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hostile/" title="Hostile" class="md-nav__link">
+      Hostile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hu/" title="HU" class="md-nav__link">
+      HU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../iav/" title="IAV" class="md-nav__link">
+      IAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../if/" title="If" class="md-nav__link">
+      If
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../increas/" title="Increas" class="md-nav__link">
+      Increas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../indadj/" title="IndAdj" class="md-nav__link">
+      IndAdj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../intrj/" title="Intrj" class="md-nav__link">
+      Intrj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ipadj/" title="IPadj" class="md-nav__link">
+      IPadj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kin/" title="Kin@" class="md-nav__link">
+      Kin@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../know/" title="Know" class="md-nav__link">
+      Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../land/" title="Land" class="md-nav__link">
+      Land
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../legal/" title="Legal" class="md-nav__link">
+      Legal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../male/" title="MALE" class="md-nav__link">
+      MALE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../means/" title="Means" class="md-nav__link">
+      Means
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../meanslw/" title="MeansLw" class="md-nav__link">
+      MeansLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../milit/" title="Milit" class="md-nav__link">
+      Milit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../name/" title="Name" class="md-nav__link">
+      Name
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nation/" title="Nation" class="md-nav__link">
+      Nation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natobj/" title="NatObj" class="md-nav__link">
+      NatObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natrpro/" title="NatrPro" class="md-nav__link">
+      NatrPro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../need/" title="Need" class="md-nav__link">
+      Need
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negaff/" title="NegAff" class="md-nav__link">
+      NegAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negate/" title="Negate" class="md-nav__link">
+      Negate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negativ/" title="Negativ" class="md-nav__link">
+      Negativ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ngtv/" title="Ngtv" class="md-nav__link">
+      Ngtv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../no/" title="No" class="md-nav__link">
+      No
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nonadlt/" title="Nonadlt" class="md-nav__link">
+      Nonadlt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../notlw/" title="NotLw" class="md-nav__link">
+      NotLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../numb/" title="NUMB" class="md-nav__link">
+      NUMB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../object/" title="Object" class="md-nav__link">
+      Object
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ord/" title="ORD" class="md-nav__link">
+      ORD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ought/" title="Ought" class="md-nav__link">
+      Ought
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../our/" title="Our" class="md-nav__link">
+      Our
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ovrst/" title="Ovrst" class="md-nav__link">
+      Ovrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pain/" title="Pain" class="md-nav__link">
+      Pain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../passive/" title="Passive" class="md-nav__link">
+      Passive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perceiv/" title="Perceiv" class="md-nav__link">
+      Perceiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../persist/" title="Persist" class="md-nav__link">
+      Persist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../place/" title="PLACE" class="md-nav__link">
+      PLACE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pleasur/" title="Pleasur" class="md-nav__link">
+      Pleasur
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit/" title="Polit@" class="md-nav__link">
+      Polit@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit1/" title="POLIT" class="md-nav__link">
+      POLIT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pos/" title="POS" class="md-nav__link">
+      POS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../posaff/" title="PosAff" class="md-nav__link">
+      PosAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../positiv/" title="Positiv" class="md-nav__link">
+      Positiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaren/" title="PowAren" class="md-nav__link">
+      PowAren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaupt/" title="PowAuPt" class="md-nav__link">
+      PowAuPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powauth/" title="PowAuth" class="md-nav__link">
+      PowAuth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcon/" title="PowCon" class="md-nav__link">
+      PowCon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcoop/" title="PowCoop" class="md-nav__link">
+      PowCoop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powdoct/" title="PowDoct" class="md-nav__link">
+      PowDoct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powends/" title="PowEnds" class="md-nav__link">
+      PowEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../power/" title="Power" class="md-nav__link">
+      Power
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powgain/" title="PowGain" class="md-nav__link">
+      PowGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powloss/" title="PowLoss" class="md-nav__link">
+      PowLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powoth/" title="PowOth" class="md-nav__link">
+      PowOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powpt/" title="PowPt" class="md-nav__link">
+      PowPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powtot/" title="PowTot" class="md-nav__link">
+      PowTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pstv/" title="Pstv" class="md-nav__link">
+      Pstv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ptlw/" title="PtLw" class="md-nav__link">
+      PtLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quality/" title="Quality" class="md-nav__link">
+      Quality
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quan/" title="Quan" class="md-nav__link">
+      Quan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../race/" title="Race" class="md-nav__link">
+      Race
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcends/" title="RcEnds" class="md-nav__link">
+      RcEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcethic/" title="RcEthic" class="md-nav__link">
+      RcEthic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcgain/" title="RcGain" class="md-nav__link">
+      RcGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcloss/" title="RcLoss" class="md-nav__link">
+      RcLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcrelig/" title="RcRelig" class="md-nav__link">
+      RcRelig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rctot/" title="RcTot" class="md-nav__link">
+      RcTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../region/" title="Region" class="md-nav__link">
+      Region
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rel/" title="Rel" class="md-nav__link">
+      Rel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../relig/" title="Relig" class="md-nav__link">
+      Relig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rise/" title="Rise" class="md-nav__link">
+      Rise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ritual/" title="Ritual" class="md-nav__link">
+      Ritual
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../role/" title="Role" class="md-nav__link">
+      Role
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../route/" title="Route" class="md-nav__link">
+      Route
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspgain/" title="RspGain" class="md-nav__link">
+      RspGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsploss/" title="RspLoss" class="md-nav__link">
+      RspLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspoth/" title="RspOth" class="md-nav__link">
+      RspOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsptot/" title="RspTot" class="md-nav__link">
+      RspTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../say/" title="Say" class="md-nav__link">
+      Say
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../self/" title="Self" class="md-nav__link">
+      Self
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklasth/" title="SklAsth" class="md-nav__link">
+      SklAsth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skloth/" title="SklOth" class="md-nav__link">
+      SklOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklpt/" title="SklPt" class="md-nav__link">
+      SklPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skltot/" title="SklTot" class="md-nav__link">
+      SklTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sky/" title="Sky" class="md-nav__link">
+      Sky
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../social/" title="Social" class="md-nav__link">
+      Social
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../socrel/" title="SocRel" class="md-nav__link">
+      SocRel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../solve/" title="Solve" class="md-nav__link">
+      Solve
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../space/" title="Space" class="md-nav__link">
+      Space
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stay/" title="Stay" class="md-nav__link">
+      Stay
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../strong/" title="Strong" class="md-nav__link">
+      Strong
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../submit/" title="Submit" class="md-nav__link">
+      Submit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../surelw/" title="SureLw" class="md-nav__link">
+      SureLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sv/" title="SV" class="md-nav__link">
+      SV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../think/" title="Think" class="md-nav__link">
+      Think
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time/" title="Time@" class="md-nav__link">
+      Time@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time1/" title="TIME" class="md-nav__link">
+      TIME
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        TimeSpc
+      </label>
+    
+    <a href="./" title="TimeSpc" class="md-nav__link md-nav__link--active">
+      TimeSpc
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tool/" title="Tool" class="md-nav__link">
+      Tool
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tranlw/" title="TranLw" class="md-nav__link">
+      TranLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../travel/" title="Travel" class="md-nav__link">
+      Travel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trngain/" title="TrnGain" class="md-nav__link">
+      TrnGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trnloss/" title="TrnLoss" class="md-nav__link">
+      TrnLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../try/" title="Try" class="md-nav__link">
+      Try
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../undrst/" title="Undrst" class="md-nav__link">
+      Undrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vary/" title="Vary" class="md-nav__link">
+      Vary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vehicle/" title="Vehicle" class="md-nav__link">
+      Vehicle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vice/" title="Vice" class="md-nav__link">
+      Vice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../virtue/" title="Virtue" class="md-nav__link">
+      Virtue
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../weak/" title="Weak" class="md-nav__link">
+      Weak
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbgain/" title="WlbGain" class="md-nav__link">
+      WlbGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbloss/" title="WlbLoss" class="md-nav__link">
+      WlbLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbphys/" title="WlbPhys" class="md-nav__link">
+      WlbPhys
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpsyc/" title="WlbPsyc" class="md-nav__link">
+      WlbPsyc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpt/" title="WlbPt" class="md-nav__link">
+      WlbPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbtot/" title="WlbTot" class="md-nav__link">
+      WlbTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltoth/" title="WltOth" class="md-nav__link">
+      WltOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltpt/" title="WltPt" class="md-nav__link">
+      WltPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttot/" title="WltTot" class="md-nav__link">
+      WltTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttran/" title="WltTran" class="md-nav__link">
+      WltTran
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../work/" title="Work" class="md-nav__link">
+      Work
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../yes/" title="Yes" class="md-nav__link">
+      Yes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../you/" title="You" class="md-nav__link">
+      You
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pmbaumgartner/general-inquirer-remix/edit/master/docs/categories/timespc.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="timespc">TimeSpc</h1>
+<p>"a general space-time category" with 428 words,</p>
+<h2 id="completed">Completed</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">21</td>
+<td align="left">ABOUT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb-modal: "About to"--just going to</td>
+</tr>
+<tr>
+<td align="right">25</td>
+<td align="left">ABOVE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% prep-adv: Higher than, superior to</td>
+</tr>
+<tr>
+<td align="right">26</td>
+<td align="left">ABOVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% noun-adj-adv: Previously stated</td>
+</tr>
+<tr>
+<td align="right">30</td>
+<td align="left">ABROAD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">60</td>
+<td align="left">ACCELERATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">124</td>
+<td align="left">ACROSS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">63% prep: From one point to another, on, over, athwart</td>
+</tr>
+<tr>
+<td align="right">167</td>
+<td align="left">ADJACENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">214</td>
+<td align="left">ADVANCE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% idiom-adv: "In advance"--before, beforehand</td>
+</tr>
+<tr>
+<td align="right">264</td>
+<td align="left">AFTER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">92% prep-adv: Later in time than, following, in pursuit or search of.</td>
+</tr>
+<tr>
+<td align="right">267</td>
+<td align="left">AFTERNOON</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: The time from noon until evening--part of day.</td>
+</tr>
+<tr>
+<td align="right">268</td>
+<td align="left">AFTERWARD</td>
+<td align="left">H4Lvd</td>
+<td align="left">adverb: In later or subsequent time, subsequently.</td>
+</tr>
+<tr>
+<td align="right">269</td>
+<td align="left">AGAIN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">adverb: Once more, anew, another time</td>
+</tr>
+<tr>
+<td align="right">273</td>
+<td align="left">AGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% noun-adj: Time period measured by length of existence, era; possessing  a certain age (3)</td>
+</tr>
+<tr>
+<td align="right">294</td>
+<td align="left">AGO</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj-adv: Gone, past (following nouns), in past time</td>
+</tr>
+<tr>
+<td align="right">304</td>
+<td align="left">AHEAD</td>
+<td align="left">H4Lvd</td>
+<td align="left">adverb: Forward or in front in time, distance, etc.</td>
+</tr>
+<tr>
+<td align="right">389</td>
+<td align="left">ALONG#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% prep-adverb: Through, beside, on, during, with progressive motion,  in accordance with.</td>
+</tr>
+<tr>
+<td align="right">393</td>
+<td align="left">ALONGSIDE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">413</td>
+<td align="left">AM#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adv: Reduced form of "a.m.," the morning</td>
+</tr>
+<tr>
+<td align="right">441</td>
+<td align="left">AMID</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">442</td>
+<td align="left">AMIDST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">446</td>
+<td align="left">AMONG</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep: In or in the midst of, without going beyond</td>
+</tr>
+<tr>
+<td align="right">470</td>
+<td align="left">ANCIENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">496</td>
+<td align="left">ANNUAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">534</td>
+<td align="left">ANYMORE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">538</td>
+<td align="left">ANYWHERE</td>
+<td align="left">H4Lvd</td>
+<td align="left">adverb: Any unspecified place</td>
+</tr>
+<tr>
+<td align="right">539</td>
+<td align="left">APART#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">54% adv-adj: Spatial, away from-'he went apart from the rest', divided,  separated--'his feet were apart,' 'they find themselves further apart  every day.' (3 abstract)</td>
+</tr>
+<tr>
+<td align="right">540</td>
+<td align="left">APART#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% idiom-prep: "Apart from"--except for--'apart from the corn, the crops  were good.'</td>
+</tr>
+<tr>
+<td align="right">596</td>
+<td align="left">APRIL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">617</td>
+<td align="left">AREA</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Region, tract, extent, range, scope, field of study</td>
+</tr>
+<tr>
+<td align="right">758</td>
+<td align="left">ATOP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">798</td>
+<td align="left">AUGUST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">823</td>
+<td align="left">AUTUMN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">848</td>
+<td align="left">AWAY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% adverb: Off, at or to a distance from here and now.</td>
+</tr>
+<tr>
+<td align="right">856</td>
+<td align="left">AWHILE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">869</td>
+<td align="left">BACK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">80% adverb: Toward an original or previous place, time, or condition;  to the rear, behind (much less frequ</td>
+</tr>
+<tr>
+<td align="right">872</td>
+<td align="left">BACK#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% noun-adj: The rear part of something, body part</td>
+</tr>
+<tr>
+<td align="right">879</td>
+<td align="left">BACKGROUND</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">881</td>
+<td align="left">BACKWARD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1024</td>
+<td align="left">BEFORE</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv-conj: Of a previous time, or in front of - literally or figuratively</td>
+</tr>
+<tr>
+<td align="right">1038</td>
+<td align="left">BEHIND</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv: In back of, responsible for, not up-to-date, inferior to</td>
+</tr>
+<tr>
+<td align="right">1057</td>
+<td align="left">BELOW</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv: Lower than, in or toward a lower place.</td>
+</tr>
+<tr>
+<td align="right">1062</td>
+<td align="left">BENEATH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1083</td>
+<td align="left">BESIDE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">36% preposition: Next to</td>
+</tr>
+<tr>
+<td align="right">1099</td>
+<td align="left">BETWEEN</td>
+<td align="left">H4Lvd</td>
+<td align="left">preposition: Denoting some relationship involving at least 2 parties,  objects, times, degrees, quantities, et</td>
+</tr>
+<tr>
+<td align="right">1103</td>
+<td align="left">BEYOND</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv.: Farther than, farther, exceeding, outside the possibility of</td>
+</tr>
+<tr>
+<td align="right">1261</td>
+<td align="left">BOTTOM</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Lower part, basic part</td>
+</tr>
+<tr>
+<td align="right">1271</td>
+<td align="left">BOUNDARY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Limit, edge, border</td>
+</tr>
+<tr>
+<td align="right">1336</td>
+<td align="left">BRIEF</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1352</td>
+<td align="left">BROAD</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Wide, extensive (includes comparative, superlative and adverb forms)</td>
+</tr>
+<tr>
+<td align="right">1355</td>
+<td align="left">BROADEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1457</td>
+<td align="left">CALENDAR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1602</td>
+<td align="left">CENTER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">78% noun: Middle or focal point; place where various generally public,  social services and activities are performed and provided-- "community  center," "center for the</td>
+</tr>
+<tr>
+<td align="right">1604</td>
+<td align="left">CENTIMETER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1606</td>
+<td align="left">CENTRAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1609</td>
+<td align="left">CENTURY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Time period, 100 years</td>
+</tr>
+<tr>
+<td align="right">1749</td>
+<td align="left">CIRCLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">80% noun: Round object or shape, cycle; coterie, group of people (6)</td>
+</tr>
+<tr>
+<td align="right">1750</td>
+<td align="left">CIRCLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% verb: To encircle, to move in a circle</td>
+</tr>
+<tr>
+<td align="right">1784</td>
+<td align="left">CLASSIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2098</td>
+<td align="left">CONCLUDE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2099</td>
+<td align="left">CONCLUSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2104</td>
+<td align="left">CONCURRENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2249</td>
+<td align="left">CONTEMPORANEOUS</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2343</td>
+<td align="left">CORNER</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A meeting place of two converging lines or planes</td>
+</tr>
+<tr>
+<td align="right">2525</td>
+<td align="left">CUBIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2552</td>
+<td align="left">CURRENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">68% adj: Present, contemporary</td>
+</tr>
+<tr>
+<td align="right">2554</td>
+<td align="left">CURRENT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% adv: "Currently"--presently</td>
+</tr>
+<tr>
+<td align="right">2562</td>
+<td align="left">CURVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2571</td>
+<td align="left">CYCLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2582</td>
+<td align="left">DAILY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2607</td>
+<td align="left">DATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% noun: Specific point in time; used elliptically to mean the present--  "to date" (6)</td>
+</tr>
+<tr>
+<td align="right">2609</td>
+<td align="left">DATE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: To indicate a point in time</td>
+</tr>
+<tr>
+<td align="right">2615</td>
+<td align="left">DAWN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">80% noun: Sunrise; origin, beginning (1)</td>
+</tr>
+<tr>
+<td align="right">2618</td>
+<td align="left">DAY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The interval of light between two successive nights--24 hours--  a specific period, time or day</td>
+</tr>
+<tr>
+<td align="right">2619</td>
+<td align="left">DAYLIGHT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2620</td>
+<td align="left">DAYTIME</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2648</td>
+<td align="left">DECADE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2658</td>
+<td align="left">DECEMBER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2913</td>
+<td align="left">DIAMETER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2956</td>
+<td align="left">DIRECT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% adv: "Directly"--without mediation, not obliquely, straightaway, presently</td>
+</tr>
+<tr>
+<td align="right">2957</td>
+<td align="left">DIRECTION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% noun: The line along which anything lies, faces, moves, etc.--a line  of thought, progression, action or a tendency or inclination</td>
+</tr>
+<tr>
+<td align="right">3087</td>
+<td align="left">DISTANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Space separating two things or points</td>
+</tr>
+<tr>
+<td align="right">3088</td>
+<td align="left">DISTANT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3118</td>
+<td align="left">DIURNAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3170</td>
+<td align="left">DOOR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% idiom-adj-adv: 'next door'--neighboring or adjacent</td>
+</tr>
+<tr>
+<td align="right">3291</td>
+<td align="left">DURATION</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3292</td>
+<td align="left">DURING</td>
+<td align="left">H4Lvd</td>
+<td align="left">preposition: Throughout, at some point in time.</td>
+</tr>
+<tr>
+<td align="right">3293</td>
+<td align="left">DUSK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3314</td>
+<td align="left">EARLIEST</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3315</td>
+<td align="left">EARLY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">68% adv-adjective: In or during the first part of a period of time, course  of action, series of events</td>
+</tr>
+<tr>
+<td align="right">3317</td>
+<td align="left">EARLY#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adv-adjective: Earliest--superlative of 'early'.</td>
+</tr>
+<tr>
+<td align="right">3332</td>
+<td align="left">EAST</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adv-adj: The compass direction, in, of, to or toward this direction,  the eastern part of the earth, especially asia, the eastern part of the u.s.</td>
+</tr>
+<tr>
+<td align="right">3336</td>
+<td align="left">EASTERN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3410</td>
+<td align="left">ELAPSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3411</td>
+<td align="left">ELAPSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3445</td>
+<td align="left">ELONGATED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3449</td>
+<td align="left">ELSEWHERE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3503</td>
+<td align="left">END#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">55% noun-adj: Termination, conclusion, final or farthest point</td>
+</tr>
+<tr>
+<td align="right">3504</td>
+<td align="left">END#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% verb: To finish, terminate</td>
+</tr>
+<tr>
+<td align="right">3610</td>
+<td align="left">ERA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3644</td>
+<td align="left">ETERNAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3670</td>
+<td align="left">EVENING</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The latter part of the day.</td>
+</tr>
+<tr>
+<td align="right">3684</td>
+<td align="left">EVERYWHERE</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv: In all places</td>
+</tr>
+<tr>
+<td align="right">3756</td>
+<td align="left">EXIST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">77% verb: To live, to be</td>
+</tr>
+<tr>
+<td align="right">3757</td>
+<td align="left">EXIST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">23% adj: "Existing"--extant</td>
+</tr>
+<tr>
+<td align="right">3758</td>
+<td align="left">EXISTENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The state or quality of being, life</td>
+</tr>
+<tr>
+<td align="right">3816</td>
+<td align="left">EXTEND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Extended" - prolonged or lengthened</td>
+</tr>
+<tr>
+<td align="right">3890</td>
+<td align="left">FALL#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun-adj: Autumn</td>
+</tr>
+<tr>
+<td align="right">3918</td>
+<td align="left">FAR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">60% adv-adj: Being at or to a great distance, a long way off; at or to  a rEMOTe or advanced point or time (7)</td>
+</tr>
+<tr>
+<td align="right">3953</td>
+<td align="left">FATHOM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3981</td>
+<td align="left">FEBRUARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4082</td>
+<td align="left">FINAL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">24% adjective: Last, eventual, terminal</td>
+</tr>
+<tr>
+<td align="right">4083</td>
+<td align="left">FINAL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">76% adverb: "Finally"--at last, eventually</td>
+</tr>
+<tr>
+<td align="right">4115</td>
+<td align="left">FIRST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">61% adj: Initial, foremost</td>
+</tr>
+<tr>
+<td align="right">4116</td>
+<td align="left">FIRST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">25% adv: 'first,' 'firstly'--initially</td>
+</tr>
+<tr>
+<td align="right">4221</td>
+<td align="left">FOLLOW#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% adj-noun: "Following"--that which comes immediately after or next  in order or time, ensuing</td>
+</tr>
+<tr>
+<td align="right">4271</td>
+<td align="left">FOREVER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4290</td>
+<td align="left">FORMER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">76% adj: Previous</td>
+</tr>
+<tr>
+<td align="right">4292</td>
+<td align="left">FORMER#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% adv: "Formerly"--previously</td>
+</tr>
+<tr>
+<td align="right">4302</td>
+<td align="left">FORTHCOMING</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4303</td>
+<td align="left">FORTHWITH</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4313</td>
+<td align="left">FORWARD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% adv: Toward or at a place, point, or time in advance, ahead, onward</td>
+</tr>
+<tr>
+<td align="right">4338</td>
+<td align="left">FRAMEWORK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4361</td>
+<td align="left">FREQUENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">45% adj: Occurring often, habitual</td>
+</tr>
+<tr>
+<td align="right">4362</td>
+<td align="left">FREQUENT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">55% adv: 'frequently'--often</td>
+</tr>
+<tr>
+<td align="right">4370</td>
+<td align="left">FRIDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4386</td>
+<td align="left">FRONT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">24% noun: The forward portion of something; specifically, the lines of battle (2)</td>
+</tr>
+<tr>
+<td align="right">4387</td>
+<td align="left">FRONT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">26% adj: Forward, at the front</td>
+</tr>
+<tr>
+<td align="right">4389</td>
+<td align="left">FRONT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">46% prep-adv: "In front (of)"--before, ahead (of)</td>
+</tr>
+<tr>
+<td align="right">4505</td>
+<td align="left">GENERAL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% adv: "Generally, in general"--as a rule, usually, commonly</td>
+</tr>
+<tr>
+<td align="right">4972</td>
+<td align="left">HEIGHT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4996</td>
+<td align="left">HERE</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv: To or in this place, spot, or locality--at this point or juncture--this place.</td>
+</tr>
+<tr>
+<td align="right">5000</td>
+<td align="left">HERETOFORE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5014</td>
+<td align="left">HIATUS</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5056</td>
+<td align="left">HITHERTO</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5125</td>
+<td align="left">HOUR</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj.: Specific period of time, one twenty-fourth of a day</td>
+</tr>
+<tr>
+<td align="right">5255</td>
+<td align="left">IMMEDIACY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5256</td>
+<td align="left">IMMEDIATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% adjective: Instantaneous, in the very near future, temporally close  or adjacent, present; spatially close, near (</td>
+</tr>
+<tr>
+<td align="right">5257</td>
+<td align="left">IMMEDIATE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% adverb: "Immediately"--without delay, instantly, at once</td>
+</tr>
+<tr>
+<td align="right">5262</td>
+<td align="left">IMMINENT</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5350</td>
+<td align="left">INCH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5360</td>
+<td align="left">INCOME#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Incoming", coming in, arriving</td>
+</tr>
+<tr>
+<td align="right">5491</td>
+<td align="left">INFREQUENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5514</td>
+<td align="left">INNER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5534</td>
+<td align="left">INSIDE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">43% prep: In, within</td>
+</tr>
+<tr>
+<td align="right">5535</td>
+<td align="left">INSIDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">41% adv: Within</td>
+</tr>
+<tr>
+<td align="right">5536</td>
+<td align="left">INSIDE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adj: Internal</td>
+</tr>
+<tr>
+<td align="right">5537</td>
+<td align="left">INSIDE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun: The part within, interior</td>
+</tr>
+<tr>
+<td align="right">5561</td>
+<td align="left">INSTANT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5562</td>
+<td align="left">INSTANTLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5618</td>
+<td align="left">INTERIM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5619</td>
+<td align="left">INTERIOR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5621</td>
+<td align="left">INTERNAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5634</td>
+<td align="left">INTERVAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5643</td>
+<td align="left">INTO</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep: Indicates motion or direction toward the inner part of a place or  thing, entrance or inclusion within limits</td>
+</tr>
+<tr>
+<td align="right">5693</td>
+<td align="left">INWARD</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5743</td>
+<td align="left">JANUARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5799</td>
+<td align="left">JULY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5804</td>
+<td align="left">JUNE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5851</td>
+<td align="left">KILOMETER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5936</td>
+<td align="left">LAST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">45% adj: Previous, past, prior, most recent</td>
+</tr>
+<tr>
+<td align="right">5938</td>
+<td align="left">LAST#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% idiom-adv: "At . . .," "at long last"--finally</td>
+</tr>
+<tr>
+<td align="right">5941</td>
+<td align="left">LATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">57% adj-adv: "Later"--at a more advanced time</td>
+</tr>
+<tr>
+<td align="right">5943</td>
+<td align="left">LATE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% adv: "Lately"--"of late"--recently, not long since</td>
+</tr>
+<tr>
+<td align="right">5946</td>
+<td align="left">LATE#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Latest"--most recent, current, coming after all others</td>
+</tr>
+<tr>
+<td align="right">5971</td>
+<td align="left">LAYER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6014</td>
+<td align="left">LEFT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun-adj: Physical direction, vs. "right"</td>
+</tr>
+<tr>
+<td align="right">6034</td>
+<td align="left">LENGTH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% noun: The extent or duration of something from end to end, beginning  to end, top to bottom, etc.</td>
+</tr>
+<tr>
+<td align="right">6035</td>
+<td align="left">LENGTH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">50% idiom-adv: "At length"--after a time, finally</td>
+</tr>
+<tr>
+<td align="right">6037</td>
+<td align="left">LENGTHY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6084</td>
+<td align="left">LIFETIME</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6107</td>
+<td align="left">LIMIT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">42% noun: The final or furthest bound or point as to extent, amount, procedure</td>
+</tr>
+<tr>
+<td align="right">6112</td>
+<td align="left">LIMITLESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6162</td>
+<td align="left">LOCAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Pertaining to or characteristic of a small district</td>
+</tr>
+<tr>
+<td align="right">6163</td>
+<td align="left">LOCALE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6180</td>
+<td align="left">LONG#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% adv-idiom: Expresses termination of an action or state--'no longer,'  'any longer'</td>
+</tr>
+<tr>
+<td align="right">6187</td>
+<td align="left">LONG-RANGE</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6188</td>
+<td align="left">LONG-STANDING</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6189</td>
+<td align="left">LONG-TERM</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6378</td>
+<td align="left">MAP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6383</td>
+<td align="left">MARCH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">55% noun-adj: The month</td>
+</tr>
+<tr>
+<td align="right">6460</td>
+<td align="left">MAY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: The fifth month of the year</td>
+</tr>
+<tr>
+<td align="right">6479</td>
+<td align="left">MEANTIME</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6480</td>
+<td align="left">MEANWHILE</td>
+<td align="left">H4Lvd</td>
+<td align="left">adverb: In the intervening time, at the same time.</td>
+</tr>
+<tr>
+<td align="right">6572</td>
+<td align="left">MIDDLE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Between the extremes, center, central</td>
+</tr>
+<tr>
+<td align="right">6574</td>
+<td align="left">MIDNIGHT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6575</td>
+<td align="left">MIDST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6581</td>
+<td align="left">MILE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A measure of distance.</td>
+</tr>
+<tr>
+<td align="right">6627</td>
+<td align="left">MINUTE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Exactly or approximately 60 seconds, any short space of time or an instant</td>
+</tr>
+<tr>
+<td align="right">6707</td>
+<td align="left">MOMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: An indefinitely short space of time, the present or any other particular  instant</td>
+</tr>
+<tr>
+<td align="right">6708</td>
+<td align="left">MOMENTARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6713</td>
+<td align="left">MONDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6725</td>
+<td align="left">MONTH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: One twelfth of a calendar year</td>
+</tr>
+<tr>
+<td align="right">6726</td>
+<td align="left">MONTH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adv-adj: "Monthly"--once a month</td>
+</tr>
+<tr>
+<td align="right">6739</td>
+<td align="left">MORNING</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: The early part of the day</td>
+</tr>
+<tr>
+<td align="right">6786</td>
+<td align="left">MPH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6873</td>
+<td align="left">NEAR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% prep: Close to</td>
+</tr>
+<tr>
+<td align="right">6874</td>
+<td align="left">NEAR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% adj: Close, imminent</td>
+</tr>
+<tr>
+<td align="right">6875</td>
+<td align="left">NEAR#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adv: Nearby, close</td>
+</tr>
+<tr>
+<td align="right">6880</td>
+<td align="left">NEARBY</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv-adj.: Neighboring, adjacent, close.</td>
+</tr>
+<tr>
+<td align="right">6910</td>
+<td align="left">NEIGHBOR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adjective: "Neighboring"--living or situated near, adjacent</td>
+</tr>
+<tr>
+<td align="right">6947</td>
+<td align="left">NEXT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">81% adj-adv: Immediately succeeding in some sequence, usually temporal-- 95 percent</td>
+</tr>
+<tr>
+<td align="right">6948</td>
+<td align="left">NEXT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% prep: "Next to"--beside (spatial); important, next to the teachers")  (1), or almost ("next to useless") (1)</td>
+</tr>
+<tr>
+<td align="right">6961</td>
+<td align="left">NIGHT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Period of darkness between sunset and sunrise, relating to same</td>
+</tr>
+<tr>
+<td align="right">6962</td>
+<td align="left">NIGHT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adv: "Nightly", at night or every night</td>
+</tr>
+<tr>
+<td align="right">7006</td>
+<td align="left">NOON</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7011</td>
+<td align="left">NORTH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">92% noun-adv-adj: Compass direction, in, of, to, toward or facing this  direction; used in titles of various nations and geographic regions, as  "north vietnam," "north dakota" (7)</td>
+</tr>
+<tr>
+<td align="right">7013</td>
+<td align="left">NORTHEAST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7014</td>
+<td align="left">NORTHERLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7015</td>
+<td align="left">NORTHERN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7017</td>
+<td align="left">NORTHWEST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7041</td>
+<td align="left">NOVEMBER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7043</td>
+<td align="left">NOW</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv: At the present time--or used to introduce certain types of remarks,  particularly in tales ('now there once was . . .)</td>
+</tr>
+<tr>
+<td align="right">7070</td>
+<td align="left">O'CLOCK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7107</td>
+<td align="left">OCCASION#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% adv: "On occasion", "upon occasion", occasionally, from time to time</td>
+</tr>
+<tr>
+<td align="right">7108</td>
+<td align="left">OCCASIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Infrequent, once in a while</td>
+</tr>
+<tr>
+<td align="right">7116</td>
+<td align="left">OCTOBER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7140</td>
+<td align="left">OFFSHORE</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7142</td>
+<td align="left">OFTEN</td>
+<td align="left">H4Lvd</td>
+<td align="left">adverb: Many times, frequently</td>
+</tr>
+<tr>
+<td align="right">7147</td>
+<td align="left">OLD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% adjective: Aged, long standing, prior, used affectionately toward  something or someone known a long time</td>
+</tr>
+<tr>
+<td align="right">7155</td>
+<td align="left">ONCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% adverb: One time, at one time, when</td>
+</tr>
+<tr>
+<td align="right">7230</td>
+<td align="left">ORIENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7233</td>
+<td align="left">ORIGINAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Earliest; prototypical, innovative, novel</td>
+</tr>
+<tr>
+<td align="right">7247</td>
+<td align="left">OTHER#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adv: "The other day, night, evening, etc."--a day (night, etc.) or two ago</td>
+</tr>
+<tr>
+<td align="right">7259</td>
+<td align="left">OUT</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv: Outside of, away from, empty--into existence, activity, or public notice</td>
+</tr>
+<tr>
+<td align="right">7260</td>
+<td align="left">OUTBACK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7268</td>
+<td align="left">OUTER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7286</td>
+<td align="left">OUTSIDE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">84% adv-adj-prep: Acting, being, or performing beyond an enclosure, especially  something familiar, either concrete--a house--or abstract--a group, etc.</td>
+</tr>
+<tr>
+<td align="right">7287</td>
+<td align="left">OUTSIDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun: The outer side, something external, the space beyond a boundary</td>
+</tr>
+<tr>
+<td align="right">7292</td>
+<td align="left">OUTWARD</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7294</td>
+<td align="left">OVAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7295</td>
+<td align="left">OVER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">61% prep-adv: Above, on, across, upon, with motion verb indicates a change  in place or position--"he went over the fields," "it fell over"</td>
+</tr>
+<tr>
+<td align="right">7297</td>
+<td align="left">OVER#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: Terminated--"i wish this job were over"</td>
+</tr>
+<tr>
+<td align="right">7315</td>
+<td align="left">OVERLAND</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7319</td>
+<td align="left">OVERLYING</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7320</td>
+<td align="left">OVERNIGHT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7326</td>
+<td align="left">OVERSEA</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7472</td>
+<td align="left">PAST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">63% adj: Previous, preceding</td>
+</tr>
+<tr>
+<td align="right">7473</td>
+<td align="left">PAST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% prep: Beyond, after</td>
+</tr>
+<tr>
+<td align="right">7474</td>
+<td align="left">PAST#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">25% noun: Time gone by, past career, history</td>
+</tr>
+<tr>
+<td align="right">7475</td>
+<td align="left">PAST#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adv: By, beyond</td>
+</tr>
+<tr>
+<td align="right">7502</td>
+<td align="left">PAUSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7503</td>
+<td align="left">PAUSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7569</td>
+<td align="left">PERIOD</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Interval of time.</td>
+</tr>
+<tr>
+<td align="right">7573</td>
+<td align="left">PERMANENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7579</td>
+<td align="left">PERPETUAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7679</td>
+<td align="left">PLACE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">80% noun: Particular portion of space, position, locality, location in  a continuum, rank</td>
+</tr>
+<tr>
+<td align="right">7768</td>
+<td align="left">POINT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">34% noun: Temporal or spatial (much less frequent) location, level, degree,  stage; a dot, sharp end (infrequent)</td>
+</tr>
+<tr>
+<td align="right">7850</td>
+<td align="left">POSTPONEMENT</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7887</td>
+<td align="left">PRECEDE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7888</td>
+<td align="left">PRECEDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7913</td>
+<td align="left">PRELUDE</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7914</td>
+<td align="left">PREMATURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7930</td>
+<td align="left">PRESENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">39% adj: Current, near in time--"the present policy"</td>
+</tr>
+<tr>
+<td align="right">7931</td>
+<td align="left">PRESENT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">17% adv: Currently, shortly--"presently," "at present"</td>
+</tr>
+<tr>
+<td align="right">7936</td>
+<td align="left">PRESENT-DAY</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7975</td>
+<td align="left">PREVIOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left">adjective: Prior, coming before something else.</td>
+</tr>
+<tr>
+<td align="right">7998</td>
+<td align="left">PRIOR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8123</td>
+<td align="left">PROTRACTED</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8213</td>
+<td align="left">QUARTER#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adv: "Quarterly" - four times a year</td>
+</tr>
+<tr>
+<td align="right">8228</td>
+<td align="left">QUICK</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Fast, speedy</td>
+</tr>
+<tr>
+<td align="right">8281</td>
+<td align="left">RANGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">81% noun: Scope, series</td>
+</tr>
+<tr>
+<td align="right">8294</td>
+<td align="left">RARE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">35% adv: "Rarely"--seldom</td>
+</tr>
+<tr>
+<td align="right">8382</td>
+<td align="left">RECESS</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8742</td>
+<td align="left">RHYTHM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8743</td>
+<td align="left">RHYTHMIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8768</td>
+<td align="left">RIGHT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% adv: Directly, straight, immediately, precisely, just</td>
+</tr>
+<tr>
+<td align="right">8769</td>
+<td align="left">RIGHT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun-adj: The physical direction</td>
+</tr>
+<tr>
+<td align="right">8865</td>
+<td align="left">ROUGH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% adj: Coarse, uneven, difficult; approximate (2)</td>
+</tr>
+<tr>
+<td align="right">8869</td>
+<td align="left">ROUND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% prep: Encircling, in a circuit or course through or around, by-passing</td>
+</tr>
+<tr>
+<td align="right">8870</td>
+<td align="left">ROUND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">26% adv: Around, in a circle or circuit; surrounding, on all sides, here  and there; approximately--"round about"</td>
+</tr>
+<tr>
+<td align="right">8871</td>
+<td align="left">ROUND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% adj: Spherical, curved</td>
+</tr>
+<tr>
+<td align="right">8880</td>
+<td align="left">ROUTE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9004</td>
+<td align="left">SATURDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9046</td>
+<td align="left">SCHEDULE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9047</td>
+<td align="left">SCHEDULE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9106</td>
+<td align="left">SEASON</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9114</td>
+<td align="left">SECOND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">84% pron-adj-adv: Unit of series following the first</td>
+</tr>
+<tr>
+<td align="right">9115</td>
+<td align="left">SECOND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: Unit of time</td>
+</tr>
+<tr>
+<td align="right">9116</td>
+<td align="left">SECOND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% adv: "Secondly," "second"--in the second place</td>
+</tr>
+<tr>
+<td align="right">9119</td>
+<td align="left">SECONDARY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% adj: Second in sequence or priority</td>
+</tr>
+<tr>
+<td align="right">9126</td>
+<td align="left">SECTOR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9153</td>
+<td align="left">SELDOM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9199</td>
+<td align="left">SEPARATE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">44% adj: Disconnected, apart, individual</td>
+</tr>
+<tr>
+<td align="right">9200</td>
+<td align="left">SEPARATE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% adv: "Separately"--individually</td>
+</tr>
+<tr>
+<td align="right">9202</td>
+<td align="left">SEPTEMBER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9203</td>
+<td align="left">SEQUENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9274</td>
+<td align="left">SHALLOW</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9349</td>
+<td align="left">SHORT-TERM</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9403</td>
+<td align="left">SIDE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">94% noun: A limiting line or surface, the left or right side of a body  or solid object (173); one of the parties in a contest, game or politics  (51); an aspect or phase, espe</td>
+</tr>
+<tr>
+<td align="right">9404</td>
+<td align="left">SIDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-adv: "Side by side"--alongside of</td>
+</tr>
+<tr>
+<td align="right">9450</td>
+<td align="left">SINCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">52% conj-prep-adv: From some past time to the present</td>
+</tr>
+<tr>
+<td align="right">9469</td>
+<td align="left">SITE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9647</td>
+<td align="left">SOMETIME#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adverb: At some indefinite or indeterminate point in time</td>
+</tr>
+<tr>
+<td align="right">9650</td>
+<td align="left">SOMEWHERE</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv: At (in, to) some place</td>
+</tr>
+<tr>
+<td align="right">9653</td>
+<td align="left">SOON#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">94% adv: Within a short period after this or that time, event, etc.</td>
+</tr>
+<tr>
+<td align="right">9681</td>
+<td align="left">SOUTH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% noun-adv-adj: The compass direction, (anything) in, of, to, toward,  or facing this direction; often used as part of the title of a country  or geographical region, or of someone inh</td>
+</tr>
+<tr>
+<td align="right">9686</td>
+<td align="left">SOUTHEAST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9687</td>
+<td align="left">SOUTHERN</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Of or about the south, especially the southeast of the united states</td>
+</tr>
+<tr>
+<td align="right">9689</td>
+<td align="left">SOUTHWEST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9693</td>
+<td align="left">SPACE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">92% noun-adj: Unlimited or indefinite three-dimensional expanse; a specific  empty or available area or volume (6)</td>
+</tr>
+<tr>
+<td align="right">9696</td>
+<td align="left">SPAN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9733</td>
+<td align="left">SPEED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9734</td>
+<td align="left">SPEED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9737</td>
+<td align="left">SPELL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9773</td>
+<td align="left">SPOT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% noun: A situation, place or locality; a stain, blot or speck (2)</td>
+</tr>
+<tr>
+<td align="right">9776</td>
+<td align="left">SPOT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adv: "On the spot"--at once</td>
+</tr>
+<tr>
+<td align="right">9788</td>
+<td align="left">SPRING#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">65% noun-adj: The season</td>
+</tr>
+<tr>
+<td align="right">9803</td>
+<td align="left">SQUARE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9926</td>
+<td align="left">STILL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% adv: As previously, yet, even now</td>
+</tr>
+<tr>
+<td align="right">9962</td>
+<td align="left">STORE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun (adj-adv): 'in store'--in the future</td>
+</tr>
+<tr>
+<td align="right">10000</td>
+<td align="left">STRETCH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10110</td>
+<td align="left">SUCCEED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% adj: "Succeeding"--following</td>
+</tr>
+<tr>
+<td align="right">10114</td>
+<td align="left">SUCCESSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10125</td>
+<td align="left">SUDDEN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">20% adjective: Unexpected, abrupt.</td>
+</tr>
+<tr>
+<td align="right">10155</td>
+<td align="left">SUMMER</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: The season between spring and autumn</td>
+</tr>
+<tr>
+<td align="right">10162</td>
+<td align="left">SUNDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10164</td>
+<td align="left">SUNDOWN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10214</td>
+<td align="left">SURFACE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">86% noun-adj: Outer or top layer</td>
+</tr>
+<tr>
+<td align="right">10231</td>
+<td align="left">SURROUND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Surrounded"--enclosed, encompassed</td>
+</tr>
+<tr>
+<td align="right">10232</td>
+<td align="left">SURROUND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% adj: "Surrounding"--neighboring</td>
+</tr>
+<tr>
+<td align="right">10342</td>
+<td align="left">TALL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10411</td>
+<td align="left">TEMPORARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10436</td>
+<td align="left">TERMINATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10437</td>
+<td align="left">TERMINATION</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10487</td>
+<td align="left">THERE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">38% adv: Locative--in that place--'he was there'</td>
+</tr>
+<tr>
+<td align="right">10488</td>
+<td align="left">THEREAFTER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10491</td>
+<td align="left">THEREFROM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10492</td>
+<td align="left">THEREIN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10493</td>
+<td align="left">THEREOF</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10495</td>
+<td align="left">THERETO</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10496</td>
+<td align="left">THEREUPON</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10543</td>
+<td align="left">THREE-DIMENSIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10571</td>
+<td align="left">THURSDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10584</td>
+<td align="left">TILL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% prep: Until--up to a time</td>
+</tr>
+<tr>
+<td align="right">10650</td>
+<td align="left">TODAY</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv: On this day, at the present time, the present day or era</td>
+</tr>
+<tr>
+<td align="right">10665</td>
+<td align="left">TOMORROW</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv: The day after today, the future</td>
+</tr>
+<tr>
+<td align="right">10669</td>
+<td align="left">TONIGHT</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adv: This evening</td>
+</tr>
+<tr>
+<td align="right">10714</td>
+<td align="left">TOWARD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">77% prep: To, in the direction of (including time)</td>
+</tr>
+<tr>
+<td align="right">10854</td>
+<td align="left">TUESDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11097</td>
+<td align="left">UNTIL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% prep: Up to a time</td>
+</tr>
+<tr>
+<td align="right">11115</td>
+<td align="left">UP</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv: Toward a higher, more prominent or final position, into or in  existence or operation (much less frequent)</td>
+</tr>
+<tr>
+<td align="right">11123</td>
+<td align="left">UPON</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep: Used as equivalent for 'on'</td>
+</tr>
+<tr>
+<td align="right">11124</td>
+<td align="left">UPPER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11163</td>
+<td align="left">USUAL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% adv: "Usually"--habitually, customarily, ordinarily</td>
+</tr>
+<tr>
+<td align="right">11212</td>
+<td align="left">VAST</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Very large, enormous</td>
+</tr>
+<tr>
+<td align="right">11214</td>
+<td align="left">VECTOR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11243</td>
+<td align="left">VERTICAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11262</td>
+<td align="left">VICINITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11405</td>
+<td align="left">WATCH#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: A timepiece</td>
+</tr>
+<tr>
+<td align="right">11456</td>
+<td align="left">WEDNESDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11459</td>
+<td align="left">WEEK</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A period of seven successive days, usually understood as beginning  on sunday and ending on saturday</td>
+</tr>
+<tr>
+<td align="right">11460</td>
+<td align="left">WEEKEND</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11461</td>
+<td align="left">WEEKLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11490</td>
+<td align="left">WEST</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adv-adj: The compass direction, in, of, to, toward or facing this  direction, the western part of the earth, especially west europe and north  america, the western part of the u.s.;</td>
+</tr>
+<tr>
+<td align="right">11491</td>
+<td align="left">WESTERN</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: In, of, from or toward the west</td>
+</tr>
+<tr>
+<td align="right">11494</td>
+<td align="left">WESTWARD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11507</td>
+<td align="left">WHEN</td>
+<td align="left">H4Lvd</td>
+<td align="left">conj: At the time that, at what time</td>
+</tr>
+<tr>
+<td align="right">11508</td>
+<td align="left">WHENEVER</td>
+<td align="left">H4Lvd</td>
+<td align="left">conj: At whatever time</td>
+</tr>
+<tr>
+<td align="right">11509</td>
+<td align="left">WHERE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% adv: In, at, to, or from what place or position</td>
+</tr>
+<tr>
+<td align="right">11510</td>
+<td align="left">WHERE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">86% conj: In, at, to, or from what place or position, or the place or  position in, at, to, or from which . . .</td>
+</tr>
+<tr>
+<td align="right">11514</td>
+<td align="left">WHEREIN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11515</td>
+<td align="left">WHEREVER</td>
+<td align="left">H4Lvd</td>
+<td align="left">conj: In, at, to whatever place or condition</td>
+</tr>
+<tr>
+<td align="right">11519</td>
+<td align="left">WHILE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% noun: A period or interval of time</td>
+</tr>
+<tr>
+<td align="right">11520</td>
+<td align="left">WHILE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">69% conjunction: During or in the time that</td>
+</tr>
+<tr>
+<td align="right">11566</td>
+<td align="left">WIDE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% adj: Broad, far-reaching, inclusive</td>
+</tr>
+<tr>
+<td align="right">11567</td>
+<td align="left">WIDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% adv: "Widely"--broadly</td>
+</tr>
+<tr>
+<td align="right">11569</td>
+<td align="left">WIDE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% adj: "Wider"--comparative of sense 1</td>
+</tr>
+<tr>
+<td align="right">11570</td>
+<td align="left">WIDE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Widest"--superlative of sense 1</td>
+</tr>
+<tr>
+<td align="right">11571</td>
+<td align="left">WIDEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11572</td>
+<td align="left">WIDESPREAD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11576</td>
+<td align="left">WIDTH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11634</td>
+<td align="left">WITHIN</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv: Not beyond, inside</td>
+</tr>
+<tr>
+<td align="right">11742</td>
+<td align="left">YEAR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% noun: A period of 365 days</td>
+</tr>
+<tr>
+<td align="right">11743</td>
+<td align="left">YEAR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj-adv: "Yearly"</td>
+</tr>
+<tr>
+<td align="right">11752</td>
+<td align="left">YESTERDAY</td>
+<td align="left">H4Lvd</td>
+<td align="left">adv-noun: On the day preceding this day, or a short time ago</td>
+</tr>
+<tr>
+<td align="right">11760</td>
+<td align="left">YONDER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="incomplete">Incomplete</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">127</td>
+<td align="left">ACROSS#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-prep: "Across from"--opposite</td>
+</tr>
+<tr>
+<td align="right">270</td>
+<td align="left">AGAIN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-adv: 'again and again'--repeatedly</td>
+</tr>
+<tr>
+<td align="right">276</td>
+<td align="left">AGE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun-adj: "Aging"--growing old</td>
+</tr>
+<tr>
+<td align="right">850</td>
+<td align="left">AWAY#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-adverb: 'right away'--immediately</td>
+</tr>
+<tr>
+<td align="right">1806</td>
+<td align="left">CLEAR#9</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adv: Completely, all the way, away from</td>
+</tr>
+<tr>
+<td align="right">1945</td>
+<td align="left">COME#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% idiom-verb: "Come about"--occur; change direction (nautical)</td>
+</tr>
+<tr>
+<td align="right">3278</td>
+<td align="left">DUE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj-adv: Directly--"due west"</td>
+</tr>
+<tr>
+<td align="right">3316</td>
+<td align="left">EARLY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% adv-adj: Earlier--comparative of 'early'.</td>
+</tr>
+<tr>
+<td align="right">3507</td>
+<td align="left">END#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun-adj: 'ending'--conclusion, concluding</td>
+</tr>
+<tr>
+<td align="right">3676</td>
+<td align="left">EVER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">19% adverb: At all times, always, continuously</td>
+</tr>
+<tr>
+<td align="right">3998</td>
+<td align="left">FEET#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">26% noun: Measurement of distance, 12 inches (plural)</td>
+</tr>
+<tr>
+<td align="right">4118</td>
+<td align="left">FIRST#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% idiom-adv: 'at first'--initially</td>
+</tr>
+<tr>
+<td align="right">4119</td>
+<td align="left">FIRST#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-adv: 'first of all'--at the outset, to begin</td>
+</tr>
+<tr>
+<td align="right">4120</td>
+<td align="left">FIRST#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-adv: 'in the first place'--to begin; handled by 'place'</td>
+</tr>
+<tr>
+<td align="right">4220</td>
+<td align="left">FOLLOW#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">22% verb: To come after in sequence or time, succeed</td>
+</tr>
+<tr>
+<td align="right">4242</td>
+<td align="left">FOOT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun: Measure of distance--12 inches</td>
+</tr>
+<tr>
+<td align="right">4300</td>
+<td align="left">FORTH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">17% idiom-adv: "Back and forth"--from one direction to another and back</td>
+</tr>
+<tr>
+<td align="right">4445</td>
+<td align="left">FURTHER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% adverb: Farther, i.e., more distant</td>
+</tr>
+<tr>
+<td align="right">4924</td>
+<td align="left">HEAD#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: To set out for or be going toward--'be headed for home'</td>
+</tr>
+<tr>
+<td align="right">5814</td>
+<td align="left">JUST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% adv: Almost exactly or precisely at some time (most frequent), place,  position or condition, generally with a sense of proximity--"it just happened  a minute ago," "just over the hill</td>
+</tr>
+<tr>
+<td align="right">5937</td>
+<td align="left">LAST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% adj-adv: Final, finally</td>
+</tr>
+<tr>
+<td align="right">5942</td>
+<td align="left">LATE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">17% adj-adv: Occurring at or belonging to an advanced time, period, stage,  hour, etc.</td>
+</tr>
+<tr>
+<td align="right">5944</td>
+<td align="left">LATE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% adj: Occurring, coming, or being after the usual or proper time, tardy</td>
+</tr>
+<tr>
+<td align="right">5945</td>
+<td align="left">LATE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: Recently deceased</td>
+</tr>
+<tr>
+<td align="right">5985</td>
+<td align="left">LEAGUE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% noun: Distance measure</td>
+</tr>
+<tr>
+<td align="right">6773</td>
+<td align="left">MOUTH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: An opening affording entrance or exit</td>
+</tr>
+<tr>
+<td align="right">6876</td>
+<td align="left">NEAR#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% adv-adj: "Nearer"--comparative--closer</td>
+</tr>
+<tr>
+<td align="right">6877</td>
+<td align="left">NEAR#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adv-adj: "Nearest"--superlative--closest</td>
+</tr>
+<tr>
+<td align="right">7148</td>
+<td align="left">OLD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% idiom-adj.: "(n) year(s), month(s) old"--phrase used to specify (n)</td>
+</tr>
+<tr>
+<td align="right">7149</td>
+<td align="left">OLD#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% adjective: "Older"--comparative</td>
+</tr>
+<tr>
+<td align="right">7150</td>
+<td align="left">OLD#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adjective: "Oldest"--superlative</td>
+</tr>
+<tr>
+<td align="right">7156</td>
+<td align="left">ONCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% idiom-adv: 'at once'--immediately, at the same time--"do it at once"--"he  is at once brilliant and slow"</td>
+</tr>
+<tr>
+<td align="right">7157</td>
+<td align="left">ONCE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% idiom: 'once upon a time'--used to introduce tales, stories</td>
+</tr>
+<tr>
+<td align="right">7698</td>
+<td align="left">PLANE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun: A level</td>
+</tr>
+<tr>
+<td align="right">7933</td>
+<td align="left">PRESENT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% adj: At the designated place, not absent, spatially near--"he was present"</td>
+</tr>
+<tr>
+<td align="right">7935</td>
+<td align="left">PRESENT#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: This point in time, the current time or era--"the present"</td>
+</tr>
+<tr>
+<td align="right">8284</td>
+<td align="left">RANGE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun-adj: Open land</td>
+</tr>
+<tr>
+<td align="right">9346</td>
+<td align="left">SHORT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% adv: "Shortly" - in a short time</td>
+</tr>
+<tr>
+<td align="right">9648</td>
+<td align="left">SOMETIME#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">91% adverb: "Sometimes"--on some occasions, at times</td>
+</tr>
+<tr>
+<td align="right">9654</td>
+<td align="left">SOON#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% adv: "Sooner"--comparative of sense 1</td>
+</tr>
+<tr>
+<td align="right">9655</td>
+<td align="left">SOON#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adv: "Soonest"--superlative of sense 1</td>
+</tr>
+<tr>
+<td align="right">9682</td>
+<td align="left">SOUTH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">32% noun: The region of the u.s. corresponding to the states of the confederacy</td>
+</tr>
+<tr>
+<td align="right">9694</td>
+<td align="left">SPACE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% noun-adj: "Outer space"--the universe beyond the earth's atmosphere</td>
+</tr>
+<tr>
+<td align="right">10233</td>
+<td align="left">SURROUND#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">26% noun: "Surroundings"--atmosphere, neighborhood</td>
+</tr>
+<tr>
+<td align="right">10431</td>
+<td align="left">TERM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">24% noun: A period of time</td>
+</tr>
+<tr>
+<td align="right">10585</td>
+<td align="left">TILL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% conj: Until--to the time that or when</td>
+</tr>
+<tr>
+<td align="right">10944</td>
+<td align="left">UNDER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">39% prep-adv: Beneath, below, less than</td>
+</tr>
+<tr>
+<td align="right">11098</td>
+<td align="left">UNTIL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">73% conj: Up to a time</td>
+</tr>
+<tr>
+<td align="right">11152</td>
+<td align="left">USE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% verb: Indicates prior behavior no longer performed, e.g. 'he used to do that'</td>
+</tr>
+<tr>
+<td align="right">11511</td>
+<td align="left">WHERE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% pron: What place--"where do you come from"--interrogative</td>
+</tr>
+<tr>
+<td align="right">11738</td>
+<td align="left">YARD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">25% noun: A unit of linear measure, equal to three feet.</td>
+</tr>
+<tr>
+<td align="right">11756</td>
+<td align="left">YET#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% idiom-adv: 'as yet'--up to now</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <div class="md-footer-nav">
+        <nav class="md-footer-nav__inner md-grid">
+
+            <!-- Link to previous page -->
+            
+            <a href="../time1/" title="TIME"
+                class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+                </div>
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Previous
+                        </span>
+                        TIME
+                    </span>
+                </div>
+            </a>
+            
+
+            <!-- Link to next page -->
+            
+            <a href="../tool/" title="Tool"
+                class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Next
+                        </span>
+                        Tool
+                    </span>
+                </div>
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+                </div>
+            </a>
+            
+        </nav>
+    </div>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+                    Material for MkDocs</a>
+                <p>
+                    <a href="http://www.wjh.harvard.edu/~inquirer/">General Inquirer Homepage</a>
+                </p>
+                <p><strong>Original reference: </strong>
+                    Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M.
+                    Ogilvie, and associates.
+                    The General Inquirer: A Computer Approach to Content Analysis.
+                    MIT Press, 1966.</p>
+            </div>
+
+            <!-- Social links -->
+            
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,4925 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>FormLw - General Inquirer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#546e7a">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex:300,400,400i,700%7CIBM+Plex+Mono&display=fallback">
+        <style>body,input{font-family:"IBM Plex","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"IBM Plex Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#formlw" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="General Inquirer" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">import_contacts</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              General Inquirer
+            </span>
+            <span class="md-header-nav__topic">
+              
+                FormLw
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="General Inquirer" class="md-nav__button md-logo">
+      
+        <i class="md-icon">import_contacts</i>
+      
+    </a>
+    General Inquirer
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="General Inquirer" class="md-nav__link">
+      General Inquirer
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../category-statistics-table/" title="Category Porting Statistics" class="md-nav__link">
+      Category Porting Statistics
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../porting-info/" title="Porting Process" class="md-nav__link">
+      Porting Process
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Categories
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Categories
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs/" title="Abs@" class="md-nav__link">
+      Abs@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs1/" title="ABS" class="md-nav__link">
+      ABS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../academ/" title="Academ" class="md-nav__link">
+      Academ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../active/" title="Active" class="md-nav__link">
+      Active
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affgain/" title="AffGain" class="md-nav__link">
+      AffGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affil/" title="Affil" class="md-nav__link">
+      Affil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affloss/" title="AffLoss" class="md-nav__link">
+      AffLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affoth/" title="AffOth" class="md-nav__link">
+      AffOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affpt/" title="AffPt" class="md-nav__link">
+      AffPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../afftot/" title="AffTot" class="md-nav__link">
+      AffTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ani/" title="ANI" class="md-nav__link">
+      ANI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../anomie/" title="Anomie" class="md-nav__link">
+      Anomie
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aquatic/" title="Aquatic" class="md-nav__link">
+      Aquatic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arenalw/" title="ArenaLw" class="md-nav__link">
+      ArenaLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arousal/" title="Arousal" class="md-nav__link">
+      Arousal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../begin/" title="Begin" class="md-nav__link">
+      Begin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bldgpt/" title="BldgPt" class="md-nav__link">
+      BldgPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bodypt/" title="BodyPt" class="md-nav__link">
+      BodyPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../card/" title="CARD" class="md-nav__link">
+      CARD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../causal/" title="Causal" class="md-nav__link">
+      Causal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../coll/" title="COLL" class="md-nav__link">
+      COLL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../color/" title="COLOR" class="md-nav__link">
+      COLOR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../com/" title="COM" class="md-nav__link">
+      COM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comform/" title="ComForm" class="md-nav__link">
+      ComForm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comnobj/" title="ComnObj" class="md-nav__link">
+      ComnObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../compare/" title="Compare" class="md-nav__link">
+      Compare
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../complet/" title="Complet" class="md-nav__link">
+      Complet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dav/" title="DAV" class="md-nav__link">
+      DAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../decreas/" title="Decreas" class="md-nav__link">
+      Decreas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dim/" title="DIM" class="md-nav__link">
+      DIM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dist/" title="DIST" class="md-nav__link">
+      DIST
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doctrin/" title="Doctrin" class="md-nav__link">
+      Doctrin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ/" title="Econ@" class="md-nav__link">
+      Econ@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ1/" title="ECON" class="md-nav__link">
+      ECON
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../emot/" title="EMOT" class="md-nav__link">
+      EMOT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../endslw/" title="EndsLw" class="md-nav__link">
+      EndsLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlends/" title="EnlEnds" class="md-nav__link">
+      EnlEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlgain/" title="EnlGain" class="md-nav__link">
+      EnlGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlloss/" title="EnlLoss" class="md-nav__link">
+      EnlLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enloth/" title="EnlOth" class="md-nav__link">
+      EnlOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlpt/" title="EnlPt" class="md-nav__link">
+      EnlPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enltot/" title="EnlTot" class="md-nav__link">
+      EnlTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval/" title="Eval@" class="md-nav__link">
+      Eval@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval1/" title="EVAL" class="md-nav__link">
+      EVAL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exch/" title="Exch" class="md-nav__link">
+      Exch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exert/" title="Exert" class="md-nav__link">
+      Exert
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exprsv/" title="Exprsv" class="md-nav__link">
+      Exprsv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fail/" title="Fail" class="md-nav__link">
+      Fail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fall/" title="Fall" class="md-nav__link">
+      Fall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../feel/" title="Feel" class="md-nav__link">
+      Feel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../female/" title="Female" class="md-nav__link">
+      Female
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fetch/" title="Fetch" class="md-nav__link">
+      Fetch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../finish/" title="Finish" class="md-nav__link">
+      Finish
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../food/" title="Food" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        FormLw
+      </label>
+    
+    <a href="./" title="FormLw" class="md-nav__link md-nav__link--active">
+      FormLw
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../freq/" title="FREQ" class="md-nav__link">
+      FREQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../goal/" title="Goal" class="md-nav__link">
+      Goal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hostile/" title="Hostile" class="md-nav__link">
+      Hostile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hu/" title="HU" class="md-nav__link">
+      HU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../iav/" title="IAV" class="md-nav__link">
+      IAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../if/" title="If" class="md-nav__link">
+      If
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../increas/" title="Increas" class="md-nav__link">
+      Increas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../indadj/" title="IndAdj" class="md-nav__link">
+      IndAdj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../intrj/" title="Intrj" class="md-nav__link">
+      Intrj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ipadj/" title="IPadj" class="md-nav__link">
+      IPadj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kin/" title="Kin@" class="md-nav__link">
+      Kin@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../know/" title="Know" class="md-nav__link">
+      Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../land/" title="Land" class="md-nav__link">
+      Land
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../legal/" title="Legal" class="md-nav__link">
+      Legal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../male/" title="MALE" class="md-nav__link">
+      MALE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../means/" title="Means" class="md-nav__link">
+      Means
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../meanslw/" title="MeansLw" class="md-nav__link">
+      MeansLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../milit/" title="Milit" class="md-nav__link">
+      Milit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../name/" title="Name" class="md-nav__link">
+      Name
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nation/" title="Nation" class="md-nav__link">
+      Nation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natobj/" title="NatObj" class="md-nav__link">
+      NatObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natrpro/" title="NatrPro" class="md-nav__link">
+      NatrPro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../need/" title="Need" class="md-nav__link">
+      Need
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negaff/" title="NegAff" class="md-nav__link">
+      NegAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negate/" title="Negate" class="md-nav__link">
+      Negate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negativ/" title="Negativ" class="md-nav__link">
+      Negativ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ngtv/" title="Ngtv" class="md-nav__link">
+      Ngtv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../no/" title="No" class="md-nav__link">
+      No
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nonadlt/" title="Nonadlt" class="md-nav__link">
+      Nonadlt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../notlw/" title="NotLw" class="md-nav__link">
+      NotLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../numb/" title="NUMB" class="md-nav__link">
+      NUMB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../object/" title="Object" class="md-nav__link">
+      Object
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ord/" title="ORD" class="md-nav__link">
+      ORD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ought/" title="Ought" class="md-nav__link">
+      Ought
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../our/" title="Our" class="md-nav__link">
+      Our
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ovrst/" title="Ovrst" class="md-nav__link">
+      Ovrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pain/" title="Pain" class="md-nav__link">
+      Pain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../passive/" title="Passive" class="md-nav__link">
+      Passive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perceiv/" title="Perceiv" class="md-nav__link">
+      Perceiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../persist/" title="Persist" class="md-nav__link">
+      Persist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../place/" title="PLACE" class="md-nav__link">
+      PLACE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pleasur/" title="Pleasur" class="md-nav__link">
+      Pleasur
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit/" title="Polit@" class="md-nav__link">
+      Polit@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit1/" title="POLIT" class="md-nav__link">
+      POLIT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pos/" title="POS" class="md-nav__link">
+      POS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../posaff/" title="PosAff" class="md-nav__link">
+      PosAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../positiv/" title="Positiv" class="md-nav__link">
+      Positiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaren/" title="PowAren" class="md-nav__link">
+      PowAren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaupt/" title="PowAuPt" class="md-nav__link">
+      PowAuPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powauth/" title="PowAuth" class="md-nav__link">
+      PowAuth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcon/" title="PowCon" class="md-nav__link">
+      PowCon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcoop/" title="PowCoop" class="md-nav__link">
+      PowCoop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powdoct/" title="PowDoct" class="md-nav__link">
+      PowDoct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powends/" title="PowEnds" class="md-nav__link">
+      PowEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../power/" title="Power" class="md-nav__link">
+      Power
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powgain/" title="PowGain" class="md-nav__link">
+      PowGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powloss/" title="PowLoss" class="md-nav__link">
+      PowLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powoth/" title="PowOth" class="md-nav__link">
+      PowOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powpt/" title="PowPt" class="md-nav__link">
+      PowPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powtot/" title="PowTot" class="md-nav__link">
+      PowTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pstv/" title="Pstv" class="md-nav__link">
+      Pstv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ptlw/" title="PtLw" class="md-nav__link">
+      PtLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quality/" title="Quality" class="md-nav__link">
+      Quality
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quan/" title="Quan" class="md-nav__link">
+      Quan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../race/" title="Race" class="md-nav__link">
+      Race
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcends/" title="RcEnds" class="md-nav__link">
+      RcEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcethic/" title="RcEthic" class="md-nav__link">
+      RcEthic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcgain/" title="RcGain" class="md-nav__link">
+      RcGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcloss/" title="RcLoss" class="md-nav__link">
+      RcLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcrelig/" title="RcRelig" class="md-nav__link">
+      RcRelig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rctot/" title="RcTot" class="md-nav__link">
+      RcTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../region/" title="Region" class="md-nav__link">
+      Region
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rel/" title="Rel" class="md-nav__link">
+      Rel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../relig/" title="Relig" class="md-nav__link">
+      Relig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rise/" title="Rise" class="md-nav__link">
+      Rise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ritual/" title="Ritual" class="md-nav__link">
+      Ritual
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../role/" title="Role" class="md-nav__link">
+      Role
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../route/" title="Route" class="md-nav__link">
+      Route
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspgain/" title="RspGain" class="md-nav__link">
+      RspGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsploss/" title="RspLoss" class="md-nav__link">
+      RspLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspoth/" title="RspOth" class="md-nav__link">
+      RspOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsptot/" title="RspTot" class="md-nav__link">
+      RspTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../say/" title="Say" class="md-nav__link">
+      Say
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../self/" title="Self" class="md-nav__link">
+      Self
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklasth/" title="SklAsth" class="md-nav__link">
+      SklAsth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skloth/" title="SklOth" class="md-nav__link">
+      SklOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklpt/" title="SklPt" class="md-nav__link">
+      SklPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skltot/" title="SklTot" class="md-nav__link">
+      SklTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sky/" title="Sky" class="md-nav__link">
+      Sky
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../social/" title="Social" class="md-nav__link">
+      Social
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../socrel/" title="SocRel" class="md-nav__link">
+      SocRel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../solve/" title="Solve" class="md-nav__link">
+      Solve
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../space/" title="Space" class="md-nav__link">
+      Space
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stay/" title="Stay" class="md-nav__link">
+      Stay
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../strong/" title="Strong" class="md-nav__link">
+      Strong
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../submit/" title="Submit" class="md-nav__link">
+      Submit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../surelw/" title="SureLw" class="md-nav__link">
+      SureLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sv/" title="SV" class="md-nav__link">
+      SV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../think/" title="Think" class="md-nav__link">
+      Think
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time/" title="Time@" class="md-nav__link">
+      Time@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time1/" title="TIME" class="md-nav__link">
+      TIME
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../timespc/" title="TimeSpc" class="md-nav__link">
+      TimeSpc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tool/" title="Tool" class="md-nav__link">
+      Tool
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tranlw/" title="TranLw" class="md-nav__link">
+      TranLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../travel/" title="Travel" class="md-nav__link">
+      Travel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trngain/" title="TrnGain" class="md-nav__link">
+      TrnGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trnloss/" title="TrnLoss" class="md-nav__link">
+      TrnLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../try/" title="Try" class="md-nav__link">
+      Try
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../undrst/" title="Undrst" class="md-nav__link">
+      Undrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vary/" title="Vary" class="md-nav__link">
+      Vary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vehicle/" title="Vehicle" class="md-nav__link">
+      Vehicle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vice/" title="Vice" class="md-nav__link">
+      Vice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../virtue/" title="Virtue" class="md-nav__link">
+      Virtue
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../weak/" title="Weak" class="md-nav__link">
+      Weak
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbgain/" title="WlbGain" class="md-nav__link">
+      WlbGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbloss/" title="WlbLoss" class="md-nav__link">
+      WlbLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbphys/" title="WlbPhys" class="md-nav__link">
+      WlbPhys
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpsyc/" title="WlbPsyc" class="md-nav__link">
+      WlbPsyc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpt/" title="WlbPt" class="md-nav__link">
+      WlbPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbtot/" title="WlbTot" class="md-nav__link">
+      WlbTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltoth/" title="WltOth" class="md-nav__link">
+      WltOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltpt/" title="WltPt" class="md-nav__link">
+      WltPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttot/" title="WltTot" class="md-nav__link">
+      WltTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttran/" title="WltTran" class="md-nav__link">
+      WltTran
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../work/" title="Work" class="md-nav__link">
+      Work
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../yes/" title="Yes" class="md-nav__link">
+      Yes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../you/" title="You" class="md-nav__link">
+      You
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pmbaumgartner/general-inquirer-remix/edit/master/docs/categories/formlw.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="formlw">FormLw</h1>
+<p>368 words referring to formats, standards, tools and conventions of communication. almost entirely a subset of the 895 words in ConForm category</p>
+<h2 id="completed">Completed</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">156</td>
+<td align="left">ADDRESS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% noun: A speech (7), the place where mail can be sent (6)</td>
+</tr>
+<tr>
+<td align="right">170</td>
+<td align="left">ADJUDICATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">187</td>
+<td align="left">ADMISSIBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">188</td>
+<td align="left">ADMISSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">191</td>
+<td align="left">ADMIT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adv: "Admittedly"--adverbial form of sense 1</td>
+</tr>
+<tr>
+<td align="right">225</td>
+<td align="left">ADVICE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: An opinion recommended, or offered, as worthy to be followed.</td>
+</tr>
+<tr>
+<td align="right">230</td>
+<td align="left">ADVISORY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">299</td>
+<td align="left">AGREE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: "Agreed"--settled or determined by mutual consent, as "the agreed  price"; of the same opinion, as "we are agreed"</td>
+</tr>
+<tr>
+<td align="right">300</td>
+<td align="left">AGREEABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">301</td>
+<td align="left">AGREEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Unanimity of opinion, state of accord, mutual arrangement.</td>
+</tr>
+<tr>
+<td align="right">327</td>
+<td align="left">ALARM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">366</td>
+<td align="left">ALLEGATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">373</td>
+<td align="left">ALLOCATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">381</td>
+<td align="left">ALLUSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">434</td>
+<td align="left">AMENDMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">472</td>
+<td align="left">ANECDOTE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">491</td>
+<td align="left">ANNOUNCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">493</td>
+<td align="left">ANNOUNCEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">501</td>
+<td align="left">ANONYMOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">506</td>
+<td align="left">ANSWER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">43% noun: A reply, response, solution, given to a question, statement or problem</td>
+</tr>
+<tr>
+<td align="right">548</td>
+<td align="left">APOLOGY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">554</td>
+<td align="left">APPEAL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">38% noun-adj: A request for a decision, help, sympathy, etc. (6), a quality  arousing a favorable response (6)</td>
+</tr>
+<tr>
+<td align="right">566</td>
+<td align="left">APPLAUSE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">569</td>
+<td align="left">APPLICATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">590</td>
+<td align="left">APPROPRIATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">591</td>
+<td align="left">APPROVAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">622</td>
+<td align="left">ARGUMENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">63% noun: A (heated) discussion involving different points of view</td>
+</tr>
+<tr>
+<td align="right">660</td>
+<td align="left">ARTICLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">661</td>
+<td align="left">ARTICULATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">717</td>
+<td align="left">ASSIGN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">733</td>
+<td align="left">ASSURANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">844</td>
+<td align="left">AWARD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">929</td>
+<td align="left">BANTER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1020</td>
+<td align="left">BEEP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1067</td>
+<td align="left">BENEFIT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">50% noun: Incremental monetary payments</td>
+</tr>
+<tr>
+<td align="right">1089</td>
+<td align="left">BET#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">25% noun: A wager, a risk</td>
+</tr>
+<tr>
+<td align="right">1116</td>
+<td align="left">BIOGRAPHY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1155</td>
+<td align="left">BLESS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">64% noun: "Blessing"--a benediction, good fortune</td>
+</tr>
+<tr>
+<td align="right">1226</td>
+<td align="left">BOND</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1230</td>
+<td align="left">BONUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1290</td>
+<td align="left">BOYCOTT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1301</td>
+<td align="left">BRAND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1328</td>
+<td align="left">BREED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1353</td>
+<td align="left">BROADCAST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1461</td>
+<td align="left">CALL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: A summons; a vocal communication (3); a visit (2)</td>
+</tr>
+<tr>
+<td align="right">1535</td>
+<td align="left">CARESS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1581</td>
+<td align="left">CAUTION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1619</td>
+<td align="left">CERTIFICATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1653</td>
+<td align="left">CHAPTER</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A division of a book</td>
+</tr>
+<tr>
+<td align="right">1683</td>
+<td align="left">CHATTER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1756</td>
+<td align="left">CITE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1774</td>
+<td align="left">CLAIM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1876</td>
+<td align="left">CODE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1901</td>
+<td align="left">COLD#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adverb: "Coldly"--indifferently, in a cool manner</td>
+</tr>
+<tr>
+<td align="right">1903</td>
+<td align="left">COLLABORATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1960</td>
+<td align="left">COMMAND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1971</td>
+<td align="left">COMMENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">84% noun: A remark, observation, or criticism</td>
+</tr>
+<tr>
+<td align="right">2001</td>
+<td align="left">COMMUNICATE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: "Communicating"--act of imparting information</td>
+</tr>
+<tr>
+<td align="right">2002</td>
+<td align="left">COMMUNICATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Transmission or exchange of information</td>
+</tr>
+<tr>
+<td align="right">2003</td>
+<td align="left">COMMUNICATIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2038</td>
+<td align="left">COMPLAINT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2130</td>
+<td align="left">CONFESSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2134</td>
+<td align="left">CONFIDENCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% idiom-adj-adv: "In confidence"--private, privately</td>
+</tr>
+<tr>
+<td align="right">2142</td>
+<td align="left">CONFIRMATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2165</td>
+<td align="left">CONGRATULATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2189</td>
+<td align="left">CONSENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2228</td>
+<td align="left">CONSTRAINT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2241</td>
+<td align="left">CONTACT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">93% noun: A meeting, acquaintance, or communication with or exposure to  another person or other people generally over some period of time in some  general</td>
+</tr>
+<tr>
+<td align="right">2282</td>
+<td align="left">CONTRADICTORY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2296</td>
+<td align="left">CONTROVERSIAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2297</td>
+<td align="left">CONTROVERSY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2304</td>
+<td align="left">CONVERSATION</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2314</td>
+<td align="left">CONVINCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">17% noun-adj: "Convincing"--persuasive; the act of persuading (1)</td>
+</tr>
+<tr>
+<td align="right">2315</td>
+<td align="left">CONVINCED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% adj: Persuaded</td>
+</tr>
+<tr>
+<td align="right">2361</td>
+<td align="left">CORRESPONDENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2408</td>
+<td align="left">COURTEOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2416</td>
+<td align="left">COVERAGE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2451</td>
+<td align="left">CREDIT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">66% noun-adj: Deferred payment, borrowing, financial trust</td>
+</tr>
+<tr>
+<td align="right">2477</td>
+<td align="left">CRITICISM</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2522</td>
+<td align="left">CRY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: Any loud utterance or exclamation, a shout, scream, or wail</td>
+</tr>
+<tr>
+<td align="right">2555</td>
+<td align="left">CURSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2558</td>
+<td align="left">CURT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2643</td>
+<td align="left">DEBATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% noun-adj: A formal discussion of an issue</td>
+</tr>
+<tr>
+<td align="right">2672</td>
+<td align="left">DECLARATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2753</td>
+<td align="left">DEMAND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">37% noun: Strong or authoritative request or inquiry, something asked  of one, need, requirement--"he put forth several demands," "the job makes  great demands on our t</td>
+</tr>
+<tr>
+<td align="right">2774</td>
+<td align="left">DENIAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2802</td>
+<td align="left">DEPOSITION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2824</td>
+<td align="left">DESCRIPTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2911</td>
+<td align="left">DIALECT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2912</td>
+<td align="left">DIALOGUE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Conversation, exchange of opinions on an issue</td>
+</tr>
+<tr>
+<td align="right">2919</td>
+<td align="left">DICTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2935</td>
+<td align="left">DIGITAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2951</td>
+<td align="left">DIPLOMATIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2968</td>
+<td align="left">DISAGREEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2983</td>
+<td align="left">DISAVOWAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2997</td>
+<td align="left">DISCLOSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3012</td>
+<td align="left">DISCOURSE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3024</td>
+<td align="left">DISCUSSION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: An act or an instance of conversation or argument</td>
+</tr>
+<tr>
+<td align="right">3070</td>
+<td align="left">DISPUTE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3176</td>
+<td align="left">DOUBLE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% idiom-noun: 'double talk'--deceiving speech</td>
+</tr>
+<tr>
+<td align="right">3202</td>
+<td align="left">DRAMATIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3280</td>
+<td align="left">DUE#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adv: 'duly,' properly</td>
+</tr>
+<tr>
+<td align="right">3283</td>
+<td align="left">DUMB</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3319</td>
+<td align="left">EARN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% noun-adj: "Earning(s)" income, or having to do with same</td>
+</tr>
+<tr>
+<td align="right">3446</td>
+<td align="left">ELOQUENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3460</td>
+<td align="left">EMBRACE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3496</td>
+<td align="left">ENCOUNTER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3531</td>
+<td align="left">ENGAGEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3559</td>
+<td align="left">ENROLLMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3594</td>
+<td align="left">EPITHET</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3607</td>
+<td align="left">EQUITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3637</td>
+<td align="left">ESTIMATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3718</td>
+<td align="left">EXCERPT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3721</td>
+<td align="left">EXCHANGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">94% noun-adj: Giving of like for like, dialogue, trade, commerce</td>
+</tr>
+<tr>
+<td align="right">3731</td>
+<td align="left">EXCLAMATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3737</td>
+<td align="left">EXCUSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3750</td>
+<td align="left">EXHIBIT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3775</td>
+<td align="left">EXPENDITURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3776</td>
+<td align="left">EXPENSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">90% noun: Cost, price of exchange</td>
+</tr>
+<tr>
+<td align="right">3793</td>
+<td align="left">EXPLANATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Reason, excuse, or exposition</td>
+</tr>
+<tr>
+<td align="right">3794</td>
+<td align="left">EXPLICIT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3809</td>
+<td align="left">EXPRESSION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% noun: The act or process of expressing</td>
+</tr>
+<tr>
+<td align="right">3841</td>
+<td align="left">EYE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom: "Eye to eye"--in agreement</td>
+</tr>
+<tr>
+<td align="right">3854</td>
+<td align="left">FACE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-adv: 'face to face'</td>
+</tr>
+<tr>
+<td align="right">3924</td>
+<td align="left">FARE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3926</td>
+<td align="left">FAREWELL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4044</td>
+<td align="left">FICTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4063</td>
+<td align="left">FIGURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">42% noun: Form, representation, schema, shape, illustration, diagram, number</td>
+</tr>
+<tr>
+<td align="right">4094</td>
+<td align="left">FINE#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: A violator's fee</td>
+</tr>
+<tr>
+<td align="right">4216</td>
+<td align="left">FOLKLORE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4218</td>
+<td align="left">FOLKTALES</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4248</td>
+<td align="left">FORBID</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4249</td>
+<td align="left">FORBIDDEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4258</td>
+<td align="left">FORECAST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4312</td>
+<td align="left">FORUM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4490</td>
+<td align="left">GASP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4531</td>
+<td align="left">GESTURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4563</td>
+<td align="left">GIVE#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-verb: "Give birth"--bear offspring--handled by "birth"</td>
+</tr>
+<tr>
+<td align="right">4643</td>
+<td align="left">GOSSIP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4716</td>
+<td align="left">GREET#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4726</td>
+<td align="left">GRIN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4765</td>
+<td align="left">GUARANTEE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5185</td>
+<td align="left">HYMN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5244</td>
+<td align="left">IMAGERY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5347</td>
+<td align="left">INCENTIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5359</td>
+<td align="left">INCOME#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% noun-adj: Revenue received periodically</td>
+</tr>
+<tr>
+<td align="right">5414</td>
+<td align="left">INDICTMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5489</td>
+<td align="left">INFORMATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Facts, data, knowledge</td>
+</tr>
+<tr>
+<td align="right">5508</td>
+<td align="left">INJUNCTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5524</td>
+<td align="left">INQUIRY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5544</td>
+<td align="left">INSISTENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5574</td>
+<td align="left">INSTRUCTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5597</td>
+<td align="left">INTELLIGIBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5631</td>
+<td align="left">INTERRUPTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5637</td>
+<td align="left">INTERVIEW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5675</td>
+<td align="left">INVESTMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5682</td>
+<td align="left">INVITATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5723</td>
+<td align="left">ISSUANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5749</td>
+<td align="left">JAZZ</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5774</td>
+<td align="left">JOKE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% noun-adj: A jest, funny story</td>
+</tr>
+<tr>
+<td align="right">5776</td>
+<td align="left">JOKE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adv: "Jokingly", humorously</td>
+</tr>
+<tr>
+<td align="right">5792</td>
+<td align="left">JUDGMENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% noun: A decision, opinion, evaluation, verdict</td>
+</tr>
+<tr>
+<td align="right">5864</td>
+<td align="left">KISS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5926</td>
+<td align="left">LANGUAGE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Any set or system of verbal or visual symbols used in a more or  less uniform fashion by a number of people to communicate with one another</td>
+</tr>
+<tr>
+<td align="right">5952</td>
+<td align="left">LAUGH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: Expression of mirth or amusement</td>
+</tr>
+<tr>
+<td align="right">5958</td>
+<td align="left">LAUGHTER</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The act or sound of laughing, an expression of amusement.</td>
+</tr>
+<tr>
+<td align="right">6009</td>
+<td align="left">LECTURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6021</td>
+<td align="left">LEGEND</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6045</td>
+<td align="left">LESSON</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Something from which one learns or should learn</td>
+</tr>
+<tr>
+<td align="right">6079</td>
+<td align="left">LIE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun: A falsehood</td>
+</tr>
+<tr>
+<td align="right">6133</td>
+<td align="left">LITERAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6137</td>
+<td align="left">LITERATURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6274</td>
+<td align="left">LYING#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun: The act of telling a falsehood</td>
+</tr>
+<tr>
+<td align="right">6275</td>
+<td align="left">LYRIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6276</td>
+<td align="left">LYRICAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6496</td>
+<td align="left">MEDIA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6517</td>
+<td align="left">MELODRAMATIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6518</td>
+<td align="left">MELODY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6532</td>
+<td align="left">MENTION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: A reference to</td>
+</tr>
+<tr>
+<td align="right">6554</td>
+<td align="left">MESSAGE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Any notice or communication sent from one person to another .</td>
+</tr>
+<tr>
+<td align="right">6743</td>
+<td align="left">MORTGAGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6812</td>
+<td align="left">MURMUR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6817</td>
+<td align="left">MUSIC</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: An art of sound in time, the actual sounds employed in this art</td>
+</tr>
+<tr>
+<td align="right">6818</td>
+<td align="left">MUSICAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6837</td>
+<td align="left">MYTH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6844</td>
+<td align="left">NAME#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">80% noun: Words by which a person or thing is known or designated</td>
+</tr>
+<tr>
+<td align="right">6850</td>
+<td align="left">NARRATIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6933</td>
+<td align="left">NEW#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: "News"--tidings, reports of recent events</td>
+</tr>
+<tr>
+<td align="right">6957</td>
+<td align="left">NICKNAME</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6977</td>
+<td align="left">NO#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: "A no"</td>
+</tr>
+<tr>
+<td align="right">6986</td>
+<td align="left">NOD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6994</td>
+<td align="left">NON-FICTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7005</td>
+<td align="left">NONVERBAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7075</td>
+<td align="left">OATH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7129</td>
+<td align="left">OFFER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun: A presentation, proposal</td>
+</tr>
+<tr>
+<td align="right">7179</td>
+<td align="left">OPERA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7188</td>
+<td align="left">OPINION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Judgment, sentiment, feeling, etc.</td>
+</tr>
+<tr>
+<td align="right">7220</td>
+<td align="left">ORDINANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7273</td>
+<td align="left">OUTLINE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7405</td>
+<td align="left">PARDON#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7575</td>
+<td align="left">PERMISSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7631</td>
+<td align="left">PHRASE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7728</td>
+<td align="left">PLEA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7748</td>
+<td align="left">PLOT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7766</td>
+<td align="left">POETRY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7773</td>
+<td align="left">POINT#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Pointed"--incisive, penetrating, cutting</td>
+</tr>
+<tr>
+<td align="right">7775</td>
+<td align="left">POINT#8</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% idiom-noun: "Point of view"--viewpoint (handled by view)</td>
+</tr>
+<tr>
+<td align="right">7792</td>
+<td align="left">POLITE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7877</td>
+<td align="left">PRAISE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7881</td>
+<td align="left">PRAYER</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The act, practice, or instance of praying, entreaty, earnest request</td>
+</tr>
+<tr>
+<td align="right">7883</td>
+<td align="left">PREACH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7928</td>
+<td align="left">PRESCRIPTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7937</td>
+<td align="left">PRESENTATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7977</td>
+<td align="left">PRICE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Cost--usually in money but figuratively in sacrifice (3), of  or pertaining to determining a price</td>
+</tr>
+<tr>
+<td align="right">8029</td>
+<td align="left">PROCLAMATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8076</td>
+<td align="left">PROMISE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">32% noun-adj: A declaration of intent made by one person or set of persons  to another</td>
+</tr>
+<tr>
+<td align="right">8080</td>
+<td align="left">PROMISE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Promised"--pledged</td>
+</tr>
+<tr>
+<td align="right">8089</td>
+<td align="left">PROPAGANDA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8100</td>
+<td align="left">PROPOSAL</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A plan or scheme proposed.</td>
+</tr>
+<tr>
+<td align="right">8102</td>
+<td align="left">PROPOSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Proposed"--suggested</td>
+</tr>
+<tr>
+<td align="right">8103</td>
+<td align="left">PROPOSITION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8107</td>
+<td align="left">PROSE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8154</td>
+<td align="left">PUBLICITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8207</td>
+<td align="left">QUARREL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8219</td>
+<td align="left">QUESTION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">89% noun: A request for information, problem, unresolved issue</td>
+</tr>
+<tr>
+<td align="right">8221</td>
+<td align="left">QUESTION#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: "Questioning"--inquiring</td>
+</tr>
+<tr>
+<td align="right">8299</td>
+<td align="left">RATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8329</td>
+<td align="left">READ#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% noun-adj: Material thus apprehended, an occasion or the practise of reading</td>
+</tr>
+<tr>
+<td align="right">8356</td>
+<td align="left">REASON#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">95% noun: The basis or cause of an act or event or a statement given in  justification</td>
+</tr>
+<tr>
+<td align="right">8361</td>
+<td align="left">REASSURANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8395</td>
+<td align="left">RECOMMENDATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8404</td>
+<td align="left">RECORD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% noun-adj: An account in writing or the like delineating a set of historical  facts, generally used in reference to one person's or group of persons'  (a government, racial grou</td>
+</tr>
+<tr>
+<td align="right">8407</td>
+<td align="left">RECORD#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Recorded"--set down in writing or in sound</td>
+</tr>
+<tr>
+<td align="right">8438</td>
+<td align="left">REFERENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: An allusion; direction to some source of information, or a source  of information</td>
+</tr>
+<tr>
+<td align="right">8450</td>
+<td align="left">REFUND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8452</td>
+<td align="left">REFUSAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8472</td>
+<td align="left">REGISTRATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8532</td>
+<td align="left">REMARK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">75% noun: A comment</td>
+</tr>
+<tr>
+<td align="right">8539</td>
+<td align="left">REMINDER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8554</td>
+<td align="left">RENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">57% noun-adj: Payment for temporary possession or use of something</td>
+</tr>
+<tr>
+<td align="right">8578</td>
+<td align="left">REPLY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% noun: A response</td>
+</tr>
+<tr>
+<td align="right">8580</td>
+<td align="left">REPORT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Reported," according to such a document or to rumor</td>
+</tr>
+<tr>
+<td align="right">8583</td>
+<td align="left">REPORT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adv: "Reportedly"--adverb of sense 2</td>
+</tr>
+<tr>
+<td align="right">8588</td>
+<td align="left">REPRESENTATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8603</td>
+<td align="left">REQUEST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% noun: A favor, petition, something asked</td>
+</tr>
+<tr>
+<td align="right">8630</td>
+<td align="left">RESOLUTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8651</td>
+<td align="left">RESPONSE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Answer, reaction</td>
+</tr>
+<tr>
+<td align="right">8706</td>
+<td align="left">REVEAL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% adj: "Revealing", tending to disclose</td>
+</tr>
+<tr>
+<td align="right">8707</td>
+<td align="left">REVEAL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: "Revealed", disclosed, open</td>
+</tr>
+<tr>
+<td align="right">8762</td>
+<td align="left">RIDICULE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8812</td>
+<td align="left">ROAR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8900</td>
+<td align="left">RULE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">58% noun: Regulation, standard, guideline</td>
+</tr>
+<tr>
+<td align="right">8951</td>
+<td align="left">SAGA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8955</td>
+<td align="left">SAID#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Said"--reputed</td>
+</tr>
+<tr>
+<td align="right">8977</td>
+<td align="left">SANCTION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8997</td>
+<td align="left">SATIRE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9065</td>
+<td align="left">SCOLD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: "Scolding" - verbal rebuke</td>
+</tr>
+<tr>
+<td align="right">9080</td>
+<td align="left">SCREAM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: A sharp, piercing cry</td>
+</tr>
+<tr>
+<td align="right">9082</td>
+<td align="left">SCREECH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9121</td>
+<td align="left">SECRET</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Something hidden or not generally known</td>
+</tr>
+<tr>
+<td align="right">9194</td>
+<td align="left">SENTENCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9210</td>
+<td align="left">SERMON</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9363</td>
+<td align="left">SHOUT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun: A loud cry or yell</td>
+</tr>
+<tr>
+<td align="right">9367</td>
+<td align="left">SHOW#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% noun: Exhibition, manifestation, demonstration</td>
+</tr>
+<tr>
+<td align="right">9409</td>
+<td align="left">SIGH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9417</td>
+<td align="left">SIGN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">36% noun-adj: Symptom, indicator, signal, symbol</td>
+</tr>
+<tr>
+<td align="right">9420</td>
+<td align="left">SIGN#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Signed"--bearing signature</td>
+</tr>
+<tr>
+<td align="right">9421</td>
+<td align="left">SIGNAL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9456</td>
+<td align="left">SING#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% noun-adj: "Singing" - melodious sounds, producing or pertaining to</td>
+</tr>
+<tr>
+<td align="right">9529</td>
+<td align="left">SLIGHT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: An insult</td>
+</tr>
+<tr>
+<td align="right">9564</td>
+<td align="left">SMILE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">46% noun: Upturning of corners of mouth usually indicating pleasure, favor  or amusement</td>
+</tr>
+<tr>
+<td align="right">9652</td>
+<td align="left">SONG</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Melody (usually worded)</td>
+</tr>
+<tr>
+<td align="right">9708</td>
+<td align="left">SPEAK#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% verb (adj phrase): 'to speak of'--worthy of note</td>
+</tr>
+<tr>
+<td align="right">9710</td>
+<td align="left">SPEAK#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Spoken"--articulated</td>
+</tr>
+<tr>
+<td align="right">9732</td>
+<td align="left">SPEECHLESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9834</td>
+<td align="left">STANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9845</td>
+<td align="left">STANDPOINT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9870</td>
+<td align="left">STATEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A communication or declaration in speech or in writing setting forth  particulars of a situation.</td>
+</tr>
+<tr>
+<td align="right">9884</td>
+<td align="left">STATUTE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9933</td>
+<td align="left">STIMULUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9937</td>
+<td align="left">STIPULATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9967</td>
+<td align="left">STORY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">97% noun-adj: A tale</td>
+</tr>
+<tr>
+<td align="right">10137</td>
+<td align="left">SUGGEST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Suggested"</td>
+</tr>
+<tr>
+<td align="right">10138</td>
+<td align="left">SUGGESTION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: An idea or proposal offered from one to another</td>
+</tr>
+<tr>
+<td align="right">10154</td>
+<td align="left">SUMMARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10287</td>
+<td align="left">SYMBOL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10288</td>
+<td align="left">SYMBOLISM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10295</td>
+<td align="left">SYMPHONIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10296</td>
+<td align="left">SYMPHONY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10334</td>
+<td align="left">TALE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10338</td>
+<td align="left">TALK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% noun: Conversation, discussion, speech</td>
+</tr>
+<tr>
+<td align="right">10362</td>
+<td align="left">TAUNT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10394</td>
+<td align="left">TELEGRAPH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10430</td>
+<td align="left">TERM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">20% noun: Specific word or expression</td>
+</tr>
+<tr>
+<td align="right">10459</td>
+<td align="left">THANK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun: Acknowledgement of gratitude</td>
+</tr>
+<tr>
+<td align="right">10475</td>
+<td align="left">THEME</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10622</td>
+<td align="left">TITLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10664</td>
+<td align="left">TOLL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10677</td>
+<td align="left">TOPIC</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Subject or theme</td>
+</tr>
+<tr>
+<td align="right">10799</td>
+<td align="left">TRIBUTE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10857</td>
+<td align="left">TUNE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10892</td>
+<td align="left">TYPE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun-adj: "Typing"--typewriting</td>
+</tr>
+<tr>
+<td align="right">11088</td>
+<td align="left">UNSPECIFIED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11231</td>
+<td align="left">VERB</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11232</td>
+<td align="left">VERBAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11233</td>
+<td align="left">VERDICT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11316</td>
+<td align="left">VOCABULARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11318</td>
+<td align="left">VOICE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% noun: The sound or sounds uttered through the mouths of living creatures  esp. human beings</td>
+</tr>
+<tr>
+<td align="right">11329</td>
+<td align="left">VOTE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">18% noun: A ballot, the political representation of an individual or an  elective body</td>
+</tr>
+<tr>
+<td align="right">11331</td>
+<td align="left">VOTE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% noun-adj: "Voting"</td>
+</tr>
+<tr>
+<td align="right">11384</td>
+<td align="left">WARN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% noun: "Warning" - a notice of impending danger or misfortune</td>
+</tr>
+<tr>
+<td align="right">11469</td>
+<td align="left">WELCOME#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% noun: A kindly greeting or reception</td>
+</tr>
+<tr>
+<td align="right">11470</td>
+<td align="left">WELCOME#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% adj: "Welcome," "welcomed"--kindly received</td>
+</tr>
+<tr>
+<td align="right">11472</td>
+<td align="left">WELCOME#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun-adj: "Welcoming"--greeting kindly</td>
+</tr>
+<tr>
+<td align="right">11533</td>
+<td align="left">WHISPER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11535</td>
+<td align="left">WHISTLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11556</td>
+<td align="left">WHOLESALE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11661</td>
+<td align="left">WORD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">70% noun: The unit of speech, generally preceded by "every" or "not a"  or put in the plural or used by metonymy to indicate speech itself or  a particular speech, rather than a sp</td>
+</tr>
+<tr>
+<td align="right">11721</td>
+<td align="left">WRITE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">18% noun-adj: "Writing"--composition, production, work; penmanship, the  act of handwriting (6) production, work</td>
+</tr>
+<tr>
+<td align="right">11726</td>
+<td align="left">WRITTEN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">23% adj: Set down verbally</td>
+</tr>
+<tr>
+<td align="right">11746</td>
+<td align="left">YELL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="incomplete">Incomplete</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">89</td>
+<td align="left">ACCOUNT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% noun: A narration, explanation</td>
+</tr>
+<tr>
+<td align="right">317</td>
+<td align="left">AIR#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: A characteristic quality, or trait; affectation (1)</td>
+</tr>
+<tr>
+<td align="right">320</td>
+<td align="left">AIR#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: Broadcast medium</td>
+</tr>
+<tr>
+<td align="right">623</td>
+<td align="left">ARGUMENT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">31% noun: A reason, a statement attempting to demonstrate the correctness  of a position</td>
+</tr>
+<tr>
+<td align="right">662</td>
+<td align="left">ARTICULATE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1187</td>
+<td align="left">BLUE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: "Blues"--type of music, depression</td>
+</tr>
+<tr>
+<td align="right">1188</td>
+<td align="left">BLUE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun-idiom: "Blue laws"--puritanical laws</td>
+</tr>
+<tr>
+<td align="right">1197</td>
+<td align="left">BOARD#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: Provision of food for pay</td>
+</tr>
+<tr>
+<td align="right">1201</td>
+<td align="left">BOARD#9</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adj: 'boarding,' pertaining to food and lodging</td>
+</tr>
+<tr>
+<td align="right">1661</td>
+<td align="left">CHARGE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% noun: Accusation, injunction</td>
+</tr>
+<tr>
+<td align="right">2452</td>
+<td align="left">CREDIT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">23% noun: Recognition, honor (includes academic credit)</td>
+</tr>
+<tr>
+<td align="right">2632</td>
+<td align="left">DEAL#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: "Dealings"--relations</td>
+</tr>
+<tr>
+<td align="right">2728</td>
+<td align="left">DEGREE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% noun: A title conferred at various stages of higher education</td>
+</tr>
+<tr>
+<td align="right">3320</td>
+<td align="left">EARN#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Earned"</td>
+</tr>
+<tr>
+<td align="right">3810</td>
+<td align="left">EXPRESSION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% noun: A look, expressing personal reaction or feeling</td>
+</tr>
+<tr>
+<td align="right">4066</td>
+<td align="left">FIGURE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-noun: "Figure of speech"</td>
+</tr>
+<tr>
+<td align="right">5611</td>
+<td align="left">INTEREST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: The cost of borrowing money</td>
+</tr>
+<tr>
+<td align="right">5857</td>
+<td align="left">KIND#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% idiom-adv: "In kind"--in like manner</td>
+</tr>
+<tr>
+<td align="right">5957</td>
+<td align="left">LAUGH#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">45% noun: Same as sense 1, but inserted into text as editorial comment,  parenthesized.</td>
+</tr>
+<tr>
+<td align="right">5979</td>
+<td align="left">LEAD#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% idiom-noun: "A leading question"--a loaded question</td>
+</tr>
+<tr>
+<td align="right">6007</td>
+<td align="left">LEAVE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: Permission to do something, or the time in which such permission  is in force</td>
+</tr>
+<tr>
+<td align="right">6056</td>
+<td align="left">LETTER#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: "Lettering"--a series of letters inscribed, the act of inscribing letters</td>
+</tr>
+<tr>
+<td align="right">6226</td>
+<td align="left">LOUD#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% idiom-adv: "Out loud" - aloud</td>
+</tr>
+<tr>
+<td align="right">6514</td>
+<td align="left">MEET#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom: A "meeting of the minds"--agreement</td>
+</tr>
+<tr>
+<td align="right">6846</td>
+<td align="left">NAME#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: "Naming"--designation</td>
+</tr>
+<tr>
+<td align="right">7069</td>
+<td align="left">Noun</td>
+<td align="left">Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7218</td>
+<td align="left">ORDER#7</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: "Ordering"--commanding, requesting; arranging methodically or properly (2)</td>
+</tr>
+<tr>
+<td align="right">7769</td>
+<td align="left">POINT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% noun: Observation, argument, main idea, purpose, thrust, gist, meaning</td>
+</tr>
+<tr>
+<td align="right">8582</td>
+<td align="left">REPORT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun: "Reporting"--the relating of such facts or situations</td>
+</tr>
+<tr>
+<td align="right">8820</td>
+<td align="left">ROCK#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom: Genre of music--"rock (and) roll"</td>
+</tr>
+<tr>
+<td align="right">8832</td>
+<td align="left">ROLL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% idiom-noun: "Rock (and) roll"--handled by rock</td>
+</tr>
+<tr>
+<td align="right">9021</td>
+<td align="left">SAY#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: "Saying"--aphorism, epigram, saw</td>
+</tr>
+<tr>
+<td align="right">9056</td>
+<td align="left">SCHOOL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: "Schooling"--process of instruction</td>
+</tr>
+<tr>
+<td align="right">9060</td>
+<td align="left">SCIENCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun-idiom: "Science fiction"--type of literature</td>
+</tr>
+<tr>
+<td align="right">9364</td>
+<td align="left">SHOUT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun: "Shouting"--loud crying or yelling</td>
+</tr>
+<tr>
+<td align="right">9419</td>
+<td align="left">SIGN#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun: "Signing"--act of signature</td>
+</tr>
+<tr>
+<td align="right">9730</td>
+<td align="left">SPEECH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% noun: That which is spoken, a speech</td>
+</tr>
+<tr>
+<td align="right">10143</td>
+<td align="left">SUIT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">20% noun: Process of litigation</td>
+</tr>
+<tr>
+<td align="right">10339</td>
+<td align="left">TALK#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun-adj: "Talking"--conversation, conversing or able to converse;  "talking is fun," "a talking bird"</td>
+</tr>
+<tr>
+<td align="right">10367</td>
+<td align="left">TAX#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% noun-idiom: "Income tax"</td>
+</tr>
+<tr>
+<td align="right">10368</td>
+<td align="left">TAX#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% noun-idiom: "Social security tax"</td>
+</tr>
+<tr>
+<td align="right">10432</td>
+<td align="left">TERM#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun: Conditions or stipulations</td>
+</tr>
+<tr>
+<td align="right">10699</td>
+<td align="left">TOUCH#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% noun: Contact or communication--"in touch"</td>
+</tr>
+<tr>
+<td align="right">11272</td>
+<td align="left">VIEW#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">49% noun: Opinion, attitude, viewpoint</td>
+</tr>
+<tr>
+<td align="right">11662</td>
+<td align="left">WORD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: Promise, assurance, affirmation</td>
+</tr>
+<tr>
+<td align="right">11663</td>
+<td align="left">WORD#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: News, information--"he brought word of it"</td>
+</tr>
+<tr>
+<td align="right">11666</td>
+<td align="left">WORD#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: 'wording'--phrasing</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <div class="md-footer-nav">
+        <nav class="md-footer-nav__inner md-grid">
+
+            <!-- Link to previous page -->
+            
+            <a href="../food/" title="Food"
+                class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+                </div>
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Previous
+                        </span>
+                        Food
+                    </span>
+                </div>
+            </a>
+            
+
+            <!-- Link to next page -->
+            
+            <a href="../freq/" title="FREQ"
+                class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Next
+                        </span>
+                        FREQ
+                    </span>
+                </div>
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+                </div>
+            </a>
+            
+        </nav>
+    </div>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+                    Material for MkDocs</a>
+                <p>
+                    <a href="http://www.wjh.harvard.edu/~inquirer/">General Inquirer Homepage</a>
+                </p>
+                <p><strong>Original reference: </strong>
+                    Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M.
+                    Ogilvie, and associates.
+                    The General Inquirer: A Computer Approach to Content Analysis.
+                    MIT Press, 1966.</p>
+            </div>
+
+            <!-- Social links -->
+            
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

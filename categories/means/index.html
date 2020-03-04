@@ -1,0 +1,4181 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>Means - General Inquirer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#546e7a">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex:300,400,400i,700%7CIBM+Plex+Mono&display=fallback">
+        <style>body,input{font-family:"IBM Plex","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"IBM Plex Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#means" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="General Inquirer" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">import_contacts</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              General Inquirer
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Means
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="General Inquirer" class="md-nav__button md-logo">
+      
+        <i class="md-icon">import_contacts</i>
+      
+    </a>
+    General Inquirer
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="General Inquirer" class="md-nav__link">
+      General Inquirer
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../category-statistics-table/" title="Category Porting Statistics" class="md-nav__link">
+      Category Porting Statistics
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../porting-info/" title="Porting Process" class="md-nav__link">
+      Porting Process
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Categories
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Categories
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs/" title="Abs@" class="md-nav__link">
+      Abs@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs1/" title="ABS" class="md-nav__link">
+      ABS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../academ/" title="Academ" class="md-nav__link">
+      Academ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../active/" title="Active" class="md-nav__link">
+      Active
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affgain/" title="AffGain" class="md-nav__link">
+      AffGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affil/" title="Affil" class="md-nav__link">
+      Affil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affloss/" title="AffLoss" class="md-nav__link">
+      AffLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affoth/" title="AffOth" class="md-nav__link">
+      AffOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affpt/" title="AffPt" class="md-nav__link">
+      AffPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../afftot/" title="AffTot" class="md-nav__link">
+      AffTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ani/" title="ANI" class="md-nav__link">
+      ANI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../anomie/" title="Anomie" class="md-nav__link">
+      Anomie
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aquatic/" title="Aquatic" class="md-nav__link">
+      Aquatic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arenalw/" title="ArenaLw" class="md-nav__link">
+      ArenaLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arousal/" title="Arousal" class="md-nav__link">
+      Arousal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../begin/" title="Begin" class="md-nav__link">
+      Begin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bldgpt/" title="BldgPt" class="md-nav__link">
+      BldgPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bodypt/" title="BodyPt" class="md-nav__link">
+      BodyPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../card/" title="CARD" class="md-nav__link">
+      CARD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../causal/" title="Causal" class="md-nav__link">
+      Causal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../coll/" title="COLL" class="md-nav__link">
+      COLL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../color/" title="COLOR" class="md-nav__link">
+      COLOR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../com/" title="COM" class="md-nav__link">
+      COM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comform/" title="ComForm" class="md-nav__link">
+      ComForm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comnobj/" title="ComnObj" class="md-nav__link">
+      ComnObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../compare/" title="Compare" class="md-nav__link">
+      Compare
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../complet/" title="Complet" class="md-nav__link">
+      Complet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dav/" title="DAV" class="md-nav__link">
+      DAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../decreas/" title="Decreas" class="md-nav__link">
+      Decreas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dim/" title="DIM" class="md-nav__link">
+      DIM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dist/" title="DIST" class="md-nav__link">
+      DIST
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doctrin/" title="Doctrin" class="md-nav__link">
+      Doctrin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ/" title="Econ@" class="md-nav__link">
+      Econ@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ1/" title="ECON" class="md-nav__link">
+      ECON
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../emot/" title="EMOT" class="md-nav__link">
+      EMOT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../endslw/" title="EndsLw" class="md-nav__link">
+      EndsLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlends/" title="EnlEnds" class="md-nav__link">
+      EnlEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlgain/" title="EnlGain" class="md-nav__link">
+      EnlGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlloss/" title="EnlLoss" class="md-nav__link">
+      EnlLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enloth/" title="EnlOth" class="md-nav__link">
+      EnlOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlpt/" title="EnlPt" class="md-nav__link">
+      EnlPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enltot/" title="EnlTot" class="md-nav__link">
+      EnlTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval/" title="Eval@" class="md-nav__link">
+      Eval@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval1/" title="EVAL" class="md-nav__link">
+      EVAL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exch/" title="Exch" class="md-nav__link">
+      Exch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exert/" title="Exert" class="md-nav__link">
+      Exert
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exprsv/" title="Exprsv" class="md-nav__link">
+      Exprsv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fail/" title="Fail" class="md-nav__link">
+      Fail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fall/" title="Fall" class="md-nav__link">
+      Fall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../feel/" title="Feel" class="md-nav__link">
+      Feel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../female/" title="Female" class="md-nav__link">
+      Female
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fetch/" title="Fetch" class="md-nav__link">
+      Fetch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../finish/" title="Finish" class="md-nav__link">
+      Finish
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../food/" title="Food" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../formlw/" title="FormLw" class="md-nav__link">
+      FormLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../freq/" title="FREQ" class="md-nav__link">
+      FREQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../goal/" title="Goal" class="md-nav__link">
+      Goal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hostile/" title="Hostile" class="md-nav__link">
+      Hostile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hu/" title="HU" class="md-nav__link">
+      HU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../iav/" title="IAV" class="md-nav__link">
+      IAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../if/" title="If" class="md-nav__link">
+      If
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../increas/" title="Increas" class="md-nav__link">
+      Increas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../indadj/" title="IndAdj" class="md-nav__link">
+      IndAdj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../intrj/" title="Intrj" class="md-nav__link">
+      Intrj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ipadj/" title="IPadj" class="md-nav__link">
+      IPadj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kin/" title="Kin@" class="md-nav__link">
+      Kin@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../know/" title="Know" class="md-nav__link">
+      Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../land/" title="Land" class="md-nav__link">
+      Land
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../legal/" title="Legal" class="md-nav__link">
+      Legal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../male/" title="MALE" class="md-nav__link">
+      MALE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Means
+      </label>
+    
+    <a href="./" title="Means" class="md-nav__link md-nav__link--active">
+      Means
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../meanslw/" title="MeansLw" class="md-nav__link">
+      MeansLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../milit/" title="Milit" class="md-nav__link">
+      Milit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../name/" title="Name" class="md-nav__link">
+      Name
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nation/" title="Nation" class="md-nav__link">
+      Nation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natobj/" title="NatObj" class="md-nav__link">
+      NatObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natrpro/" title="NatrPro" class="md-nav__link">
+      NatrPro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../need/" title="Need" class="md-nav__link">
+      Need
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negaff/" title="NegAff" class="md-nav__link">
+      NegAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negate/" title="Negate" class="md-nav__link">
+      Negate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negativ/" title="Negativ" class="md-nav__link">
+      Negativ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ngtv/" title="Ngtv" class="md-nav__link">
+      Ngtv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../no/" title="No" class="md-nav__link">
+      No
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nonadlt/" title="Nonadlt" class="md-nav__link">
+      Nonadlt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../notlw/" title="NotLw" class="md-nav__link">
+      NotLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../numb/" title="NUMB" class="md-nav__link">
+      NUMB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../object/" title="Object" class="md-nav__link">
+      Object
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ord/" title="ORD" class="md-nav__link">
+      ORD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ought/" title="Ought" class="md-nav__link">
+      Ought
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../our/" title="Our" class="md-nav__link">
+      Our
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ovrst/" title="Ovrst" class="md-nav__link">
+      Ovrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pain/" title="Pain" class="md-nav__link">
+      Pain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../passive/" title="Passive" class="md-nav__link">
+      Passive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perceiv/" title="Perceiv" class="md-nav__link">
+      Perceiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../persist/" title="Persist" class="md-nav__link">
+      Persist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../place/" title="PLACE" class="md-nav__link">
+      PLACE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pleasur/" title="Pleasur" class="md-nav__link">
+      Pleasur
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit/" title="Polit@" class="md-nav__link">
+      Polit@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit1/" title="POLIT" class="md-nav__link">
+      POLIT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pos/" title="POS" class="md-nav__link">
+      POS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../posaff/" title="PosAff" class="md-nav__link">
+      PosAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../positiv/" title="Positiv" class="md-nav__link">
+      Positiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaren/" title="PowAren" class="md-nav__link">
+      PowAren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaupt/" title="PowAuPt" class="md-nav__link">
+      PowAuPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powauth/" title="PowAuth" class="md-nav__link">
+      PowAuth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcon/" title="PowCon" class="md-nav__link">
+      PowCon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcoop/" title="PowCoop" class="md-nav__link">
+      PowCoop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powdoct/" title="PowDoct" class="md-nav__link">
+      PowDoct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powends/" title="PowEnds" class="md-nav__link">
+      PowEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../power/" title="Power" class="md-nav__link">
+      Power
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powgain/" title="PowGain" class="md-nav__link">
+      PowGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powloss/" title="PowLoss" class="md-nav__link">
+      PowLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powoth/" title="PowOth" class="md-nav__link">
+      PowOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powpt/" title="PowPt" class="md-nav__link">
+      PowPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powtot/" title="PowTot" class="md-nav__link">
+      PowTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pstv/" title="Pstv" class="md-nav__link">
+      Pstv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ptlw/" title="PtLw" class="md-nav__link">
+      PtLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quality/" title="Quality" class="md-nav__link">
+      Quality
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quan/" title="Quan" class="md-nav__link">
+      Quan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../race/" title="Race" class="md-nav__link">
+      Race
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcends/" title="RcEnds" class="md-nav__link">
+      RcEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcethic/" title="RcEthic" class="md-nav__link">
+      RcEthic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcgain/" title="RcGain" class="md-nav__link">
+      RcGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcloss/" title="RcLoss" class="md-nav__link">
+      RcLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcrelig/" title="RcRelig" class="md-nav__link">
+      RcRelig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rctot/" title="RcTot" class="md-nav__link">
+      RcTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../region/" title="Region" class="md-nav__link">
+      Region
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rel/" title="Rel" class="md-nav__link">
+      Rel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../relig/" title="Relig" class="md-nav__link">
+      Relig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rise/" title="Rise" class="md-nav__link">
+      Rise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ritual/" title="Ritual" class="md-nav__link">
+      Ritual
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../role/" title="Role" class="md-nav__link">
+      Role
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../route/" title="Route" class="md-nav__link">
+      Route
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspgain/" title="RspGain" class="md-nav__link">
+      RspGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsploss/" title="RspLoss" class="md-nav__link">
+      RspLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspoth/" title="RspOth" class="md-nav__link">
+      RspOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsptot/" title="RspTot" class="md-nav__link">
+      RspTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../say/" title="Say" class="md-nav__link">
+      Say
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../self/" title="Self" class="md-nav__link">
+      Self
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklasth/" title="SklAsth" class="md-nav__link">
+      SklAsth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skloth/" title="SklOth" class="md-nav__link">
+      SklOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklpt/" title="SklPt" class="md-nav__link">
+      SklPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skltot/" title="SklTot" class="md-nav__link">
+      SklTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sky/" title="Sky" class="md-nav__link">
+      Sky
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../social/" title="Social" class="md-nav__link">
+      Social
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../socrel/" title="SocRel" class="md-nav__link">
+      SocRel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../solve/" title="Solve" class="md-nav__link">
+      Solve
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../space/" title="Space" class="md-nav__link">
+      Space
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stay/" title="Stay" class="md-nav__link">
+      Stay
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../strong/" title="Strong" class="md-nav__link">
+      Strong
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../submit/" title="Submit" class="md-nav__link">
+      Submit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../surelw/" title="SureLw" class="md-nav__link">
+      SureLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sv/" title="SV" class="md-nav__link">
+      SV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../think/" title="Think" class="md-nav__link">
+      Think
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time/" title="Time@" class="md-nav__link">
+      Time@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time1/" title="TIME" class="md-nav__link">
+      TIME
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../timespc/" title="TimeSpc" class="md-nav__link">
+      TimeSpc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tool/" title="Tool" class="md-nav__link">
+      Tool
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tranlw/" title="TranLw" class="md-nav__link">
+      TranLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../travel/" title="Travel" class="md-nav__link">
+      Travel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trngain/" title="TrnGain" class="md-nav__link">
+      TrnGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trnloss/" title="TrnLoss" class="md-nav__link">
+      TrnLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../try/" title="Try" class="md-nav__link">
+      Try
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../undrst/" title="Undrst" class="md-nav__link">
+      Undrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vary/" title="Vary" class="md-nav__link">
+      Vary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vehicle/" title="Vehicle" class="md-nav__link">
+      Vehicle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vice/" title="Vice" class="md-nav__link">
+      Vice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../virtue/" title="Virtue" class="md-nav__link">
+      Virtue
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../weak/" title="Weak" class="md-nav__link">
+      Weak
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbgain/" title="WlbGain" class="md-nav__link">
+      WlbGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbloss/" title="WlbLoss" class="md-nav__link">
+      WlbLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbphys/" title="WlbPhys" class="md-nav__link">
+      WlbPhys
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpsyc/" title="WlbPsyc" class="md-nav__link">
+      WlbPsyc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpt/" title="WlbPt" class="md-nav__link">
+      WlbPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbtot/" title="WlbTot" class="md-nav__link">
+      WlbTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltoth/" title="WltOth" class="md-nav__link">
+      WltOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltpt/" title="WltPt" class="md-nav__link">
+      WltPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttot/" title="WltTot" class="md-nav__link">
+      WltTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttran/" title="WltTran" class="md-nav__link">
+      WltTran
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../work/" title="Work" class="md-nav__link">
+      Work
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../yes/" title="Yes" class="md-nav__link">
+      Yes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../you/" title="You" class="md-nav__link">
+      You
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pmbaumgartner/general-inquirer-remix/edit/master/docs/categories/means.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="means">Means</h1>
+<p>244 words denoting objects, acts or methods utilized in attaining goals. Only 16 words overlap with Lasswell dictionary 77-word category MeansLw.</p>
+<h2 id="completed">Completed</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">41</td>
+<td align="left">ABSORB#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">65</td>
+<td align="left">ACCESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">212</td>
+<td align="left">ADVANCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">20% noun-adj: A moving forward, improvement, approach, in front, prior</td>
+</tr>
+<tr>
+<td align="right">389</td>
+<td align="left">ALONG#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% prep-adverb: Through, beside, on, during, with progressive motion,  in accordance with.</td>
+</tr>
+<tr>
+<td align="right">393</td>
+<td align="left">ALONGSIDE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">402</td>
+<td align="left">ALTERNATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">573</td>
+<td align="left">APPLY#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Applied"--used in practice or to work out practical problems</td>
+</tr>
+<tr>
+<td align="right">577</td>
+<td align="left">APPRAISAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">587</td>
+<td align="left">APPROACH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">34% noun: The method used or steps taken in setting about a task, problem;  a coming toward</td>
+</tr>
+<tr>
+<td align="right">686</td>
+<td align="left">ASCERTAINMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">714</td>
+<td align="left">ASSESSMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">771</td>
+<td align="left">ATTEMPT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% noun: A try or effort</td>
+</tr>
+<tr>
+<td align="right">772</td>
+<td align="left">ATTEMPT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Attempted"--essayed, ventured</td>
+</tr>
+<tr>
+<td align="right">895</td>
+<td align="left">BALANCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1232</td>
+<td align="left">BOOKKEEPING</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1386</td>
+<td align="left">BUDGET</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1445</td>
+<td align="left">BY</td>
+<td align="left">H4Lvd</td>
+<td align="left">prep-adv: By means of, indicates actor when used with passive voice, infrequently  used with reference to space, time, size</td>
+</tr>
+<tr>
+<td align="right">1454</td>
+<td align="left">CALCULATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1480</td>
+<td align="left">CAMPAIGN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">95% noun: An effort toward a goal</td>
+</tr>
+<tr>
+<td align="right">1504</td>
+<td align="left">CAPABILITY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Power or potential</td>
+</tr>
+<tr>
+<td align="right">1506</td>
+<td align="left">CAPACITY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">72% noun: Ability to do or hold</td>
+</tr>
+<tr>
+<td align="right">1530</td>
+<td align="left">CAREER</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: General course of action or development of some phase of one's life,  especially the occupational.</td>
+</tr>
+<tr>
+<td align="right">1551</td>
+<td align="left">CASEWORK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1630</td>
+<td align="left">CHALLENGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">72% noun: Confrontation, contest, difficult task, generally with a connotation  of provocativeness or stimulation</td>
+</tr>
+<tr>
+<td align="right">1660</td>
+<td align="left">CHARGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">35% noun: Authority, responsibility, custody</td>
+</tr>
+<tr>
+<td align="right">1734</td>
+<td align="left">CHORE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2025</td>
+<td align="left">COMPEL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2033</td>
+<td align="left">COMPETITION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2074</td>
+<td align="left">COMPULSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2200</td>
+<td align="left">CONSIDER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Considered"--thoughtful--e.g. "a considered decision"</td>
+</tr>
+<tr>
+<td align="right">2357</td>
+<td align="left">CORRELATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2475</td>
+<td align="left">CRITICAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2508</td>
+<td align="left">CRUCIAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2545</td>
+<td align="left">CURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% noun: A method or course of remedial treatment</td>
+</tr>
+<tr>
+<td align="right">2606</td>
+<td align="left">DATA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2645</td>
+<td align="left">DEBT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2665</td>
+<td align="left">DECIDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adjective: "Decided"--definite, pronounced</td>
+</tr>
+<tr>
+<td align="right">2748</td>
+<td align="left">DELIVERY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2770</td>
+<td align="left">DEMONSTRATION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% noun-adj: A proof, a display of how something works</td>
+</tr>
+<tr>
+<td align="right">2884</td>
+<td align="left">DETERRENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2979</td>
+<td align="left">DISARMAMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3063</td>
+<td align="left">DISPOSAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3181</td>
+<td align="left">DOUBT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">49% noun: Uncertainty, question</td>
+</tr>
+<tr>
+<td align="right">3184</td>
+<td align="left">DOUBT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Doubting"--questionning, uncertain, unbelieving</td>
+</tr>
+<tr>
+<td align="right">3290</td>
+<td align="left">DURABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3384</td>
+<td align="left">EFFECT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: 'in effect'--working, functional</td>
+</tr>
+<tr>
+<td align="right">3686</td>
+<td align="left">EVIDENCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">83% noun: Something which tends to prove or suggest a fact</td>
+</tr>
+<tr>
+<td align="right">3699</td>
+<td align="left">EXACT#4</td>
+<td align="left">H4</td>
+<td align="left">0% adj: "Exacting" - demanding</td>
+</tr>
+<tr>
+<td align="right">3769</td>
+<td align="left">EXPEDIENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3779</td>
+<td align="left">EXPERIENCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">82% noun: What one has encountered or undergone and the knowledge gained thereby</td>
+</tr>
+<tr>
+<td align="right">3798</td>
+<td align="left">EXPLORATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3858</td>
+<td align="left">FACILITY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Physical means for expediting performance of an action, institutions  and equipment</td>
+</tr>
+<tr>
+<td align="right">4289</td>
+<td align="left">FORMATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4295</td>
+<td align="left">FORMULATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4433</td>
+<td align="left">FUND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">34% idiom-noun: "Trust fund"--handled by "trust"</td>
+</tr>
+<tr>
+<td align="right">4663</td>
+<td align="left">GRADUATE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: "Graduating"--receiving a diploma or degree</td>
+</tr>
+<tr>
+<td align="right">4664</td>
+<td align="left">GRADUATE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Graduated"--marked with degrees for measuring</td>
+</tr>
+<tr>
+<td align="right">4740</td>
+<td align="left">GROUND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Grounded"--based</td>
+</tr>
+<tr>
+<td align="right">4775</td>
+<td align="left">GUESS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: A conjecture</td>
+</tr>
+<tr>
+<td align="right">4776</td>
+<td align="left">GUESS#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: 'guessing'</td>
+</tr>
+<tr>
+<td align="right">5206</td>
+<td align="left">IDENTIFICATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5242</td>
+<td align="left">IMAGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">58% noun: The way a person (or organization) is seen by other people--i  am concerned about my image"</td>
+</tr>
+<tr>
+<td align="right">5294</td>
+<td align="left">IMPLEMENTATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5353</td>
+<td align="left">INCIDENTAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5421</td>
+<td align="left">INDIRECT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5423</td>
+<td align="left">INDISPENSABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5487</td>
+<td align="left">INFORM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">36% adj: "Informed"--having information, knowledge, or education</td>
+</tr>
+<tr>
+<td align="right">5577</td>
+<td align="left">INSTRUMENTAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5583</td>
+<td align="left">INSURANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The system or act of insuring by contract against loss</td>
+</tr>
+<tr>
+<td align="right">5589</td>
+<td align="left">INTEGRATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The bringing together of various races, especially black and white;  the bringing of previously separated elements into one uniform system (10)</td>
+</tr>
+<tr>
+<td align="right">5671</td>
+<td align="left">INVENTORY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5674</td>
+<td align="left">INVESTIGATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5766</td>
+<td align="left">JOB</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Piece of work, task, occupation</td>
+</tr>
+<tr>
+<td align="right">5831</td>
+<td align="left">KEEP#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: Accord, conformity--"in keeping with"</td>
+</tr>
+<tr>
+<td align="right">5976</td>
+<td align="left">LEAD#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun-adj: 'lead,' 'leading'--fact or position of leadership; the heavy metal (0)</td>
+</tr>
+<tr>
+<td align="right">6143</td>
+<td align="left">LIVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% noun-adj: Pertaining to the process or conditions of life, livelihood--  "he makes a good living," "my living conditions"</td>
+</tr>
+<tr>
+<td align="right">6148</td>
+<td align="left">LIVELIHOOD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6308</td>
+<td align="left">MAINTENANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6322</td>
+<td align="left">MAKE#8</td>
+<td align="left">H4</td>
+<td align="left">0% noun: "Making"--creation, production, execution</td>
+</tr>
+<tr>
+<td align="right">6355</td>
+<td align="left">MANEUVER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6364</td>
+<td align="left">MANNER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% noun: A way of acting, a mode of procedure, a sort, kind, or style</td>
+</tr>
+<tr>
+<td align="right">6366</td>
+<td align="left">MANNER#3</td>
+<td align="left">H4</td>
+<td align="left">2% adj: "Mannered"--having manners of a specific sort</td>
+</tr>
+<tr>
+<td align="right">6369</td>
+<td align="left">MANPOWER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6394</td>
+<td align="left">MARK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% adv-adj: "Marked," "markedly"--considerable, conspicuously</td>
+</tr>
+<tr>
+<td align="right">6482</td>
+<td align="left">MEASURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">56% noun: Action, means--"emergency measures"</td>
+</tr>
+<tr>
+<td align="right">6563</td>
+<td align="left">METHOD</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A manner or mode of proceeding</td>
+</tr>
+<tr>
+<td align="right">6564</td>
+<td align="left">METHODICAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6691</td>
+<td align="left">MODE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6776</td>
+<td align="left">MOVABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6885</td>
+<td align="left">NECESSARY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">84% adj: Essential, required</td>
+</tr>
+<tr>
+<td align="right">6886</td>
+<td align="left">NECESSARY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% adv: "Necessarily"--of necessity</td>
+</tr>
+<tr>
+<td align="right">6887</td>
+<td align="left">NECESSARY#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: Essentials</td>
+</tr>
+<tr>
+<td align="right">6889</td>
+<td align="left">NECESSITY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Need, something indispensible or required</td>
+</tr>
+<tr>
+<td align="right">6900</td>
+<td align="left">NEGLECT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6922</td>
+<td align="left">NETWORK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7009</td>
+<td align="left">NORM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7152</td>
+<td align="left">OMISSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7185</td>
+<td align="left">OPERATIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7186</td>
+<td align="left">OPERATIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7213</td>
+<td align="left">ORDER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">18% noun: Condition or sequence in general, proper condition or sequence,  an arrangement or system of arrangement, an organization</td>
+</tr>
+<tr>
+<td align="right">7216</td>
+<td align="left">ORDER#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj-noun: "Orderly"--methodical, systematic; a soldier or hospital attendant (1)</td>
+</tr>
+<tr>
+<td align="right">7217</td>
+<td align="left">ORDER#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Ordered"--methodically or suitably arranged</td>
+</tr>
+<tr>
+<td align="right">7500</td>
+<td align="left">PATTERN</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Any phenomenon, arrangement, condition, etc. that suggests or  reveals a design or regularity.</td>
+</tr>
+<tr>
+<td align="right">7513</td>
+<td align="left">PAYMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The act of paying, also that which is paid.</td>
+</tr>
+<tr>
+<td align="right">7514</td>
+<td align="left">PAYROLL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7641</td>
+<td align="left">PICK#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Picked"--selected</td>
+</tr>
+<tr>
+<td align="right">7693</td>
+<td align="left">PLAN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">57% noun: An organized program for some action</td>
+</tr>
+<tr>
+<td align="right">7696</td>
+<td align="left">PLAN#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Planned"--prepared in advance, programmed for</td>
+</tr>
+<tr>
+<td align="right">7924</td>
+<td align="left">PREPARE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">26% adj: "Prepared"--ready</td>
+</tr>
+<tr>
+<td align="right">7926</td>
+<td align="left">PREREQUISITE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7938</td>
+<td align="left">PRESERVATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7949</td>
+<td align="left">PRESS#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: "Pressing"--urgent</td>
+</tr>
+<tr>
+<td align="right">7999</td>
+<td align="left">PRIORITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8019</td>
+<td align="left">PROBE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8021</td>
+<td align="left">PROCEDURAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8022</td>
+<td align="left">PROCEDURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8034</td>
+<td align="left">PROCUREMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8042</td>
+<td align="left">PRODUCTION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Act of producing, creation, manufacture</td>
+</tr>
+<tr>
+<td align="right">8056</td>
+<td align="left">PROGRAM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: A plan for action of some kind, or the action itself</td>
+</tr>
+<tr>
+<td align="right">8068</td>
+<td align="left">PROJECT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">91% noun-adj: Large or major undertaking</td>
+</tr>
+<tr>
+<td align="right">8071</td>
+<td align="left">PROJECT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Projecting"--standing out, forecasting, externalizing thoughts  or feelings, casting an image</td>
+</tr>
+<tr>
+<td align="right">8134</td>
+<td align="left">PROVISION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8197</td>
+<td align="left">QUALIFICATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8218</td>
+<td align="left">QUEST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8335</td>
+<td align="left">READY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">95% adj: Completely prepared, likely at any moment, prompt or quick in  action, manifestation, etc.; set, able to be used, etc.</td>
+</tr>
+<tr>
+<td align="right">8403</td>
+<td align="left">RECONSTRUCTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8416</td>
+<td align="left">RECRUITMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8425</td>
+<td align="left">REDEVELOPMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8457</td>
+<td align="left">REGARD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">49% prep: "Regarding," "in (with) regard to," "as regards"; with reference  to, concerning</td>
+</tr>
+<tr>
+<td align="right">8536</td>
+<td align="left">REMEDY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8556</td>
+<td align="left">RENTAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8562</td>
+<td align="left">REPAIR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8590</td>
+<td align="left">REPRESENTATIVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% adj: Portraying, exemplifying, acting or speaking for, having elected delegates</td>
+</tr>
+<tr>
+<td align="right">8607</td>
+<td align="left">REQUIRE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Required", obligatory, needed</td>
+</tr>
+<tr>
+<td align="right">8608</td>
+<td align="left">REQUIREMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8609</td>
+<td align="left">REQUISITE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8612</td>
+<td align="left">RESEARCH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8618</td>
+<td align="left">RESERVATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8620</td>
+<td align="left">RESERVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Reserved"--withheld, restrained</td>
+</tr>
+<tr>
+<td align="right">8621</td>
+<td align="left">RESERVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% noun-adj: Surplus, secondary supply</td>
+</tr>
+<tr>
+<td align="right">8637</td>
+<td align="left">RESOURCE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Source of supply, support, aid</td>
+</tr>
+<tr>
+<td align="right">8683</td>
+<td align="left">RETAIL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8691</td>
+<td align="left">RETIREMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8711</td>
+<td align="left">REVENUE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8720</td>
+<td align="left">REVIEW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8766</td>
+<td align="left">RIGHT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% noun: Legal or moral prerogative</td>
+</tr>
+<tr>
+<td align="right">8799</td>
+<td align="left">RISK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8881</td>
+<td align="left">ROUTINE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8961</td>
+<td align="left">SALARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8962</td>
+<td align="left">SALE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8964</td>
+<td align="left">SALESMANSHIP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9008</td>
+<td align="left">SAVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% noun-adj: "Savings" - accumulated wealth, advantage</td>
+</tr>
+<tr>
+<td align="right">9020</td>
+<td align="left">SAY#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun: The right or opportunity to speak, decide, exercise, influence</td>
+</tr>
+<tr>
+<td align="right">9046</td>
+<td align="left">SCHEDULE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9049</td>
+<td align="left">SCHEME#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9068</td>
+<td align="left">SCORE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9102</td>
+<td align="left">SEARCH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">22% noun: Careful investigation, hunt, includes "searching"--the act of  carefully looking or investigating</td>
+</tr>
+<tr>
+<td align="right">9103</td>
+<td align="left">SEARCH#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Searching"--keenly observant, penetrating</td>
+</tr>
+<tr>
+<td align="right">9283</td>
+<td align="left">SHARE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">19% noun: A portion or part</td>
+</tr>
+<tr>
+<td align="right">9318</td>
+<td align="left">SHIPMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9355</td>
+<td align="left">SHOT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun: Injection of medicine by needle</td>
+</tr>
+<tr>
+<td align="right">9641</td>
+<td align="left">SOMEHOW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">95% adverb: In some unspecified or unknown way</td>
+</tr>
+<tr>
+<td align="right">9646</td>
+<td align="left">SOMETHING#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: "Something to do with"--some (little) relevance</td>
+</tr>
+<tr>
+<td align="right">9816</td>
+<td align="left">STAGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">68% noun: A phase or step</td>
+</tr>
+<tr>
+<td align="right">9825</td>
+<td align="left">STAKE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9882</td>
+<td align="left">STATUS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">81% noun-adj: Condition or rank (socially, legally, financially) ("status"  often implies "high status" (6))</td>
+</tr>
+<tr>
+<td align="right">9907</td>
+<td align="left">STEP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% noun-adj: A stage, interval, increment or action, generally positive,  in a hierarchy or progressive sequence (36); a pace, tread (7); rest for  the foot in climbing (4)</td>
+</tr>
+<tr>
+<td align="right">9939</td>
+<td align="left">STOCK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9958</td>
+<td align="left">STORAGE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9982</td>
+<td align="left">STRATEGIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9983</td>
+<td align="left">STRATEGY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10047</td>
+<td align="left">STUDY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">22% noun-adj: Application of oneself to acquiring knowledge, a course of learning</td>
+</tr>
+<tr>
+<td align="right">10099</td>
+<td align="left">SUBSTITUTE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10184</td>
+<td align="left">SUPPLEMENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10235</td>
+<td align="left">SURVEY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10304</td>
+<td align="left">SYSTEMATIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10305</td>
+<td align="left">SYSTEMATICALLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10311</td>
+<td align="left">TACTIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10312</td>
+<td align="left">TACTICAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10313</td>
+<td align="left">TACTICS</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10355</td>
+<td align="left">TASK</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A piece of work, a job, a project</td>
+</tr>
+<tr>
+<td align="right">10365</td>
+<td align="left">TAX#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% noun-adj: Payment of money to government for public services, etc.</td>
+</tr>
+<tr>
+<td align="right">10369</td>
+<td align="left">TAXABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10370</td>
+<td align="left">TAXATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10386</td>
+<td align="left">TECHNIQUE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10416</td>
+<td align="left">TENACITY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10485</td>
+<td align="left">THERAPY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10787</td>
+<td align="left">TREATMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10849</td>
+<td align="left">TRY#3</td>
+<td align="left">H4</td>
+<td align="left">0% noun: An attempt</td>
+</tr>
+<tr>
+<td align="right">10914</td>
+<td align="left">UNAVOIDABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10956</td>
+<td align="left">UNDERTAKE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11151</td>
+<td align="left">USE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% noun: Implementation, employment</td>
+</tr>
+<tr>
+<td align="right">11169</td>
+<td align="left">UTILITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11197</td>
+<td align="left">VALUATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11228</td>
+<td align="left">VENTURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11340</td>
+<td align="left">WAGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11370</td>
+<td align="left">WANT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Wanted"--desired, required (occasionally)</td>
+</tr>
+<tr>
+<td align="right">11372</td>
+<td align="left">WAR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11419</td>
+<td align="left">WAY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% noun: Aspect, manner, mode, fashion, means, method</td>
+</tr>
+<tr>
+<td align="right">11626</td>
+<td align="left">WITCHCRAFT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11669</td>
+<td align="left">WORK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">50% noun-adj: Act of working, type or place (infrequent) of work, assigned  task, product (infrequent)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="incomplete">Incomplete</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">84</td>
+<td align="left">ACCORD#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adv: "Of one's own accord"--voluntarily</td>
+</tr>
+<tr>
+<td align="right">1270</td>
+<td align="left">BOUND#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% adj: Headed, aimed, going--"bound for"</td>
+</tr>
+<tr>
+<td align="right">1395</td>
+<td align="left">BUILD#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% noun-adj: "Building"--construction</td>
+</tr>
+<tr>
+<td align="right">1507</td>
+<td align="left">CAPACITY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">24% noun: Position, role, status</td>
+</tr>
+<tr>
+<td align="right">1693</td>
+<td align="left">CHECK#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% noun-adj: An investigation (0); a restraint (1); a mark or token of  verification, approval or custody (0)</td>
+</tr>
+<tr>
+<td align="right">2113</td>
+<td align="left">CONDITION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: "Conditioning"--process of rendering in a specified condition</td>
+</tr>
+<tr>
+<td align="right">2205</td>
+<td align="left">CONSIDERATION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">31% noun: Factor to be taken into account</td>
+</tr>
+<tr>
+<td align="right">2631</td>
+<td align="left">DEAL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: Affair, arrangement, bargain, treatment</td>
+</tr>
+<tr>
+<td align="right">3340</td>
+<td align="left">EASY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">31% adverb: Easily--in an easy manner, with ease, without trouble.</td>
+</tr>
+<tr>
+<td align="right">3508</td>
+<td align="left">END#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% verb-idiom: 'make ends meet'--live within one's means--handled by "meet"</td>
+</tr>
+<tr>
+<td align="right">3777</td>
+<td align="left">EXPENSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% idiom: 'at the expense of'--to the detriment or sacrifice of</td>
+</tr>
+<tr>
+<td align="right">3867</td>
+<td align="left">FACULTY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% noun: Ability</td>
+</tr>
+<tr>
+<td align="right">3959</td>
+<td align="left">FAVOR#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">35% idiom: "In favor of," in support of</td>
+</tr>
+<tr>
+<td align="right">4245</td>
+<td align="left">FOOT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: "Footing"--position, standing</td>
+</tr>
+<tr>
+<td align="right">4353</td>
+<td align="left">FREE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% adverb: "Freely"--in a free manner, openly</td>
+</tr>
+<tr>
+<td align="right">4835</td>
+<td align="left">HAND#9</td>
+<td align="left">H4</td>
+<td align="left">0% idiom-adj: "In hand"--under control</td>
+</tr>
+<tr>
+<td align="right">4836</td>
+<td align="left">HAND#_10</td>
+<td align="left">H4</td>
+<td align="left">0% idiom-adv: "By hand"--manually</td>
+</tr>
+<tr>
+<td align="right">5689</td>
+<td align="left">INVOLVE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% verb-adj: 'involved'--of relevance, included as an integral part, in question</td>
+</tr>
+<tr>
+<td align="right">5793</td>
+<td align="left">JUDGMENT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% noun: The faculty or capacity of decision</td>
+</tr>
+<tr>
+<td align="right">6145</td>
+<td align="left">LIVE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: 'live'--in person--'live music'</td>
+</tr>
+<tr>
+<td align="right">6470</td>
+<td align="left">MEAN#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% noun: Agency, instrument, method, or financial resources--"through  various means," "by means of a carriage"</td>
+</tr>
+<tr>
+<td align="right">6486</td>
+<td align="left">MEASURE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: "Measuring"--act of quantifying, etc.</td>
+</tr>
+<tr>
+<td align="right">6848</td>
+<td align="left">NAME#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: Reputation</td>
+</tr>
+<tr>
+<td align="right">7695</td>
+<td align="left">PLAN#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% noun-adj: "Planning"--the act of constructing such programs</td>
+</tr>
+<tr>
+<td align="right">8058</td>
+<td align="left">PROGRAM#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: "Programming," "programmed"--the act of making a program,  pertaining to a program, planned</td>
+</tr>
+<tr>
+<td align="right">8809</td>
+<td align="left">ROAD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun: A way or course--"road to peace"</td>
+</tr>
+<tr>
+<td align="right">8848</td>
+<td align="left">ROOM#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-noun: 'room and board'--referring to living and eating expenses</td>
+</tr>
+<tr>
+<td align="right">9132</td>
+<td align="left">SECURITY#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% idiom-noun: "Security council"--organ of the united nations</td>
+</tr>
+<tr>
+<td align="right">9133</td>
+<td align="left">SECURITY#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">49% idiom-noun: "Social security"--handled by "social"</td>
+</tr>
+<tr>
+<td align="right">9341</td>
+<td align="left">SHOP#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% noun-adj: "Shopping"--the act of one who shops</td>
+</tr>
+<tr>
+<td align="right">9358</td>
+<td align="left">SHOT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-noun: "Long shot"--an undertaking or selection which has little  chance of success (but may offer much if successful)</td>
+</tr>
+<tr>
+<td align="right">9642</td>
+<td align="left">SOMEHOW#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% idiom-adv: 'somehow or other'- by whatever means possible or necessary</td>
+</tr>
+<tr>
+<td align="right">9709</td>
+<td align="left">SPEAK#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-adv: "So to speak"--in a manner of speaking, speaking figuratively</td>
+</tr>
+<tr>
+<td align="right">9840</td>
+<td align="left">STAND#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun: "Standing"--rank, situation (e.g. "financial standing")</td>
+</tr>
+<tr>
+<td align="right">9961</td>
+<td align="left">STORE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: Supplies</td>
+</tr>
+<tr>
+<td align="right">10049</td>
+<td align="left">STUDY#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: "Studying"</td>
+</tr>
+<tr>
+<td align="right">10307</td>
+<td align="left">TABLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: An arrangement or list of numbers and the like in a given order</td>
+</tr>
+<tr>
+<td align="right">10448</td>
+<td align="left">TEST#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun: 'testing'--experimentation, exploratory application</td>
+</tr>
+<tr>
+<td align="right">10702</td>
+<td align="left">TOUCH#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun: A knack</td>
+</tr>
+<tr>
+<td align="right">10839</td>
+<td align="left">TRUST#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% idiom-noun: "Trust fund"</td>
+</tr>
+<tr>
+<td align="right">10840</td>
+<td align="left">TRUST#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: Safekeeping</td>
+</tr>
+<tr>
+<td align="right">11154</td>
+<td align="left">USE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: Purpose, avail, worth, function, utility</td>
+</tr>
+<tr>
+<td align="right">11432</td>
+<td align="left">WAY#_11</td>
+<td align="left">H4</td>
+<td align="left">0% idiom-prep: 'by way of'--as a means or mode of</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <div class="md-footer-nav">
+        <nav class="md-footer-nav__inner md-grid">
+
+            <!-- Link to previous page -->
+            
+            <a href="../male/" title="MALE"
+                class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+                </div>
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Previous
+                        </span>
+                        MALE
+                    </span>
+                </div>
+            </a>
+            
+
+            <!-- Link to next page -->
+            
+            <a href="../meanslw/" title="MeansLw"
+                class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Next
+                        </span>
+                        MeansLw
+                    </span>
+                </div>
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+                </div>
+            </a>
+            
+        </nav>
+    </div>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+                    Material for MkDocs</a>
+                <p>
+                    <a href="http://www.wjh.harvard.edu/~inquirer/">General Inquirer Homepage</a>
+                </p>
+                <p><strong>Original reference: </strong>
+                    Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M.
+                    Ogilvie, and associates.
+                    The General Inquirer: A Computer Approach to Content Analysis.
+                    MIT Press, 1966.</p>
+            </div>
+
+            <!-- Social links -->
+            
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

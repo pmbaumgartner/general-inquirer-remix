@@ -1,0 +1,8183 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.6.0">
+    
+    
+      
+        <title>Passive - General Inquirer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#546e7a">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex:300,400,400i,700%7CIBM+Plex+Mono&display=fallback">
+        <style>body,input{font-family:"IBM Plex","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"IBM Plex Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#passive" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="General Inquirer" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">import_contacts</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              General Inquirer
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Passive
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="General Inquirer" class="md-nav__button md-logo">
+      
+        <i class="md-icon">import_contacts</i>
+      
+    </a>
+    General Inquirer
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/pmbaumgartner/general-inquirer-remix/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    pmbaumgarnter/general-inquirer-remix
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="General Inquirer" class="md-nav__link">
+      General Inquirer
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../category-statistics-table/" title="Category Porting Statistics" class="md-nav__link">
+      Category Porting Statistics
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../porting-info/" title="Porting Process" class="md-nav__link">
+      Porting Process
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Categories
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Categories
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs/" title="Abs@" class="md-nav__link">
+      Abs@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abs1/" title="ABS" class="md-nav__link">
+      ABS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../academ/" title="Academ" class="md-nav__link">
+      Academ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../active/" title="Active" class="md-nav__link">
+      Active
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affgain/" title="AffGain" class="md-nav__link">
+      AffGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affil/" title="Affil" class="md-nav__link">
+      Affil
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affloss/" title="AffLoss" class="md-nav__link">
+      AffLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affoth/" title="AffOth" class="md-nav__link">
+      AffOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../affpt/" title="AffPt" class="md-nav__link">
+      AffPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../afftot/" title="AffTot" class="md-nav__link">
+      AffTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ani/" title="ANI" class="md-nav__link">
+      ANI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../anomie/" title="Anomie" class="md-nav__link">
+      Anomie
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aquatic/" title="Aquatic" class="md-nav__link">
+      Aquatic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arenalw/" title="ArenaLw" class="md-nav__link">
+      ArenaLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arousal/" title="Arousal" class="md-nav__link">
+      Arousal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../begin/" title="Begin" class="md-nav__link">
+      Begin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bldgpt/" title="BldgPt" class="md-nav__link">
+      BldgPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bodypt/" title="BodyPt" class="md-nav__link">
+      BodyPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../card/" title="CARD" class="md-nav__link">
+      CARD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../causal/" title="Causal" class="md-nav__link">
+      Causal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../coll/" title="COLL" class="md-nav__link">
+      COLL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../color/" title="COLOR" class="md-nav__link">
+      COLOR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../com/" title="COM" class="md-nav__link">
+      COM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comform/" title="ComForm" class="md-nav__link">
+      ComForm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../comnobj/" title="ComnObj" class="md-nav__link">
+      ComnObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../compare/" title="Compare" class="md-nav__link">
+      Compare
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../complet/" title="Complet" class="md-nav__link">
+      Complet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dav/" title="DAV" class="md-nav__link">
+      DAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../decreas/" title="Decreas" class="md-nav__link">
+      Decreas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dim/" title="DIM" class="md-nav__link">
+      DIM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dist/" title="DIST" class="md-nav__link">
+      DIST
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doctrin/" title="Doctrin" class="md-nav__link">
+      Doctrin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ/" title="Econ@" class="md-nav__link">
+      Econ@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../econ1/" title="ECON" class="md-nav__link">
+      ECON
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../emot/" title="EMOT" class="md-nav__link">
+      EMOT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../endslw/" title="EndsLw" class="md-nav__link">
+      EndsLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlends/" title="EnlEnds" class="md-nav__link">
+      EnlEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlgain/" title="EnlGain" class="md-nav__link">
+      EnlGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlloss/" title="EnlLoss" class="md-nav__link">
+      EnlLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enloth/" title="EnlOth" class="md-nav__link">
+      EnlOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enlpt/" title="EnlPt" class="md-nav__link">
+      EnlPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../enltot/" title="EnlTot" class="md-nav__link">
+      EnlTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval/" title="Eval@" class="md-nav__link">
+      Eval@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eval1/" title="EVAL" class="md-nav__link">
+      EVAL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exch/" title="Exch" class="md-nav__link">
+      Exch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exert/" title="Exert" class="md-nav__link">
+      Exert
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../exprsv/" title="Exprsv" class="md-nav__link">
+      Exprsv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fail/" title="Fail" class="md-nav__link">
+      Fail
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fall/" title="Fall" class="md-nav__link">
+      Fall
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../feel/" title="Feel" class="md-nav__link">
+      Feel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../female/" title="Female" class="md-nav__link">
+      Female
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../fetch/" title="Fetch" class="md-nav__link">
+      Fetch
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../finish/" title="Finish" class="md-nav__link">
+      Finish
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../food/" title="Food" class="md-nav__link">
+      Food
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../formlw/" title="FormLw" class="md-nav__link">
+      FormLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../freq/" title="FREQ" class="md-nav__link">
+      FREQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../goal/" title="Goal" class="md-nav__link">
+      Goal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hostile/" title="Hostile" class="md-nav__link">
+      Hostile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hu/" title="HU" class="md-nav__link">
+      HU
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../iav/" title="IAV" class="md-nav__link">
+      IAV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../if/" title="If" class="md-nav__link">
+      If
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../increas/" title="Increas" class="md-nav__link">
+      Increas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../indadj/" title="IndAdj" class="md-nav__link">
+      IndAdj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../intrj/" title="Intrj" class="md-nav__link">
+      Intrj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ipadj/" title="IPadj" class="md-nav__link">
+      IPadj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kin/" title="Kin@" class="md-nav__link">
+      Kin@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../know/" title="Know" class="md-nav__link">
+      Know
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../land/" title="Land" class="md-nav__link">
+      Land
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../legal/" title="Legal" class="md-nav__link">
+      Legal
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../male/" title="MALE" class="md-nav__link">
+      MALE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../means/" title="Means" class="md-nav__link">
+      Means
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../meanslw/" title="MeansLw" class="md-nav__link">
+      MeansLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../milit/" title="Milit" class="md-nav__link">
+      Milit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../name/" title="Name" class="md-nav__link">
+      Name
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nation/" title="Nation" class="md-nav__link">
+      Nation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natobj/" title="NatObj" class="md-nav__link">
+      NatObj
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../natrpro/" title="NatrPro" class="md-nav__link">
+      NatrPro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../need/" title="Need" class="md-nav__link">
+      Need
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negaff/" title="NegAff" class="md-nav__link">
+      NegAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negate/" title="Negate" class="md-nav__link">
+      Negate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../negativ/" title="Negativ" class="md-nav__link">
+      Negativ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ngtv/" title="Ngtv" class="md-nav__link">
+      Ngtv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../no/" title="No" class="md-nav__link">
+      No
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nonadlt/" title="Nonadlt" class="md-nav__link">
+      Nonadlt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../notlw/" title="NotLw" class="md-nav__link">
+      NotLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../numb/" title="NUMB" class="md-nav__link">
+      NUMB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../object/" title="Object" class="md-nav__link">
+      Object
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ord/" title="ORD" class="md-nav__link">
+      ORD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ought/" title="Ought" class="md-nav__link">
+      Ought
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../our/" title="Our" class="md-nav__link">
+      Our
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ovrst/" title="Ovrst" class="md-nav__link">
+      Ovrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pain/" title="Pain" class="md-nav__link">
+      Pain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Passive
+      </label>
+    
+    <a href="./" title="Passive" class="md-nav__link md-nav__link--active">
+      Passive
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../perceiv/" title="Perceiv" class="md-nav__link">
+      Perceiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../persist/" title="Persist" class="md-nav__link">
+      Persist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../place/" title="PLACE" class="md-nav__link">
+      PLACE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pleasur/" title="Pleasur" class="md-nav__link">
+      Pleasur
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit/" title="Polit@" class="md-nav__link">
+      Polit@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../polit1/" title="POLIT" class="md-nav__link">
+      POLIT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pos/" title="POS" class="md-nav__link">
+      POS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../posaff/" title="PosAff" class="md-nav__link">
+      PosAff
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../positiv/" title="Positiv" class="md-nav__link">
+      Positiv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaren/" title="PowAren" class="md-nav__link">
+      PowAren
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powaupt/" title="PowAuPt" class="md-nav__link">
+      PowAuPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powauth/" title="PowAuth" class="md-nav__link">
+      PowAuth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcon/" title="PowCon" class="md-nav__link">
+      PowCon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powcoop/" title="PowCoop" class="md-nav__link">
+      PowCoop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powdoct/" title="PowDoct" class="md-nav__link">
+      PowDoct
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powends/" title="PowEnds" class="md-nav__link">
+      PowEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../power/" title="Power" class="md-nav__link">
+      Power
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powgain/" title="PowGain" class="md-nav__link">
+      PowGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powloss/" title="PowLoss" class="md-nav__link">
+      PowLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powoth/" title="PowOth" class="md-nav__link">
+      PowOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powpt/" title="PowPt" class="md-nav__link">
+      PowPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../powtot/" title="PowTot" class="md-nav__link">
+      PowTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pstv/" title="Pstv" class="md-nav__link">
+      Pstv
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ptlw/" title="PtLw" class="md-nav__link">
+      PtLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quality/" title="Quality" class="md-nav__link">
+      Quality
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quan/" title="Quan" class="md-nav__link">
+      Quan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../race/" title="Race" class="md-nav__link">
+      Race
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcends/" title="RcEnds" class="md-nav__link">
+      RcEnds
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcethic/" title="RcEthic" class="md-nav__link">
+      RcEthic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcgain/" title="RcGain" class="md-nav__link">
+      RcGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcloss/" title="RcLoss" class="md-nav__link">
+      RcLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rcrelig/" title="RcRelig" class="md-nav__link">
+      RcRelig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rctot/" title="RcTot" class="md-nav__link">
+      RcTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../region/" title="Region" class="md-nav__link">
+      Region
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rel/" title="Rel" class="md-nav__link">
+      Rel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../relig/" title="Relig" class="md-nav__link">
+      Relig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rise/" title="Rise" class="md-nav__link">
+      Rise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ritual/" title="Ritual" class="md-nav__link">
+      Ritual
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../role/" title="Role" class="md-nav__link">
+      Role
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../route/" title="Route" class="md-nav__link">
+      Route
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspgain/" title="RspGain" class="md-nav__link">
+      RspGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsploss/" title="RspLoss" class="md-nav__link">
+      RspLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rspoth/" title="RspOth" class="md-nav__link">
+      RspOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rsptot/" title="RspTot" class="md-nav__link">
+      RspTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../say/" title="Say" class="md-nav__link">
+      Say
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../self/" title="Self" class="md-nav__link">
+      Self
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklasth/" title="SklAsth" class="md-nav__link">
+      SklAsth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skloth/" title="SklOth" class="md-nav__link">
+      SklOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sklpt/" title="SklPt" class="md-nav__link">
+      SklPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../skltot/" title="SklTot" class="md-nav__link">
+      SklTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sky/" title="Sky" class="md-nav__link">
+      Sky
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../social/" title="Social" class="md-nav__link">
+      Social
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../socrel/" title="SocRel" class="md-nav__link">
+      SocRel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../solve/" title="Solve" class="md-nav__link">
+      Solve
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../space/" title="Space" class="md-nav__link">
+      Space
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stay/" title="Stay" class="md-nav__link">
+      Stay
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../strong/" title="Strong" class="md-nav__link">
+      Strong
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../submit/" title="Submit" class="md-nav__link">
+      Submit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../surelw/" title="SureLw" class="md-nav__link">
+      SureLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sv/" title="SV" class="md-nav__link">
+      SV
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../think/" title="Think" class="md-nav__link">
+      Think
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time/" title="Time@" class="md-nav__link">
+      Time@
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../time1/" title="TIME" class="md-nav__link">
+      TIME
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../timespc/" title="TimeSpc" class="md-nav__link">
+      TimeSpc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tool/" title="Tool" class="md-nav__link">
+      Tool
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tranlw/" title="TranLw" class="md-nav__link">
+      TranLw
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../travel/" title="Travel" class="md-nav__link">
+      Travel
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trngain/" title="TrnGain" class="md-nav__link">
+      TrnGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trnloss/" title="TrnLoss" class="md-nav__link">
+      TrnLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../try/" title="Try" class="md-nav__link">
+      Try
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../undrst/" title="Undrst" class="md-nav__link">
+      Undrst
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vary/" title="Vary" class="md-nav__link">
+      Vary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vehicle/" title="Vehicle" class="md-nav__link">
+      Vehicle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vice/" title="Vice" class="md-nav__link">
+      Vice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../virtue/" title="Virtue" class="md-nav__link">
+      Virtue
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../weak/" title="Weak" class="md-nav__link">
+      Weak
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbgain/" title="WlbGain" class="md-nav__link">
+      WlbGain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbloss/" title="WlbLoss" class="md-nav__link">
+      WlbLoss
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbphys/" title="WlbPhys" class="md-nav__link">
+      WlbPhys
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpsyc/" title="WlbPsyc" class="md-nav__link">
+      WlbPsyc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbpt/" title="WlbPt" class="md-nav__link">
+      WlbPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlbtot/" title="WlbTot" class="md-nav__link">
+      WlbTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltoth/" title="WltOth" class="md-nav__link">
+      WltOth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wltpt/" title="WltPt" class="md-nav__link">
+      WltPt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttot/" title="WltTot" class="md-nav__link">
+      WltTot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../wlttran/" title="WltTran" class="md-nav__link">
+      WltTran
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../work/" title="Work" class="md-nav__link">
+      Work
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../yes/" title="Yes" class="md-nav__link">
+      Yes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../you/" title="You" class="md-nav__link">
+      You
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completed" class="md-nav__link">
+    Completed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incomplete" class="md-nav__link">
+    Incomplete
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pmbaumgartner/general-inquirer-remix/edit/master/docs/categories/passive.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="passive">Passive</h1>
+<p>911 words indicating a passive orientation</p>
+<h2 id="completed">Completed</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">3</td>
+<td align="left">ABATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td align="left">ABDICATE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td align="left">ABHOR</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9</td>
+<td align="left">ABJECT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">17</td>
+<td align="left">ABOUND</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">34</td>
+<td align="left">ABSENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">35</td>
+<td align="left">ABSENT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">36</td>
+<td align="left">ABSENT-MINDED</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">62</td>
+<td align="left">ACCEPT</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To take, receive or accede to something</td>
+</tr>
+<tr>
+<td align="right">64</td>
+<td align="left">ACCEPTANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">106</td>
+<td align="left">ACCUSTOM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">107</td>
+<td align="left">ACCUSTOM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">108</td>
+<td align="left">ACHE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">123</td>
+<td align="left">ACRIMONY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">162</td>
+<td align="left">ADHERE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">169</td>
+<td align="left">ADJOURNMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">175</td>
+<td align="left">ADJUSTMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">185</td>
+<td align="left">ADMIRE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">187</td>
+<td align="left">ADMISSIBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">188</td>
+<td align="left">ADMISSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">189</td>
+<td align="left">ADMIT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">63% verb: To acknowledge, confess, agree</td>
+</tr>
+<tr>
+<td align="right">191</td>
+<td align="left">ADMIT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adv: "Admittedly"--adverbial form of sense 1</td>
+</tr>
+<tr>
+<td align="right">196</td>
+<td align="left">ADOPT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: "Adopted"--chosen, accepted</td>
+</tr>
+<tr>
+<td align="right">213</td>
+<td align="left">ADVANCE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">20% adj: "Advanced"--forward, in front, progressive</td>
+</tr>
+<tr>
+<td align="right">253</td>
+<td align="left">AFFLICTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">260</td>
+<td align="left">AFRAID#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">adjective: Feeling fear, filled with apprehension</td>
+</tr>
+<tr>
+<td align="right">295</td>
+<td align="left">AGONIZE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">299</td>
+<td align="left">AGREE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: "Agreed"--settled or determined by mutual consent, as "the agreed  price"; of the same opinion, as "we are agreed"</td>
+</tr>
+<tr>
+<td align="right">309</td>
+<td align="left">AIL</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">313</td>
+<td align="left">AIMLESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">339</td>
+<td align="left">ALIBI</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">376</td>
+<td align="left">ALLOW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">97% verb: Permit</td>
+</tr>
+<tr>
+<td align="right">394</td>
+<td align="left">ALOOF</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">481</td>
+<td align="left">ANGUISH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">517</td>
+<td align="left">ANTICIPATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">518</td>
+<td align="left">ANTICIPATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">522</td>
+<td align="left">ANXIETY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Mental distress or uneasiness caused by apprehension of danger or misfortune.</td>
+</tr>
+<tr>
+<td align="right">526</td>
+<td align="left">ANXIOUSNESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">543</td>
+<td align="left">APATHETIC</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">544</td>
+<td align="left">APATHY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">554</td>
+<td align="left">APPEAL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">38% noun-adj: A request for a decision, help, sympathy, etc. (6), a quality  arousing a favorable response (6)</td>
+</tr>
+<tr>
+<td align="right">555</td>
+<td align="left">APPEAL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% verb: To request a decision, help, sympathy, etc. (10), to arouse  a favorable response (9)</td>
+</tr>
+<tr>
+<td align="right">556</td>
+<td align="left">APPEAL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Appealing"--arousing a favorable response</td>
+</tr>
+<tr>
+<td align="right">557</td>
+<td align="left">APPEAR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">64% verb: To seem</td>
+</tr>
+<tr>
+<td align="right">559</td>
+<td align="left">APPEARANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">580</td>
+<td align="left">APPRECIATE</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To be aware of, to be grateful</td>
+</tr>
+<tr>
+<td align="right">581</td>
+<td align="left">APPRECIATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">585</td>
+<td align="left">APPREHENSIVE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">587</td>
+<td align="left">APPROACH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">34% noun: The method used or steps taken in setting about a task, problem;  a coming toward</td>
+</tr>
+<tr>
+<td align="right">689</td>
+<td align="left">ASHAMED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">695</td>
+<td align="left">ASLEEP</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj-adv: In or into a state of sleep</td>
+</tr>
+<tr>
+<td align="right">720</td>
+<td align="left">ASSIMILATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">727</td>
+<td align="left">ASSOCIATE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adj: "Associated"--connected with</td>
+</tr>
+<tr>
+<td align="right">732</td>
+<td align="left">ASSUMPTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">742</td>
+<td align="left">ASTRAY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">746</td>
+<td align="left">ASUNDER</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">760</td>
+<td align="left">ATROPHY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">777</td>
+<td align="left">ATTENTION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The act or faculty of attending, by directing the mind to an object</td>
+</tr>
+<tr>
+<td align="right">778</td>
+<td align="left">ATTENTIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">779</td>
+<td align="left">ATTEST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">825</td>
+<td align="left">AVAIL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">835</td>
+<td align="left">AVERSION</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">836</td>
+<td align="left">AVERT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">838</td>
+<td align="left">AVOID</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To keep away from, keep clear of</td>
+</tr>
+<tr>
+<td align="right">839</td>
+<td align="left">AVOIDANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">841</td>
+<td align="left">AWAIT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">846</td>
+<td align="left">AWARE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">847</td>
+<td align="left">AWARENESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">898</td>
+<td align="left">BALK</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">917</td>
+<td align="left">BANE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">949</td>
+<td align="left">BARREN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">955</td>
+<td align="left">BASHFUL</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">999</td>
+<td align="left">BEAT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Beaten"--hammered, trodden, thrashed</td>
+</tr>
+<tr>
+<td align="right">1006</td>
+<td align="left">BECAME</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: Came, changed or grew to be.</td>
+</tr>
+<tr>
+<td align="right">1010</td>
+<td align="left">BECOME</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To come or grow to be</td>
+</tr>
+<tr>
+<td align="right">1017</td>
+<td align="left">BEEN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">47% verb: Past participle of be, used as copula</td>
+</tr>
+<tr>
+<td align="right">1022</td>
+<td align="left">BEFIT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1023</td>
+<td align="left">BEFITTING</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1039</td>
+<td align="left">BEING#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% verb: Present participle of 'be'</td>
+</tr>
+<tr>
+<td align="right">1046</td>
+<td align="left">BELIEF</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The idea that something is true or real, faith, confidence</td>
+</tr>
+<tr>
+<td align="right">1047</td>
+<td align="left">BELIEVE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">68% verb: To be of the opinion that--to think or consider</td>
+</tr>
+<tr>
+<td align="right">1050</td>
+<td align="left">BELIEVER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1054</td>
+<td align="left">BELONG#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">98% verb: To be in relation to something as owned or as a member or inhabitant</td>
+</tr>
+<tr>
+<td align="right">1061</td>
+<td align="left">BEND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1072</td>
+<td align="left">BENIGN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1073</td>
+<td align="left">BENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1077</td>
+<td align="left">BEREAVEMENT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1131</td>
+<td align="left">BITTER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1132</td>
+<td align="left">BITTERNESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1151</td>
+<td align="left">BLEED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1152</td>
+<td align="left">BLEED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1154</td>
+<td align="left">BLESS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">32% verb: To consecrate, favor or endow, make happy or prosperous</td>
+</tr>
+<tr>
+<td align="right">1163</td>
+<td align="left">BLINK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1164</td>
+<td align="left">BLINK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1170</td>
+<td align="left">BLOCK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">72% noun-adj: A barrier, solid mass, area, unit; street block (1)</td>
+</tr>
+<tr>
+<td align="right">1227</td>
+<td align="left">BONDAGE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1243</td>
+<td align="left">BORE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">50% adj: "Bored"--not interested, frustrated</td>
+</tr>
+<tr>
+<td align="right">1246</td>
+<td align="left">BORN</td>
+<td align="left">H4Lvd</td>
+<td align="left">adjective: Brought forth by birth</td>
+</tr>
+<tr>
+<td align="right">1268</td>
+<td align="left">BOUND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% adj: Limited, tied,</td>
+</tr>
+<tr>
+<td align="right">1280</td>
+<td align="left">BOW#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% adj: "Bowed"--bent or stooped, overwhelmed</td>
+</tr>
+<tr>
+<td align="right">1321</td>
+<td align="left">BREAKDOWN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1348</td>
+<td align="left">BRISTLE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1362</td>
+<td align="left">BROKE#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: "Broken"</td>
+</tr>
+<tr>
+<td align="right">1384</td>
+<td align="left">BUCKLE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1423</td>
+<td align="left">BURN#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Burned," "burnt"--consumed or injured by fire</td>
+</tr>
+<tr>
+<td align="right">1466</td>
+<td align="left">CALM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">50% noun-adj: Undisturbed, quiet, tranquil</td>
+</tr>
+<tr>
+<td align="right">1467</td>
+<td align="left">CALM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">38% verb: To quiet, become subdued</td>
+</tr>
+<tr>
+<td align="right">1468</td>
+<td align="left">CALM#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% adv: "Calmly"--quietly</td>
+</tr>
+<tr>
+<td align="right">1515</td>
+<td align="left">CAPITULATE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1520</td>
+<td align="left">CAPTIVE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1529</td>
+<td align="left">CAREEN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1560</td>
+<td align="left">CASUAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1566</td>
+<td align="left">CATCH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: That which is caught, such as game or fish</td>
+</tr>
+<tr>
+<td align="right">1586</td>
+<td align="left">CAVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% idiom-verb: "Cave in"--collapse</td>
+</tr>
+<tr>
+<td align="right">1587</td>
+<td align="left">CEASE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1639</td>
+<td align="left">CHANCE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% verb: To happen or occur without plan or intent</td>
+</tr>
+<tr>
+<td align="right">1640</td>
+<td align="left">CHANCE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% idiom-adverb: "By chance"--without plan or intent</td>
+</tr>
+<tr>
+<td align="right">1647</td>
+<td align="left">CHANGEABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1703</td>
+<td align="left">CHERISH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1704</td>
+<td align="left">CHERISH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1730</td>
+<td align="left">CHOICE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: Act or object of choosing, that which is preferred or preferable  to others.</td>
+</tr>
+<tr>
+<td align="right">1733</td>
+<td align="left">CHOOSE</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To make a choice</td>
+</tr>
+<tr>
+<td align="right">1735</td>
+<td align="left">CHOSE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1736</td>
+<td align="left">CHOSEN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% verb: Past tense of 'choose'--selected</td>
+</tr>
+<tr>
+<td align="right">1737</td>
+<td align="left">CHOSEN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% adj: Preferred, favored</td>
+</tr>
+<tr>
+<td align="right">1743</td>
+<td align="left">CHRONIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1744</td>
+<td align="left">CHUCKLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1745</td>
+<td align="left">CHUCKLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1826</td>
+<td align="left">CLOG</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1833</td>
+<td align="left">CLOSE#7</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Closed"--shut, inaccessible, terminated</td>
+</tr>
+<tr>
+<td align="right">1866</td>
+<td align="left">COAST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1881</td>
+<td align="left">COEXISTENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1893</td>
+<td align="left">COINCIDE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1894</td>
+<td align="left">COINCIDENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1896</td>
+<td align="left">COLD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">82% noun-adj: Very cool, lacking in heat; the absence of heat (2); unfriendly,  forbidding (2); absolutely, without preparation, abruptly (0)</td>
+</tr>
+<tr>
+<td align="right">1904</td>
+<td align="left">COLLAPSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1905</td>
+<td align="left">COLLAPSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">1980</td>
+<td align="left">COMMIT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% adj: Consigned, bound</td>
+</tr>
+<tr>
+<td align="right">1993</td>
+<td align="left">COMMONER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2054</td>
+<td align="left">COMPLICITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2056</td>
+<td align="left">COMPLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2071</td>
+<td align="left">COMPRISE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2072</td>
+<td align="left">COMPROMISE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2073</td>
+<td align="left">COMPROMISE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2080</td>
+<td align="left">CONCEDE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2082</td>
+<td align="left">CONCEIVABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2083</td>
+<td align="left">CONCEIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2089</td>
+<td align="left">CONCEPTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2090</td>
+<td align="left">CONCERN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">58% verb-adj: To be of interest or importance to--to trouble, worry, or  disquiet, to be interested in, relevant to, or worried about</td>
+</tr>
+<tr>
+<td align="right">2095</td>
+<td align="left">CONCESSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2108</td>
+<td align="left">CONDENSATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2112</td>
+<td align="left">CONDITION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">95% noun: A general or specific state of existence, often set as a prerequisite  for some future action</td>
+</tr>
+<tr>
+<td align="right">2114</td>
+<td align="left">CONDITION#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Conditioned"--rendered in a (specific) condition; in proper or  fit condition</td>
+</tr>
+<tr>
+<td align="right">2129</td>
+<td align="left">CONFESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2130</td>
+<td align="left">CONFESSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2132</td>
+<td align="left">CONFIDE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2148</td>
+<td align="left">CONFLICT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Conflicted"--ambivalent</td>
+</tr>
+<tr>
+<td align="right">2149</td>
+<td align="left">CONFORM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2151</td>
+<td align="left">CONFORMITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2157</td>
+<td align="left">CONFUSE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">82% adj: "Confused"--jumbled, disturbed, bewildered</td>
+</tr>
+<tr>
+<td align="right">2189</td>
+<td align="left">CONSENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2190</td>
+<td align="left">CONSENT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2191</td>
+<td align="left">CONSEQUENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2192</td>
+<td align="left">CONSEQUENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2195</td>
+<td align="left">CONSERVATIVE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">81% adj: Distrustful of innovation, restrained</td>
+</tr>
+<tr>
+<td align="right">2196</td>
+<td align="left">CONSERVATIVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">19% noun: A group or individual committed to the status quo</td>
+</tr>
+<tr>
+<td align="right">2197</td>
+<td align="left">CONSERVATIVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adv: "Conservatively"--traditionally, prudently, cautiously</td>
+</tr>
+<tr>
+<td align="right">2207</td>
+<td align="left">CONSIST</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2224</td>
+<td align="left">CONSTITUTE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2247</td>
+<td align="left">CONTEMPLATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2248</td>
+<td align="left">CONTEMPLATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2256</td>
+<td align="left">CONTENT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">58% adj: Satisfied</td>
+</tr>
+<tr>
+<td align="right">2257</td>
+<td align="left">CONTENT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% adv: "Contentedly"--in a satisfied manner</td>
+</tr>
+<tr>
+<td align="right">2258</td>
+<td align="left">CONTENT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% verb: To satisfy</td>
+</tr>
+<tr>
+<td align="right">2293</td>
+<td align="left">CONTROL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adj: "Controlled"--regulated, restrained</td>
+</tr>
+<tr>
+<td align="right">2310</td>
+<td align="left">CONVICT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2315</td>
+<td align="left">CONVINCED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% adj: Persuaded</td>
+</tr>
+<tr>
+<td align="right">2316</td>
+<td align="left">CONVINCED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">15% verb: Caused to believe</td>
+</tr>
+<tr>
+<td align="right">2324</td>
+<td align="left">COOL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2334</td>
+<td align="left">COPE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2363</td>
+<td align="left">CORRODE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2415</td>
+<td align="left">COVER#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Covered"--having coverage or protection</td>
+</tr>
+<tr>
+<td align="right">2418</td>
+<td align="left">COVET</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2420</td>
+<td align="left">COWARD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2433</td>
+<td align="left">CRAVE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2447</td>
+<td align="left">CREATURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2468</td>
+<td align="left">CRINGE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2479</td>
+<td align="left">CROAK</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2513</td>
+<td align="left">CRUMBLE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2514</td>
+<td align="left">CRUMPLE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2521</td>
+<td align="left">CRY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">95% verb: To utter inarticulate or loud sounds, especially of lamentation,  grief, suffering or fright--usually with tears</td>
+</tr>
+<tr>
+<td align="right">2522</td>
+<td align="left">CRY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: Any loud utterance or exclamation, a shout, scream, or wail</td>
+</tr>
+<tr>
+<td align="right">2547</td>
+<td align="left">CURIOSITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2548</td>
+<td align="left">CURIOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2557</td>
+<td align="left">CURSORY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2623</td>
+<td align="left">DEAD</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Not living; very rarely, absolute--"dead center," the heart of --"the  dead of winter" (0)</td>
+</tr>
+<tr>
+<td align="right">2640</td>
+<td align="left">DEARTH</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2641</td>
+<td align="left">DEATH</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: End of life, and thereafter</td>
+</tr>
+<tr>
+<td align="right">2651</td>
+<td align="left">DECAY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2652</td>
+<td align="left">DECAY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2674</td>
+<td align="left">DECLINE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2675</td>
+<td align="left">DECLINE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2676</td>
+<td align="left">DECOMPOSE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2680</td>
+<td align="left">DECREASE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2681</td>
+<td align="left">DECREASE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2688</td>
+<td align="left">DEEM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2708</td>
+<td align="left">DEFENSIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2709</td>
+<td align="left">DEFER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2724</td>
+<td align="left">DEGENERATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2731</td>
+<td align="left">DELAY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2732</td>
+<td align="left">DELAY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2758</td>
+<td align="left">DEMISE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2789</td>
+<td align="left">DEPEND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">73% verb: Be contingent</td>
+</tr>
+<tr>
+<td align="right">2793</td>
+<td align="left">DEPENDENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2795</td>
+<td align="left">DEPENDENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2799</td>
+<td align="left">DEPLORE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2804</td>
+<td align="left">DEPRECIATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2805</td>
+<td align="left">DEPRECIATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2806</td>
+<td align="left">DEPRESS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% adj: "Depressed"--dejected, low; lower than some norm (0)</td>
+</tr>
+<tr>
+<td align="right">2831</td>
+<td align="left">DESERT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Deserted"--abandoned</td>
+</tr>
+<tr>
+<td align="right">2841</td>
+<td align="left">DESIRE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">64% noun: Longing, yearning</td>
+</tr>
+<tr>
+<td align="right">2842</td>
+<td align="left">DESIRE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">32% verb: To long or yearn, earnestly wish</td>
+</tr>
+<tr>
+<td align="right">2843</td>
+<td align="left">DESIRE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: 'desired'--deemed proper or desirable, wished for, coveted</td>
+</tr>
+<tr>
+<td align="right">2848</td>
+<td align="left">DESPAIR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2849</td>
+<td align="left">DESPAIR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2905</td>
+<td align="left">DEVOTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2945</td>
+<td align="left">DIMINISH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2969</td>
+<td align="left">DISAPPEAR</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To pass out of sight</td>
+</tr>
+<tr>
+<td align="right">2970</td>
+<td align="left">DISAPPEARANCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2971</td>
+<td align="left">DISAPPOINT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">76% adj: "Disappointed"--let down, displeased</td>
+</tr>
+<tr>
+<td align="right">2975</td>
+<td align="left">DISAPPOINTMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2989</td>
+<td align="left">DISCERNIBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">2992</td>
+<td align="left">DISCIPLE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Follower</td>
+</tr>
+<tr>
+<td align="right">2995</td>
+<td align="left">DISCIPLINE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">36% adj: "Disciplined"--orderly, self-controlled</td>
+</tr>
+<tr>
+<td align="right">3001</td>
+<td align="left">DISCONCERTED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3002</td>
+<td align="left">DISCONTENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3007</td>
+<td align="left">DISCOUNT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3008</td>
+<td align="left">DISCOUNT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3009</td>
+<td align="left">DISCOURAGE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3030</td>
+<td align="left">DISGUST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% noun: Revulsion</td>
+</tr>
+<tr>
+<td align="right">3033</td>
+<td align="left">DISGUST#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% adj: "Disgusted"--revolted</td>
+</tr>
+<tr>
+<td align="right">3043</td>
+<td align="left">DISLIKE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">71% verb: To have an aversion toward</td>
+</tr>
+<tr>
+<td align="right">3044</td>
+<td align="left">DISLIKE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% noun: An aversion</td>
+</tr>
+<tr>
+<td align="right">3052</td>
+<td align="left">DISORGANIZED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3061</td>
+<td align="left">DISPLEASE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3062</td>
+<td align="left">DISPLEASURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3066</td>
+<td align="left">DISPOSITION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3102</td>
+<td align="left">DISTRESS#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3103</td>
+<td align="left">DISTRESS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3112</td>
+<td align="left">DISTURB#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% adj: "Disturbed"--upset, disrupted</td>
+</tr>
+<tr>
+<td align="right">3125</td>
+<td align="left">DIVIDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% adj: "Divided"--separated</td>
+</tr>
+<tr>
+<td align="right">3166</td>
+<td align="left">DOOM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3167</td>
+<td align="left">DOOM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3181</td>
+<td align="left">DOUBT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">49% noun: Uncertainty, question</td>
+</tr>
+<tr>
+<td align="right">3182</td>
+<td align="left">DOUBT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">41% verb: To question, be uncertain about</td>
+</tr>
+<tr>
+<td align="right">3184</td>
+<td align="left">DOUBT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Doubting"--questionning, uncertain, unbelieving</td>
+</tr>
+<tr>
+<td align="right">3211</td>
+<td align="left">DREAD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3212</td>
+<td align="left">DREADFUL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3213</td>
+<td align="left">DREAM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">43% noun: A fantasy or series of images usually formed during sleep</td>
+</tr>
+<tr>
+<td align="right">3214</td>
+<td align="left">DREAM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">56% verb: To create fantasies, to create or recreate by conscious or subconscious  imagination</td>
+</tr>
+<tr>
+<td align="right">3215</td>
+<td align="left">DREAMER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">76% noun: One who is dreaming, literally</td>
+</tr>
+<tr>
+<td align="right">3218</td>
+<td align="left">DREAMT</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: Past tense of dream.</td>
+</tr>
+<tr>
+<td align="right">3226</td>
+<td align="left">DRIFT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3227</td>
+<td align="left">DRIFT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3228</td>
+<td align="left">DRIFTER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3250</td>
+<td align="left">DROOP</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3251</td>
+<td align="left">DROP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% noun: Fall or decline</td>
+</tr>
+<tr>
+<td align="right">3253</td>
+<td align="left">DROP#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">32% verb: To fall--intransitive</td>
+</tr>
+<tr>
+<td align="right">3258</td>
+<td align="left">DROWN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun-adj: A suffocation by water--killed by such an act--"the drowned child"</td>
+</tr>
+<tr>
+<td align="right">3259</td>
+<td align="left">DROWN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To die by suffocation in water, generally by accident</td>
+</tr>
+<tr>
+<td align="right">3260</td>
+<td align="left">DROWSINESS</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3261</td>
+<td align="left">DROWSY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3264</td>
+<td align="left">DRUNK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">83% adjective: Intoxicated</td>
+</tr>
+<tr>
+<td align="right">3265</td>
+<td align="left">DRUNK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun: An intoxicated person, one perpetually so</td>
+</tr>
+<tr>
+<td align="right">3268</td>
+<td align="left">DRUNKEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3282</td>
+<td align="left">DULL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3283</td>
+<td align="left">DUMB</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3297</td>
+<td align="left">DWELL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3300</td>
+<td align="left">DYING#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">87% verb: Ceasing to live or exist; eager (with "to") (1)</td>
+</tr>
+<tr>
+<td align="right">3301</td>
+<td align="left">DYING#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% noun-adj: The process of ceasing to live, in this process</td>
+</tr>
+<tr>
+<td align="right">3380</td>
+<td align="left">EFFECT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">66% noun: Result, consequence, or (by implication) efficacy</td>
+</tr>
+<tr>
+<td align="right">3410</td>
+<td align="left">ELAPSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3411</td>
+<td align="left">ELAPSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3468</td>
+<td align="left">EMOTION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Affect</td>
+</tr>
+<tr>
+<td align="right">3469</td>
+<td align="left">EMOTIONAL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">80% adj: Having to do with, or conditioned by, the Emotions</td>
+</tr>
+<tr>
+<td align="right">3470</td>
+<td align="left">EMOTIONAL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">20% adv: "Emotionally"--in an Emotional manner</td>
+</tr>
+<tr>
+<td align="right">3517</td>
+<td align="left">ENDURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3518</td>
+<td align="left">ENDURE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3539</td>
+<td align="left">ENJOY</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To take pleasure in; to have as one's priviledge, advantage, fortune,  or lot (5)</td>
+</tr>
+<tr>
+<td align="right">3541</td>
+<td align="left">ENJOYMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3576</td>
+<td align="left">ENTITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3615</td>
+<td align="left">ERODE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3688</td>
+<td align="left">EVIDENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3689</td>
+<td align="left">EVIDENTLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3693</td>
+<td align="left">EVOLUTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3695</td>
+<td align="left">EVOLVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3702</td>
+<td align="left">EXALT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3726</td>
+<td align="left">EXCITED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">96% adj: Thrilled, stimulated</td>
+</tr>
+<tr>
+<td align="right">3727</td>
+<td align="left">EXCITED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% verb: Past tense of "excite"</td>
+</tr>
+<tr>
+<td align="right">3729</td>
+<td align="left">EXCITEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3737</td>
+<td align="left">EXCUSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3765</td>
+<td align="left">EXPECT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">98% verb: To regard as likely to happen</td>
+</tr>
+<tr>
+<td align="right">3766</td>
+<td align="left">EXPECT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj-noun: "Expected"--anticipated</td>
+</tr>
+<tr>
+<td align="right">3767</td>
+<td align="left">EXPECTATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3780</td>
+<td align="left">EXPERIENCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% verb: To encounter or undergo</td>
+</tr>
+<tr>
+<td align="right">3781</td>
+<td align="left">EXPERIENCE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: "Experienced"--having practical knowledge of things, having gone  through things</td>
+</tr>
+<tr>
+<td align="right">3782</td>
+<td align="left">EXPERIENCER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3783</td>
+<td align="left">EXPERIENTIAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3791</td>
+<td align="left">EXPIRE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3795</td>
+<td align="left">EXPLODE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3811</td>
+<td align="left">EXPRESSIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3816</td>
+<td align="left">EXTEND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Extended" - prolonged or lengthened</td>
+</tr>
+<tr>
+<td align="right">3825</td>
+<td align="left">EXTOL</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3837</td>
+<td align="left">EXULT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3838</td>
+<td align="left">EXULTATION</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3840</td>
+<td align="left">EYE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% verb: To look at</td>
+</tr>
+<tr>
+<td align="right">3868</td>
+<td align="left">FADE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3869</td>
+<td align="left">FADE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3870</td>
+<td align="left">FAIL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">56% verb: To be unsuccessful or lose strength</td>
+</tr>
+<tr>
+<td align="right">3873</td>
+<td align="left">FAIL#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% noun-adj: "Failing"--a fault or failure, unsatisfactory</td>
+</tr>
+<tr>
+<td align="right">3874</td>
+<td align="left">FAILURE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: A general instance of proving unsuccessful, one who or that which  proves unsuccessful or fails to perform something expected or required</td>
+</tr>
+<tr>
+<td align="right">3875</td>
+<td align="left">FAINT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3882</td>
+<td align="left">FAITH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">90% noun: Belief or trust, or the content thereof--a creed</td>
+</tr>
+<tr>
+<td align="right">3884</td>
+<td align="left">FAITHFUL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3887</td>
+<td align="left">FALL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">74% verb: General verb sense--drop, descend, collapse, sink, decline</td>
+</tr>
+<tr>
+<td align="right">3892</td>
+<td align="left">FALL#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: 'fallen'</td>
+</tr>
+<tr>
+<td align="right">3910</td>
+<td align="left">FAN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">76% noun: Devotee, enthusiast</td>
+</tr>
+<tr>
+<td align="right">3955</td>
+<td align="left">FATIGUE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3961</td>
+<td align="left">FAVOR#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adjective: "Favored"--treated with preference, approved</td>
+</tr>
+<tr>
+<td align="right">3967</td>
+<td align="left">FEAR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% noun-adj: Anxiety, dread, fright</td>
+</tr>
+<tr>
+<td align="right">3968</td>
+<td align="left">FEAR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% verb: To be afraid of</td>
+</tr>
+<tr>
+<td align="right">3970</td>
+<td align="left">FEARFUL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3983</td>
+<td align="left">FED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% idiom-adj-adv: "Fed up" - disgusted</td>
+</tr>
+<tr>
+<td align="right">3988</td>
+<td align="left">FEEBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">3993</td>
+<td align="left">FEEL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">46% verb: To have an impression, experience an idea or Emotion, to touch</td>
+</tr>
+<tr>
+<td align="right">3995</td>
+<td align="left">FEEL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% noun: "Feeling"--an Emotion or opinion</td>
+</tr>
+<tr>
+<td align="right">4031</td>
+<td align="left">FEVER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4032</td>
+<td align="left">FEVERISH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4063</td>
+<td align="left">FIGURE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">42% noun: Form, representation, schema, shape, illustration, diagram, number</td>
+</tr>
+<tr>
+<td align="right">4088</td>
+<td align="left">FIND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: "Finding"--a judgment or discovery</td>
+</tr>
+<tr>
+<td align="right">4153</td>
+<td align="left">FLATTER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4154</td>
+<td align="left">FLATTERY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4157</td>
+<td align="left">FLAVOR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4172</td>
+<td align="left">FLOAT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4181</td>
+<td align="left">FLOUNDER</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4196</td>
+<td align="left">FLUX</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4219</td>
+<td align="left">FOLLOW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">42% verb: To give allegiance to, obey, act in accordance with, "i wish  he would follow my advice," infrequently, understand--"i didn't follow  your argument"</td>
+</tr>
+<tr>
+<td align="right">4224</td>
+<td align="left">FOLLOW#6</td>
+<td align="left">H4</td>
+<td align="left">0% noun: "Following"--a group of followers</td>
+</tr>
+<tr>
+<td align="right">4226</td>
+<td align="left">FOLLOWER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4255</td>
+<td align="left">FORCE#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: "Forced"--compulsory, constrained</td>
+</tr>
+<tr>
+<td align="right">4266</td>
+<td align="left">FORESEE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4272</td>
+<td align="left">FORFEIT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4274</td>
+<td align="left">FORGET</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To fail to remember, lose memory of</td>
+</tr>
+<tr>
+<td align="right">4277</td>
+<td align="left">FORGIVEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4279</td>
+<td align="left">FORGOT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4280</td>
+<td align="left">FORGOTTEN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4281</td>
+<td align="left">FORGOTTEN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4297</td>
+<td align="left">FORSAKE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4307</td>
+<td align="left">FORTUNATE</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Lucky, well-fated</td>
+</tr>
+<tr>
+<td align="right">4317</td>
+<td align="left">FOSSILIZE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4325</td>
+<td align="left">FOUNDER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4332</td>
+<td align="left">FRACTURE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4391</td>
+<td align="left">FROWN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4392</td>
+<td align="left">FROWN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4401</td>
+<td align="left">FRUSTRATE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">43% adj: "Frustrated"--vexed, unsatisfied, thwarted</td>
+</tr>
+<tr>
+<td align="right">4403</td>
+<td align="left">FRUSTRATION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun-adj: A condition producing or resulting from thwarted desires or plans</td>
+</tr>
+<tr>
+<td align="right">4500</td>
+<td align="left">GAZE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4501</td>
+<td align="left">GAZE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4519</td>
+<td align="left">GENTLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4567</td>
+<td align="left">GLAD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">96% adjective: Pleased</td>
+</tr>
+<tr>
+<td align="right">4568</td>
+<td align="left">GLAD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adv: "Gladly"--with pleasure</td>
+</tr>
+<tr>
+<td align="right">4573</td>
+<td align="left">GLANCE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4574</td>
+<td align="left">GLANCE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4583</td>
+<td align="left">GLIMMER</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4584</td>
+<td align="left">GLIMPSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4585</td>
+<td align="left">GLIMPSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4593</td>
+<td align="left">GLOOM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4594</td>
+<td align="left">GLOOMY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4629</td>
+<td align="left">GONE#9</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% adj: 'gone'--absent, departed, past, dead, consumed</td>
+</tr>
+<tr>
+<td align="right">4721</td>
+<td align="left">GRIEF</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4748</td>
+<td align="left">GROW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">34% verb: To increase in size, intensity, etc.--especially of living things</td>
+</tr>
+<tr>
+<td align="right">4755</td>
+<td align="left">GROWN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% verb: To have increased in size, intensity, etc.</td>
+</tr>
+<tr>
+<td align="right">4761</td>
+<td align="left">GROWTH</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: An increase in size or extent</td>
+</tr>
+<tr>
+<td align="right">4781</td>
+<td align="left">GUIDE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% adj: 'guided'--given direction</td>
+</tr>
+<tr>
+<td align="right">4786</td>
+<td align="left">GUILT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4787</td>
+<td align="left">GUILTY</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Culpable</td>
+</tr>
+<tr>
+<td align="right">4800</td>
+<td align="left">HABIT</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Customary practice</td>
+</tr>
+<tr>
+<td align="right">4801</td>
+<td align="left">HABITUAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4846</td>
+<td align="left">HANG#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% verb: To be suspended or to remain (intransitive)</td>
+</tr>
+<tr>
+<td align="right">4850</td>
+<td align="left">HANG#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun-adj: 'hanging'--suspended, suspension</td>
+</tr>
+<tr>
+<td align="right">4855</td>
+<td align="left">HAPLESS</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4856</td>
+<td align="left">HAPPEN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">92% verb: To take place or occur</td>
+</tr>
+<tr>
+<td align="right">4880</td>
+<td align="left">HARM#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% noun: Injury, damage, hurt</td>
+</tr>
+<tr>
+<td align="right">4883</td>
+<td align="left">HARMLESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4898</td>
+<td align="left">HATE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">80% verb: To dislike passionately, to detest</td>
+</tr>
+<tr>
+<td align="right">4899</td>
+<td align="left">HATE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">19% noun: Intense dislike, aversion, hostility</td>
+</tr>
+<tr>
+<td align="right">4900</td>
+<td align="left">HATE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: 'hated'-loathed--'the hated dictator'</td>
+</tr>
+<tr>
+<td align="right">4901</td>
+<td align="left">HATER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4902</td>
+<td align="left">HATRED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4937</td>
+<td align="left">HEAP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4939</td>
+<td align="left">HEAR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">64% verb: To perceive sound, to listen; to pay attention (infrequent)</td>
+</tr>
+<tr>
+<td align="right">4945</td>
+<td align="left">HEARER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4955</td>
+<td align="left">HEAT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% idiom-adj: "In heat", in a state of sexual readiness</td>
+</tr>
+<tr>
+<td align="right">4968</td>
+<td align="left">HEED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">4984</td>
+<td align="left">HELPLESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5011</td>
+<td align="left">HESITANT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5012</td>
+<td align="left">HESITATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5013</td>
+<td align="left">HESITATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5016</td>
+<td align="left">HIDDEN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">52% adj: Concealed</td>
+</tr>
+<tr>
+<td align="right">5054</td>
+<td align="left">HIT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-adj: "Hit or miss"--haphazard</td>
+</tr>
+<tr>
+<td align="right">5073</td>
+<td align="left">HOMAGE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5085</td>
+<td align="left">HONOR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">35% verb: To esteem, exalt, respect</td>
+</tr>
+<tr>
+<td align="right">5087</td>
+<td align="left">HONOR#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% adj: "Honored", highly regarded, respected</td>
+</tr>
+<tr>
+<td align="right">5093</td>
+<td align="left">HOPE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">74% verb: To look forward with desire and trust to something happening,  to feel that something desired may happe</td>
+</tr>
+<tr>
+<td align="right">5094</td>
+<td align="left">HOPE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">26% noun: The feeling that what is desired is also possible, that all  will turn out for the best, a desire or wish</td>
+</tr>
+<tr>
+<td align="right">5095</td>
+<td align="left">HOPEFUL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5096</td>
+<td align="left">HOPELESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5137</td>
+<td align="left">HUDDLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5144</td>
+<td align="left">HUMBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5152</td>
+<td align="left">HUNCH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5156</td>
+<td align="left">HUNG#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">43% verb: To have suspended or attached (transitive)</td>
+</tr>
+<tr>
+<td align="right">5158</td>
+<td align="left">HUNG#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">22% idiom-adj-adv: 'hung up'--impeded by, caught up in</td>
+</tr>
+<tr>
+<td align="right">5176</td>
+<td align="left">HURT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% noun-adj: Injury or pain, injured</td>
+</tr>
+<tr>
+<td align="right">5190</td>
+<td align="left">HYSTERICAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5206</td>
+<td align="left">IDENTIFICATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5207</td>
+<td align="left">IDENTIFY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5213</td>
+<td align="left">IDLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5214</td>
+<td align="left">IDLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5224</td>
+<td align="left">ILL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% adj: Of unsound physical or mental health, sick</td>
+</tr>
+<tr>
+<td align="right">5233</td>
+<td align="left">ILLNESS</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Sickness of the body or mind</td>
+</tr>
+<tr>
+<td align="right">5237</td>
+<td align="left">ILLUSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5246</td>
+<td align="left">IMAGINARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5247</td>
+<td align="left">IMAGINATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5249</td>
+<td align="left">IMAGINE</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To form a mental image, to speculate, conjecture, suppose, or fantasize</td>
+</tr>
+<tr>
+<td align="right">5275</td>
+<td align="left">IMPATIENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5298</td>
+<td align="left">IMPLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5315</td>
+<td align="left">IMPRESS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: A mark, an effect produced by a strong influence</td>
+</tr>
+<tr>
+<td align="right">5325</td>
+<td align="left">IMPROVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adj: "Improved", bettered</td>
+</tr>
+<tr>
+<td align="right">5327</td>
+<td align="left">IMPULSE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5334</td>
+<td align="left">INABILITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5338</td>
+<td align="left">INADEQUATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5345</td>
+<td align="left">INCAPABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5355</td>
+<td align="left">INCLINATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5357</td>
+<td align="left">INCLINE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5390</td>
+<td align="left">INDEBTED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5392</td>
+<td align="left">INDECISION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5393</td>
+<td align="left">INDECISIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5394</td>
+<td align="left">INDECISIVENESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5396</td>
+<td align="left">INDEFINITE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5417</td>
+<td align="left">INDIFFERENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5487</td>
+<td align="left">INFORM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">36% adj: "Informed"--having information, knowledge, or education</td>
+</tr>
+<tr>
+<td align="right">5499</td>
+<td align="left">INHERENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5500</td>
+<td align="left">INHERIT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5502</td>
+<td align="left">INHIBITION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5509</td>
+<td align="left">INJURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5528</td>
+<td align="left">INSECURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5529</td>
+<td align="left">INSECURITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5539</td>
+<td align="left">INSIGHT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5555</td>
+<td align="left">INSTABILITY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5556</td>
+<td align="left">INSTABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5566</td>
+<td align="left">INSTINCT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5586</td>
+<td align="left">INTACT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5599</td>
+<td align="left">INTEND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Intended"--meant;planned</td>
+</tr>
+<tr>
+<td align="right">5610</td>
+<td align="left">INTEREST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">63% noun: Curiosity, concern, involvement, stake</td>
+</tr>
+<tr>
+<td align="right">5615</td>
+<td align="left">INTERESTED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">98% adj: "Interested"--characterized by a feeling of interest</td>
+</tr>
+<tr>
+<td align="right">5641</td>
+<td align="left">INTIMATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5649</td>
+<td align="left">INTRIGUE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5656</td>
+<td align="left">INTUITION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5657</td>
+<td align="left">INTUITIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5699</td>
+<td align="left">IRK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5708</td>
+<td align="left">IRRATIONAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5715</td>
+<td align="left">IRRITABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5716</td>
+<td align="left">IRRITATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5869</td>
+<td align="left">KNEEL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5870</td>
+<td align="left">KNELT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5871</td>
+<td align="left">KNEW</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: Past tense of 'know'</td>
+</tr>
+<tr>
+<td align="right">5881</td>
+<td align="left">KNOW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">92% verb: To perceive, understand, be acquainted with, to have fixed in  the mind, to be cognizant or aware of</td>
+</tr>
+<tr>
+<td align="right">5883</td>
+<td align="left">KNOW#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun-adj: "Knowing"--having knowledge or information, shrewd, deliberate</td>
+</tr>
+<tr>
+<td align="right">5888</td>
+<td align="left">KNOWN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: Recognized</td>
+</tr>
+<tr>
+<td align="right">5904</td>
+<td align="left">LACK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">70% noun: Dearth, need, absence, deficit</td>
+</tr>
+<tr>
+<td align="right">5905</td>
+<td align="left">LACK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% verb: To need, be deficient in</td>
+</tr>
+<tr>
+<td align="right">5906</td>
+<td align="left">LACK#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">19% adj: "Lacking"--wanting, absent, deficient (in)</td>
+</tr>
+<tr>
+<td align="right">5910</td>
+<td align="left">LAG</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5927</td>
+<td align="left">LANGUISH</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5947</td>
+<td align="left">LATENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5952</td>
+<td align="left">LAUGH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun: Expression of mirth or amusement</td>
+</tr>
+<tr>
+<td align="right">5953</td>
+<td align="left">LAUGH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">40% verb: To express mirth or amusement by laughter</td>
+</tr>
+<tr>
+<td align="right">5956</td>
+<td align="left">LAUGH#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun-adj: "Laughing" - laughter, expressive of amusement</td>
+</tr>
+<tr>
+<td align="right">5958</td>
+<td align="left">LAUGHTER</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: The act or sound of laughing, an expression of amusement.</td>
+</tr>
+<tr>
+<td align="right">5967</td>
+<td align="left">LAY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% verb: Past tense of "lie"--reclined, was or remained at a horizontal  position; was or remained in a specified place or condition (4); had intercourse  with (0)</td>
+</tr>
+<tr>
+<td align="right">5973</td>
+<td align="left">LAZY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">5987</td>
+<td align="left">LEAK</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6030</td>
+<td align="left">LEISURE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6077</td>
+<td align="left">LIE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">64% verb: To recline, remain at a horizontal, be located</td>
+</tr>
+<tr>
+<td align="right">6099</td>
+<td align="left">LIKE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">47% verb: To derive pleasure from, to find agreeable or congenial, to  feel attracted to someone or som</td>
+</tr>
+<tr>
+<td align="right">6100</td>
+<td align="left">LIKE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun: "Liking"--the attraction to, pleasure in, or enjoyment of something  or someone, fancy or inclination</td>
+</tr>
+<tr>
+<td align="right">6109</td>
+<td align="left">LIMIT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">37% adj: "Limited"--confined within limits, circumscribed or narrow</td>
+</tr>
+<tr>
+<td align="right">6130</td>
+<td align="left">LISTEN</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: Attend closely for the purpose of hearing</td>
+</tr>
+<tr>
+<td align="right">6131</td>
+<td align="left">LISTENER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6173</td>
+<td align="left">LONE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">97% adj: "Lonely" - sad and alone</td>
+</tr>
+<tr>
+<td align="right">6175</td>
+<td align="left">LONELINESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6177</td>
+<td align="left">LONER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6181</td>
+<td align="left">LONG#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: To yearn</td>
+</tr>
+<tr>
+<td align="right">6182</td>
+<td align="left">LONG#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% noun: 'longing'--an intense desire</td>
+</tr>
+<tr>
+<td align="right">6193</td>
+<td align="left">LOOK#3</td>
+<td align="left">H4</td>
+<td align="left">1% noun: A glance, gaze, visual search or examination</td>
+</tr>
+<tr>
+<td align="right">6202</td>
+<td align="left">LOOM</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6207</td>
+<td align="left">LOSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">77% verb: To come to be without</td>
+</tr>
+<tr>
+<td align="right">6212</td>
+<td align="left">LOST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% verb-adj: Past tense of "lose"--came to be without, no longer owned  by-- "we lost our jobs," "we are lost"</td>
+</tr>
+<tr>
+<td align="right">6214</td>
+<td align="left">LOST#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">31% adj: Missing, confused, immersed, without knowledge of where one is  (of people)--"i am lost"--"he was lost in thought"</td>
+</tr>
+<tr>
+<td align="right">6228</td>
+<td align="left">LOVE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% verb: To have affection or strong liking for, especially for one of  opposite sex</td>
+</tr>
+<tr>
+<td align="right">6229</td>
+<td align="left">LOVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% noun: The affection</td>
+</tr>
+<tr>
+<td align="right">6230</td>
+<td align="left">LOVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% idiom-adj: 'in love'--enamored</td>
+</tr>
+<tr>
+<td align="right">6235</td>
+<td align="left">LOVELESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6253</td>
+<td align="left">LUCKY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6272</td>
+<td align="left">LYING#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% verb: To maintain a prostrate position (of people), to be located (of things)</td>
+</tr>
+<tr>
+<td align="right">6280</td>
+<td align="left">MAD#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">85% adj: Angry or annoyed</td>
+</tr>
+<tr>
+<td align="right">6282</td>
+<td align="left">MAD#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adv: "Madly," used mostly figuratively, for emphasis--"he is madly in love"</td>
+</tr>
+<tr>
+<td align="right">6531</td>
+<td align="left">MENTION#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">97% verb: To speak of casually, to refer to, include passingly.</td>
+</tr>
+<tr>
+<td align="right">6586</td>
+<td align="left">MILL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% verb: "Mill around," "mill about" - move aimlessly</td>
+</tr>
+<tr>
+<td align="right">6639</td>
+<td align="left">MISERABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6640</td>
+<td align="left">MISERY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6641</td>
+<td align="left">MISFORTUNE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6654</td>
+<td align="left">MISS#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% adj: "Missing"--absent, lacking</td>
+</tr>
+<tr>
+<td align="right">6663</td>
+<td align="left">MISTAKE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">93% noun: An error</td>
+</tr>
+<tr>
+<td align="right">6664</td>
+<td align="left">MISTAKE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% idiom-adverb: "By mistake," accidentally</td>
+</tr>
+<tr>
+<td align="right">6665</td>
+<td align="left">MISTAKE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% verb: To 'mistake' one thing for another --to confuse</td>
+</tr>
+<tr>
+<td align="right">6673</td>
+<td align="left">MISUNDERSTAND</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6675</td>
+<td align="left">MISUNDERSTOOD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6679</td>
+<td align="left">MIX#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% adj: "Mixed"--mingled</td>
+</tr>
+<tr>
+<td align="right">6680</td>
+<td align="left">MIX#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% idiom-adj: "Mixed up"--mentally confused</td>
+</tr>
+<tr>
+<td align="right">6730</td>
+<td align="left">MOOD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6745</td>
+<td align="left">MORTIFY</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6768</td>
+<td align="left">MOURN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6769</td>
+<td align="left">MOURN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6776</td>
+<td align="left">MOVABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6832</td>
+<td align="left">MYSELF&gt;#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% idiom-adj: "Beside myself"--almost out of one's senses with fear or  other Emotion</td>
+</tr>
+<tr>
+<td align="right">6842</td>
+<td align="left">NAIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6847</td>
+<td align="left">NAME#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% idiom: "In (one's) name"; "in the name of"--with appeal to, on behalf of</td>
+</tr>
+<tr>
+<td align="right">6891</td>
+<td align="left">NEED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">67% verb: To want, lack, require, have (to)</td>
+</tr>
+<tr>
+<td align="right">6892</td>
+<td align="left">NEED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% noun: Lack of something wanted, requirement, exigency</td>
+</tr>
+<tr>
+<td align="right">6893</td>
+<td align="left">NEED#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Needed"--wanted, requisite</td>
+</tr>
+<tr>
+<td align="right">6918</td>
+<td align="left">NERVOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Uneasy, excitable; pertaining to the nerves (1)</td>
+</tr>
+<tr>
+<td align="right">6925</td>
+<td align="left">NEUTRAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6990</td>
+<td align="left">NOMINAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7024</td>
+<td align="left">NOTE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">44% verb: To notice, recognize</td>
+</tr>
+<tr>
+<td align="right">7028</td>
+<td align="left">NOTICE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">86% verb: To perceive, to recognize, to note</td>
+</tr>
+<tr>
+<td align="right">7078</td>
+<td align="left">OBEY</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To comply</td>
+</tr>
+<tr>
+<td align="right">7094</td>
+<td align="left">OBSERVATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7095</td>
+<td align="left">OBSERVE</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To perceive or regard with attention, to remark, to notice</td>
+</tr>
+<tr>
+<td align="right">7096</td>
+<td align="left">OBSERVER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7112</td>
+<td align="left">OCCUR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">86% verb: To happen, take place</td>
+</tr>
+<tr>
+<td align="right">7114</td>
+<td align="left">OCCURRENCE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7139</td>
+<td align="left">OFFSET</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7152</td>
+<td align="left">OMISSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7153</td>
+<td align="left">OMIT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7191</td>
+<td align="left">OPPORTUNE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7203</td>
+<td align="left">OPTIMISTIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7275</td>
+<td align="left">OUTLIVE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7276</td>
+<td align="left">OUTLOOK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7311</td>
+<td align="left">OVERFLOW</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7317</td>
+<td align="left">OVERLOOK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7369</td>
+<td align="left">PAINT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: "Painted"--covered with or represented in paint</td>
+</tr>
+<tr>
+<td align="right">7388</td>
+<td align="left">PANIC</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7413</td>
+<td align="left">PARK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7464</td>
+<td align="left">PASS#_14</td>
+<td align="left">H4</td>
+<td align="left">3% idiom-verb: "Come to pass"--happen--handled by "come"</td>
+</tr>
+<tr>
+<td align="right">7467</td>
+<td align="left">PASSENGER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7468</td>
+<td align="left">PASSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7469</td>
+<td align="left">PASSIONATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7470</td>
+<td align="left">PASSIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7489</td>
+<td align="left">PATIENT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">74% noun: Human or animal (0) under treatment</td>
+</tr>
+<tr>
+<td align="right">7516</td>
+<td align="left">PEACE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">59% noun: The attainment or state of freedom from any strife, tranquility</td>
+</tr>
+<tr>
+<td align="right">7520</td>
+<td align="left">PEACEFUL</td>
+<td align="left">H4Lvd</td>
+<td align="left">adjective: Possessing, enjoying, or marked by peace.</td>
+</tr>
+<tr>
+<td align="right">7539</td>
+<td align="left">PEND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7540</td>
+<td align="left">PEND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7552</td>
+<td align="left">PERCEIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7555</td>
+<td align="left">PERCEPTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7575</td>
+<td align="left">PERMISSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7576</td>
+<td align="left">PERMIT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">94% verb: To allow, to make possible</td>
+</tr>
+<tr>
+<td align="right">7677</td>
+<td align="left">PITY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7678</td>
+<td align="left">PITY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7684</td>
+<td align="left">PLACID</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7728</td>
+<td align="left">PLEA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7729</td>
+<td align="left">PLEAD</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7757</td>
+<td align="left">PLUNGE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7779</td>
+<td align="left">POISE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7803</td>
+<td align="left">PONDER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7807</td>
+<td align="left">POOR#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">44% adj: Destitute of some normal or desirable quality, unfortunate</td>
+</tr>
+<tr>
+<td align="right">7809</td>
+<td align="left">POOR#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Poorer"--comparative of senses 1 and 2</td>
+</tr>
+<tr>
+<td align="right">7810</td>
+<td align="left">POOR#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Poorest"--superlative of senses 1 and 2</td>
+</tr>
+<tr>
+<td align="right">7811</td>
+<td align="left">POOR#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% noun: Those wanting in material goods</td>
+</tr>
+<tr>
+<td align="right">7827</td>
+<td align="left">POSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7828</td>
+<td align="left">POSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7864</td>
+<td align="left">POVERTY</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Quality or state of being poor--need, destitution</td>
+</tr>
+<tr>
+<td align="right">7885</td>
+<td align="left">PRECARIOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7898</td>
+<td align="left">PREDICT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7904</td>
+<td align="left">PREFER</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: Like better, have preference for</td>
+</tr>
+<tr>
+<td align="right">7948</td>
+<td align="left">PRESS#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% adj: "Pressed"--under pressure, strained</td>
+</tr>
+<tr>
+<td align="right">7954</td>
+<td align="left">PRESUME</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">7955</td>
+<td align="left">PRESUMPTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8002</td>
+<td align="left">PRISONER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8070</td>
+<td align="left">PROJECT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Projected"--predicted, externalized</td>
+</tr>
+<tr>
+<td align="right">8078</td>
+<td align="left">PROMISE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% noun: Indication of possible future excellence or achievement</td>
+</tr>
+<tr>
+<td align="right">8079</td>
+<td align="left">PROMISE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% adj: "Promising"--giving indication of possible future excellence or achievement</td>
+</tr>
+<tr>
+<td align="right">8080</td>
+<td align="left">PROMISE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Promised"--pledged</td>
+</tr>
+<tr>
+<td align="right">8102</td>
+<td align="left">PROPOSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Proposed"--suggested</td>
+</tr>
+<tr>
+<td align="right">8112</td>
+<td align="left">PROSPER</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8127</td>
+<td align="left">PROVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Proven"--demonstrated, certain</td>
+</tr>
+<tr>
+<td align="right">8195</td>
+<td align="left">PUZZLEMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8204</td>
+<td align="left">QUANDARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8217</td>
+<td align="left">QUENCH</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8230</td>
+<td align="left">QUIET#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">69% adj-noun: Noiseless, silent, silence</td>
+</tr>
+<tr>
+<td align="right">8232</td>
+<td align="left">QUIET#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">22% adv: Silently, noiselessly</td>
+</tr>
+<tr>
+<td align="right">8233</td>
+<td align="left">QUIET#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Quieter"</td>
+</tr>
+<tr>
+<td align="right">8234</td>
+<td align="left">QUIT</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To stop, cease, give up; to leave (2)</td>
+</tr>
+<tr>
+<td align="right">8250</td>
+<td align="left">RADIATE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8291</td>
+<td align="left">RAPT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8323</td>
+<td align="left">REACT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8324</td>
+<td align="left">REACTION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Response</td>
+</tr>
+<tr>
+<td align="right">8325</td>
+<td align="left">REACTIONARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8347</td>
+<td align="left">REALIZATION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8348</td>
+<td align="left">REALIZE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% verb: To apprehend, come to see or know</td>
+</tr>
+<tr>
+<td align="right">8373</td>
+<td align="left">RECALL#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8374</td>
+<td align="left">RECALL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8375</td>
+<td align="left">RECEDE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8377</td>
+<td align="left">RECEIVE</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To get, accept, admit, apprehend</td>
+</tr>
+<tr>
+<td align="right">8378</td>
+<td align="left">RECEIVER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8392</td>
+<td align="left">RECOGNIZE</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To perceive, identify, acknowledge</td>
+</tr>
+<tr>
+<td align="right">8437</td>
+<td align="left">REFER</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To direct attention or a person to someone or something; to mention  or allude to</td>
+</tr>
+<tr>
+<td align="right">8441</td>
+<td align="left">REFLECT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8442</td>
+<td align="left">REFLECTION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8443</td>
+<td align="left">REFLEX</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8458</td>
+<td align="left">REGARD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">41% verb: To conceive of, look upon in a particular way</td>
+</tr>
+<tr>
+<td align="right">8470</td>
+<td align="left">REGISTER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8471</td>
+<td align="left">REGISTRANT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8473</td>
+<td align="left">REGRESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8474</td>
+<td align="left">REGRESSION</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8475</td>
+<td align="left">REGRET#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% verb: To feel sorry about</td>
+</tr>
+<tr>
+<td align="right">8476</td>
+<td align="left">REGRET#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% noun: A sense of loss, sorrow, dismay, disappointment</td>
+</tr>
+<tr>
+<td align="right">8493</td>
+<td align="left">RELAPSE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8504</td>
+<td align="left">RELATIVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">16% adj: Comparative, considered in relation to something else</td>
+</tr>
+<tr>
+<td align="right">8505</td>
+<td align="left">RELATIVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% adv: "Relatively"--comparatively</td>
+</tr>
+<tr>
+<td align="right">8507</td>
+<td align="left">RELAX</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8518</td>
+<td align="left">RELIEF</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8521</td>
+<td align="left">RELIEVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% adj: "Relieved" - disburdened, feeling thus</td>
+</tr>
+<tr>
+<td align="right">8525</td>
+<td align="left">RELINQUISH</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8526</td>
+<td align="left">RELISH</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8527</td>
+<td align="left">RELUCTANT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8528</td>
+<td align="left">RELY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8529</td>
+<td align="left">REMAIN#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">94% verb: To stay, to continue in the same condition, to be left or left over</td>
+</tr>
+<tr>
+<td align="right">8530</td>
+<td align="left">REMAIN#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% adj: "Remaining"--residual, left over</td>
+</tr>
+<tr>
+<td align="right">8537</td>
+<td align="left">REMEMBER</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: Bear in mind or call to mind</td>
+</tr>
+<tr>
+<td align="right">8577</td>
+<td align="left">REPLY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">79% verb: To respond</td>
+</tr>
+<tr>
+<td align="right">8578</td>
+<td align="left">REPLY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% noun: A response</td>
+</tr>
+<tr>
+<td align="right">8585</td>
+<td align="left">REPOSE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8603</td>
+<td align="left">REQUEST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% noun: A favor, petition, something asked</td>
+</tr>
+<tr>
+<td align="right">8604</td>
+<td align="left">REQUEST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">40% verb: To ask for, to petition</td>
+</tr>
+<tr>
+<td align="right">8605</td>
+<td align="left">REQUEST#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Requested", asked for</td>
+</tr>
+<tr>
+<td align="right">8615</td>
+<td align="left">RESENT</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To react with displeasure or indignation from a sense of injury,  especially towards someone</td>
+</tr>
+<tr>
+<td align="right">8617</td>
+<td align="left">RESENTMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8623</td>
+<td align="left">RESIDENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8625</td>
+<td align="left">RESIGN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8640</td>
+<td align="left">RESPECT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">48% verb-adj: To hold in esteem--esteemed</td>
+</tr>
+<tr>
+<td align="right">8641</td>
+<td align="left">RESPECT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">31% noun: Esteem, regard</td>
+</tr>
+<tr>
+<td align="right">8650</td>
+<td align="left">RESPOND</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8651</td>
+<td align="left">RESPONSE</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Answer, reaction</td>
+</tr>
+<tr>
+<td align="right">8658</td>
+<td align="left">REST#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">25% verb: To relax, be at ease or inactive, to be set</td>
+</tr>
+<tr>
+<td align="right">8671</td>
+<td align="left">RESTRICT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: "Restricted", confined, limited</td>
+</tr>
+<tr>
+<td align="right">8707</td>
+<td align="left">REVEAL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: "Revealed", disclosed, open</td>
+</tr>
+<tr>
+<td align="right">8790</td>
+<td align="left">RIPEN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8853</td>
+<td align="left">ROOT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% adj: "Rooted", based, embedded</td>
+</tr>
+<tr>
+<td align="right">8862</td>
+<td align="left">ROT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8894</td>
+<td align="left">RUGGED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8897</td>
+<td align="left">RUIN#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Ruined," destroyed</td>
+</tr>
+<tr>
+<td align="right">8941</td>
+<td align="left">SAD</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Unhappy</td>
+</tr>
+<tr>
+<td align="right">8942</td>
+<td align="left">SADNESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8950</td>
+<td align="left">SAG</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8978</td>
+<td align="left">SANCTION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">8998</td>
+<td align="left">SATISFACTION</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Pleasure, contentment</td>
+</tr>
+<tr>
+<td align="right">9002</td>
+<td align="left">SATISFY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">58% adj: Contented, fulfilled - "satisfied"</td>
+</tr>
+<tr>
+<td align="right">9011</td>
+<td align="left">SAVOR</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9013</td>
+<td align="left">SAW#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">98% verb: Past tense of see, witnessed by sight, or inferred</td>
+</tr>
+<tr>
+<td align="right">9024</td>
+<td align="left">SCALD</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9032</td>
+<td align="left">SCAR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9037</td>
+<td align="left">SCARE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">17% noun: A sudden or prolonged fright</td>
+</tr>
+<tr>
+<td align="right">9039</td>
+<td align="left">SCARED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">96% adj: Frightened, afraid</td>
+</tr>
+<tr>
+<td align="right">9107</td>
+<td align="left">SEAT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">54% adj: Sitting (as in a chair) - "seated"</td>
+</tr>
+<tr>
+<td align="right">9142</td>
+<td align="left">SEE</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To look at, witness, perceive, understand, imagine, visit</td>
+</tr>
+<tr>
+<td align="right">9148</td>
+<td align="left">SEEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9181</td>
+<td align="left">SENSE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">38% noun: Feeling, awareness, grasp--"sense of purpose"</td>
+</tr>
+<tr>
+<td align="right">9186</td>
+<td align="left">SENSE#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% verb: To note, perceive, feel, intuit</td>
+</tr>
+<tr>
+<td align="right">9196</td>
+<td align="left">SENTIMENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9197</td>
+<td align="left">SENTIMENTAL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9205</td>
+<td align="left">SERENE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9230</td>
+<td align="left">SET#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: Fixed, determined, established</td>
+</tr>
+<tr>
+<td align="right">9243</td>
+<td align="left">SETTLE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">18% adj: "Settled"--stable, calm</td>
+</tr>
+<tr>
+<td align="right">9275</td>
+<td align="left">SHAME</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9322</td>
+<td align="left">SHIVER</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9325</td>
+<td align="left">SHOCK#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% adj: "Shocked"--jarred with intense surprise, etc.</td>
+</tr>
+<tr>
+<td align="right">9374</td>
+<td align="left">SHRANK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9381</td>
+<td align="left">SHRINK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9386</td>
+<td align="left">SHRUNK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9387</td>
+<td align="left">SHUDDER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9388</td>
+<td align="left">SHUDDER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9395</td>
+<td align="left">SHY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9397</td>
+<td align="left">SICK#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">94% adj: Unhealthy</td>
+</tr>
+<tr>
+<td align="right">9398</td>
+<td align="left">SICK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Sicker"--comparative of sense 1</td>
+</tr>
+<tr>
+<td align="right">9399</td>
+<td align="left">SICK#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Sickest"--superlative of sense 1</td>
+</tr>
+<tr>
+<td align="right">9401</td>
+<td align="left">SICKLY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9402</td>
+<td align="left">SICKNESS</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Illness, disease</td>
+</tr>
+<tr>
+<td align="right">9409</td>
+<td align="left">SIGH#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9410</td>
+<td align="left">SIGH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9415</td>
+<td align="left">SIGHT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: To catch sight of, to spot</td>
+</tr>
+<tr>
+<td align="right">9428</td>
+<td align="left">SIGNIFY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9430</td>
+<td align="left">SILENT</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Noiseless</td>
+</tr>
+<tr>
+<td align="right">9464</td>
+<td align="left">SINK#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9470</td>
+<td align="left">SITTER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9514</td>
+<td align="left">SLEEP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">81% verb: To slumber, nap, doze, includes "go to sleep"</td>
+</tr>
+<tr>
+<td align="right">9515</td>
+<td align="left">SLEEP#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% noun: The state or period of natural suspension of consciousness</td>
+</tr>
+<tr>
+<td align="right">9516</td>
+<td align="left">SLEEP#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj-noun: 'sleeping'--a state of slumber, in or related to slumber</td>
+</tr>
+<tr>
+<td align="right">9519</td>
+<td align="left">SLEPT</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: Past participle of sleep</td>
+</tr>
+<tr>
+<td align="right">9523</td>
+<td align="left">SLIDE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9524</td>
+<td align="left">SLIDE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9532</td>
+<td align="left">SLIP#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">88% verb: To slide, to move without control or friction, to move stealthily</td>
+</tr>
+<tr>
+<td align="right">9548</td>
+<td align="left">SLUMP</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9563</td>
+<td align="left">SMELL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9564</td>
+<td align="left">SMILE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">46% noun: Upturning of corners of mouth usually indicating pleasure, favor  or amusement</td>
+</tr>
+<tr>
+<td align="right">9565</td>
+<td align="left">SMILE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">46% verb: To form a smile</td>
+</tr>
+<tr>
+<td align="right">9566</td>
+<td align="left">SMILE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: "Smiling"</td>
+</tr>
+<tr>
+<td align="right">9567</td>
+<td align="left">SMILE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adv: "Smilingly"</td>
+</tr>
+<tr>
+<td align="right">9568</td>
+<td align="left">SMITTEN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9626</td>
+<td align="left">SOLD#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% adj: Convinced - "i am sold on it"</td>
+</tr>
+<tr>
+<td align="right">9660</td>
+<td align="left">SORROW</td>
+<td align="left">H4Lvd</td>
+<td align="left">noun: Sadness, grief</td>
+</tr>
+<tr>
+<td align="right">9662</td>
+<td align="left">SORRY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">98% adj: Feeling regret or sorrow</td>
+</tr>
+<tr>
+<td align="right">9704</td>
+<td align="left">SPARKLE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9725</td>
+<td align="left">SPECTATOR</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9732</td>
+<td align="left">SPEECHLESS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9741</td>
+<td align="left">SPEND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Spent"--used up</td>
+</tr>
+<tr>
+<td align="right">9757</td>
+<td align="left">SPLIT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">28% noun-adj: A division; divided (2)</td>
+</tr>
+<tr>
+<td align="right">9779</td>
+<td align="left">SPRAIN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9781</td>
+<td align="left">SPRAWL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9806</td>
+<td align="left">SQUAT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9820</td>
+<td align="left">STAGGER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9822</td>
+<td align="left">STAIN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9860</td>
+<td align="left">STARTLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9862</td>
+<td align="left">STARVE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9878</td>
+<td align="left">STATIONARY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9906</td>
+<td align="left">STEM#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">9919</td>
+<td align="left">STICK#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% adj: "Stuck"--caught, embedded, jammed (9); metaphorically used--  caught, saddled with, forced to remain--"i am stuck with her" (2)</td>
+</tr>
+<tr>
+<td align="right">10053</td>
+<td align="left">STUFF#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adj: "Stuffed" - crammed, filled</td>
+</tr>
+<tr>
+<td align="right">10056</td>
+<td align="left">STUMBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10075</td>
+<td align="left">SUBJUGATE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10082</td>
+<td align="left">SUBMIT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10083</td>
+<td align="left">SUBORDINATE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10117</td>
+<td align="left">SUCCUMB</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10127</td>
+<td align="left">SUFFER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">69% verb: To experience or tolerate physical or psychological pain or  other unpleasantness</td>
+</tr>
+<tr>
+<td align="right">10129</td>
+<td align="left">SUFFER#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% noun-adj: "Suffering"</td>
+</tr>
+<tr>
+<td align="right">10130</td>
+<td align="left">SUFFERER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10133</td>
+<td align="left">SUFFOCATE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10136</td>
+<td align="left">SUGGEST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">98% verb: To mention for consideration or possible action; to stimulate  certain thoughts, conclusions or Emotions</td>
+</tr>
+<tr>
+<td align="right">10166</td>
+<td align="left">SUNK</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10167</td>
+<td align="left">SUNKEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10193</td>
+<td align="left">SUPPORT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: "Supported"--sustained, backed, encouraged, aided (5) held up (0)</td>
+</tr>
+<tr>
+<td align="right">10228</td>
+<td align="left">SURRENDER#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10229</td>
+<td align="left">SURRENDER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10231</td>
+<td align="left">SURROUND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: "Surrounded"--enclosed, encompassed</td>
+</tr>
+<tr>
+<td align="right">10255</td>
+<td align="left">SWEAT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10281</td>
+<td align="left">SWOLLEN</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10282</td>
+<td align="left">SWOON</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10289</td>
+<td align="left">SYMBOLIZE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10358</td>
+<td align="left">TASTE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">50% verb: To savor or experience (transitive)--"i tasted the melon"</td>
+</tr>
+<tr>
+<td align="right">10418</td>
+<td align="left">TEND#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">92% verb: To be inclined, to habitually behave</td>
+</tr>
+<tr>
+<td align="right">10420</td>
+<td align="left">TENDENCY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10607</td>
+<td align="left">TIMID</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10610</td>
+<td align="left">TINGLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10611</td>
+<td align="left">TINGLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10616</td>
+<td align="left">TIRE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">25% adj: "Tiring"--exhausting</td>
+</tr>
+<tr>
+<td align="right">10617</td>
+<td align="left">TIRED#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">70% adj: Weary, exhausted, fatigued</td>
+</tr>
+<tr>
+<td align="right">10619</td>
+<td align="left">TIRED#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% verb: To become weary or exhausted</td>
+</tr>
+<tr>
+<td align="right">10707</td>
+<td align="left">TOUCH#_11</td>
+<td align="left">H4</td>
+<td align="left">2% adj: "Touched"--Emotionally moved</td>
+</tr>
+<tr>
+<td align="right">10708</td>
+<td align="left">TOUCH#_12</td>
+<td align="left">H4</td>
+<td align="left">0% adj: "Touching"--Emotionally moving</td>
+</tr>
+<tr>
+<td align="right">10745</td>
+<td align="left">TRANQUIL</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10766</td>
+<td align="left">TRAUMA</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10790</td>
+<td align="left">TREMBLE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10821</td>
+<td align="left">TROUBLE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% adj: "Troubled"--disturbed</td>
+</tr>
+<tr>
+<td align="right">10835</td>
+<td align="left">TRUST#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">46% verb: To place or have confidence in someone or something</td>
+</tr>
+<tr>
+<td align="right">10836</td>
+<td align="left">TRUST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: "Trusting"--having confidence in, trustful</td>
+</tr>
+<tr>
+<td align="right">10837</td>
+<td align="left">TRUST#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Trusted"--reliable, believed in</td>
+</tr>
+<tr>
+<td align="right">10844</td>
+<td align="left">TRUSTWORTHY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10855</td>
+<td align="left">TUMBLE#1</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10856</td>
+<td align="left">TUMBLE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10886</td>
+<td align="left">TWITCH</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10905</td>
+<td align="left">UNABLE</td>
+<td align="left">H4Lvd</td>
+<td align="left">adj: Not able</td>
+</tr>
+<tr>
+<td align="right">10915</td>
+<td align="left">UNAWARE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10934</td>
+<td align="left">UNCONSCIOUS</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10938</td>
+<td align="left">UNDECIDED</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10947</td>
+<td align="left">UNDERGO</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10948</td>
+<td align="left">UNDERGONE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10962</td>
+<td align="left">UNDERWENT</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">10972</td>
+<td align="left">UNDONE</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11054</td>
+<td align="left">UNNERVE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11130</td>
+<td align="left">UPSET#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">62% adj: "Upset"--disturbed</td>
+</tr>
+<tr>
+<td align="right">11175</td>
+<td align="left">UTTER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11264</td>
+<td align="left">VICTIM</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11345</td>
+<td align="left">WAIT#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">91% verb: To stay or rest in expectation or inaction, to be available  or in readiness, to be neglected or to postpone temporarily</td>
+</tr>
+<tr>
+<td align="right">11347</td>
+<td align="left">WAIT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun-adj: "Wait," "waiting"--a period of staying in expectation, being  available or being postponed temporarily</td>
+</tr>
+<tr>
+<td align="right">11365</td>
+<td align="left">WANDER</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To move or go aimlessly about, roam, ramble</td>
+</tr>
+<tr>
+<td align="right">11366</td>
+<td align="left">WANDERER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11367</td>
+<td align="left">WANE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11369</td>
+<td align="left">WANT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">verb: To wish, desire, hope for</td>
+</tr>
+<tr>
+<td align="right">11370</td>
+<td align="left">WANT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Wanted"--desired, required (occasionally)</td>
+</tr>
+<tr>
+<td align="right">11574</td>
+<td align="left">WIDOW#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">9% adj: "Widowed"--rendered a widow, husbandless</td>
+</tr>
+<tr>
+<td align="right">11591</td>
+<td align="left">WILT</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11597</td>
+<td align="left">WINCE</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11601</td>
+<td align="left">WIND#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Winded"--out of breath</td>
+</tr>
+<tr>
+<td align="right">11631</td>
+<td align="left">WITHER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11686</td>
+<td align="left">WORN#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% adj: Deteriorated</td>
+</tr>
+<tr>
+<td align="right">11687</td>
+<td align="left">WORRIER</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11688</td>
+<td align="left">WORRY#1</td>
+<td align="left">H4Lvd</td>
+<td align="left">49% verb: To feel anxious (includes gerunds--"stop worrying")</td>
+</tr>
+<tr>
+<td align="right">11691</td>
+<td align="left">WORRY#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% adj: "Worried"--anxious</td>
+</tr>
+<tr>
+<td align="right">11692</td>
+<td align="left">WORRY#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adv: "Worriedly"--in a worried manner</td>
+</tr>
+<tr>
+<td align="right">11694</td>
+<td align="left">WORSEN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">11711</td>
+<td align="left">WOUND#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">18% adj: "Wounded"--injured</td>
+</tr>
+<tr>
+<td align="right">11739</td>
+<td align="left">YAWN</td>
+<td align="left">H4</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="incomplete">Incomplete</h2>
+<table>
+<thead>
+<tr>
+<th align="right">id</th>
+<th align="left">term</th>
+<th align="left">source</th>
+<th align="left">defined</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">190</td>
+<td align="left">ADMIT#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% verb: To grant entry, membership or access to something</td>
+</tr>
+<tr>
+<td align="right">524</td>
+<td align="left">ANXIOUS#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">21% adjective: Apprehensive, worried</td>
+</tr>
+<tr>
+<td align="right">525</td>
+<td align="left">ANXIOUS#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% adverb: "Anxiously"--nervously, excitedly</td>
+</tr>
+<tr>
+<td align="right">558</td>
+<td align="left">APPEAR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">36% verb: To physically emerge, come into sight</td>
+</tr>
+<tr>
+<td align="right">731</td>
+<td align="left">ASSUME#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">56% verb: To take for granted, suppose, postulate</td>
+</tr>
+<tr>
+<td align="right">1048</td>
+<td align="left">BELIEVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% verb: To have specific confidence that someone is making a true statement  or that a statement is true</td>
+</tr>
+<tr>
+<td align="right">1049</td>
+<td align="left">BELIEVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">20% idiom-verb: "Believe in"--to be strongly (religiously) persuaded of  the truth, value, or existence of</td>
+</tr>
+<tr>
+<td align="right">1320</td>
+<td align="left">BREAK#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">8% verb: "Break down"--to collapse, go out of working order</td>
+</tr>
+<tr>
+<td align="right">1363</td>
+<td align="left">BROKE#7</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% verb: "Broke (broken) down"--collapsed, went out of working order</td>
+</tr>
+<tr>
+<td align="right">1641</td>
+<td align="left">CHANCE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun-adj: The absence of any known causation for the outcome of events,  often spoken of as a real agency</td>
+</tr>
+<tr>
+<td align="right">1646</td>
+<td align="left">CHANGE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% adj: 'changed'--altered, transformed</td>
+</tr>
+<tr>
+<td align="right">1834</td>
+<td align="left">CLOSE#8</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% noun-adj: "Closing"--point or time of termination, shutting, last</td>
+</tr>
+<tr>
+<td align="right">2044</td>
+<td align="left">COMPLETE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% adjective: "Completed"--finished, terminated</td>
+</tr>
+<tr>
+<td align="right">2278</td>
+<td align="left">CONTRACT#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% verb: To draw inward, to shrink; to get or acquire, as a disease (0)</td>
+</tr>
+<tr>
+<td align="right">2790</td>
+<td align="left">DEPEND#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% verb: Rely (upon)</td>
+</tr>
+<tr>
+<td align="right">3216</td>
+<td align="left">DREAMER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">24% noun: A visionary or utopian, as opposed to the practical man</td>
+</tr>
+<tr>
+<td align="right">3505</td>
+<td align="left">END#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% noun: Goal, purpose</td>
+</tr>
+<tr>
+<td align="right">3810</td>
+<td align="left">EXPRESSION#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% noun: A look, expressing personal reaction or feeling</td>
+</tr>
+<tr>
+<td align="right">3843</td>
+<td align="left">EYE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-verb: "Set eyes on"--to see, often for the first time</td>
+</tr>
+<tr>
+<td align="right">3871</td>
+<td align="left">FAIL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">39% verb: To neglect, omit, or fall short of - "fail to"</td>
+</tr>
+<tr>
+<td align="right">3872</td>
+<td align="left">FAIL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: To disappoint or be inadequate for</td>
+</tr>
+<tr>
+<td align="right">3883</td>
+<td align="left">FAITH#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% idiom-noun: "Good faith"--honesty, trustworthiness</td>
+</tr>
+<tr>
+<td align="right">3888</td>
+<td align="left">FALL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% verb-idiom: "Fall in love,"--become enamored</td>
+</tr>
+<tr>
+<td align="right">3889</td>
+<td align="left">FALL#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% verb-idiom: 'fall asleep'</td>
+</tr>
+<tr>
+<td align="right">3893</td>
+<td align="left">FALL#7</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% verb-idiom: 'fall apart'--disintegrate</td>
+</tr>
+<tr>
+<td align="right">3894</td>
+<td align="left">FALL#8</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: 'falling'</td>
+</tr>
+<tr>
+<td align="right">3895</td>
+<td align="left">FALL#9</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% verb: "Fall for"--become enamored</td>
+</tr>
+<tr>
+<td align="right">3994</td>
+<td align="left">FEEL#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">42% verb: To believe (that), to hold as an opinion</td>
+</tr>
+<tr>
+<td align="right">4560</td>
+<td align="left">GIVE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: "Give up"--abandon hope, cease effort</td>
+</tr>
+<tr>
+<td align="right">4851</td>
+<td align="left">HANG#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% idiom-verb: 'hang around'--linger</td>
+</tr>
+<tr>
+<td align="right">4873</td>
+<td align="left">HARD#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-adj: 'hard up'</td>
+</tr>
+<tr>
+<td align="right">4906</td>
+<td align="left">HAVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% verb: To be compelled or under obligation to do something--"have to"</td>
+</tr>
+<tr>
+<td align="right">4940</td>
+<td align="left">HEAR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">29% verb: To be informed, to receive information, to learn</td>
+</tr>
+<tr>
+<td align="right">4980</td>
+<td align="left">HELP#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% verb: To avoid or refrain from--"i can't help but . . . ," "not if  i can help it"</td>
+</tr>
+<tr>
+<td align="right">5060</td>
+<td align="left">HOLD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% verb: Believe, feel, profess, say--"we hold these truths to be . . ."</td>
+</tr>
+<tr>
+<td align="right">5067</td>
+<td align="left">HOLE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-adj: "In a hole"--in a tough spot, difficult situation--not handled</td>
+</tr>
+<tr>
+<td align="right">5157</td>
+<td align="left">HUNG#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% verb: To have been suspended or attached (intransitive)</td>
+</tr>
+<tr>
+<td align="right">5227</td>
+<td align="left">ILL#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">7% adj-idiom: "Ill at ease"--uncomfortable</td>
+</tr>
+<tr>
+<td align="right">5945</td>
+<td align="left">LATE#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% adj: Recently deceased</td>
+</tr>
+<tr>
+<td align="right">5957</td>
+<td align="left">LAUGH#6</td>
+<td align="left">H4Lvd</td>
+<td align="left">45% noun: Same as sense 1, but inserted into text as editorial comment,  parenthesized.</td>
+</tr>
+<tr>
+<td align="right">5968</td>
+<td align="left">LAY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% verb: To place or put; to have intercourse with (4); to produce eggs  (0); to knock or press down (0)</td>
+</tr>
+<tr>
+<td align="right">6157</td>
+<td align="left">LOAD#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% adj: "Loaded"--filled, burdened</td>
+</tr>
+<tr>
+<td align="right">6176</td>
+<td align="left">LONELY</td>
+<td align="left">H4Lvd</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="right">6194</td>
+<td align="left">LOOK#4</td>
+<td align="left">H4</td>
+<td align="left">2% noun: Aspect, mein, appearance, expression</td>
+</tr>
+<tr>
+<td align="right">6213</td>
+<td align="left">LOST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% verb: Past tense of "lose"--failed, was defeated</td>
+</tr>
+<tr>
+<td align="right">6231</td>
+<td align="left">LOVE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% adj: 'loving'--feeling or showing love</td>
+</tr>
+<tr>
+<td align="right">6281</td>
+<td align="left">MAD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% adj-noun: Insane, crazy, those who are insane or crazy</td>
+</tr>
+<tr>
+<td align="right">6599</td>
+<td align="left">MIND#9</td>
+<td align="left">H4</td>
+<td align="left">0% idiom-verb: "Lose (one's) mind"--lose one's sanity</td>
+</tr>
+<tr>
+<td align="right">6681</td>
+<td align="left">MIX#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% idiom-adj: "Mixed up with"--involved with</td>
+</tr>
+<tr>
+<td align="right">7113</td>
+<td align="left">OCCUR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">14% verb: 'occur to'--dawn on</td>
+</tr>
+<tr>
+<td align="right">7130</td>
+<td align="left">OFFER#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">11% noun: "Offering", something presented, a donation</td>
+</tr>
+<tr>
+<td align="right">7219</td>
+<td align="left">ORDER#8</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% idiom-adj: "Out of order"--not functioning, disabled</td>
+</tr>
+<tr>
+<td align="right">7453</td>
+<td align="left">PASS#3</td>
+<td align="left">H4</td>
+<td align="left">9% verb: Of time--to spend or elapse</td>
+</tr>
+<tr>
+<td align="right">7456</td>
+<td align="left">PASS#6</td>
+<td align="left">H4</td>
+<td align="left">3% verb: "Pass through"--to undergo, experience</td>
+</tr>
+<tr>
+<td align="right">7458</td>
+<td align="left">PASS#8</td>
+<td align="left">H4</td>
+<td align="left">3% verb: "Pass away"--to die</td>
+</tr>
+<tr>
+<td align="right">7461</td>
+<td align="left">PASS#_11</td>
+<td align="left">H4</td>
+<td align="left">0% verb: "Pass out"--to become unconscious</td>
+</tr>
+<tr>
+<td align="right">7463</td>
+<td align="left">PASS#_13</td>
+<td align="left">H4</td>
+<td align="left">1% noun: "Passing"--disappearance, death</td>
+</tr>
+<tr>
+<td align="right">7649</td>
+<td align="left">PIECE#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">1% verb: "Go to pieces"--suffer a breakdown</td>
+</tr>
+<tr>
+<td align="right">7808</td>
+<td align="left">POOR#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">30% adj: Lacking material goods</td>
+</tr>
+<tr>
+<td align="right">8126</td>
+<td align="left">PROVE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">33% verb: Turn out (to be)--"prove difficult," "prove to be"</td>
+</tr>
+<tr>
+<td align="right">8190</td>
+<td align="left">PUT#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% verb: 'put up with'--to bear or suffer, to tolerate</td>
+</tr>
+<tr>
+<td align="right">8644</td>
+<td align="left">RESPECT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-verb: 'pay one's respects'--visit, call on formally</td>
+</tr>
+<tr>
+<td align="right">8657</td>
+<td align="left">REST#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">12% noun-adj: Ease, inactivity, quiet</td>
+</tr>
+<tr>
+<td align="right">8914</td>
+<td align="left">RUN#5</td>
+<td align="left">H4</td>
+<td align="left">1% verb: 'run out'--to become depleted</td>
+</tr>
+<tr>
+<td align="right">8922</td>
+<td align="left">RUN#_13</td>
+<td align="left">H4</td>
+<td align="left">0% verb: "Run into"--encounter</td>
+</tr>
+<tr>
+<td align="right">9242</td>
+<td align="left">SETTLE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% idiom-verb: "Settle for"--be satisfied with</td>
+</tr>
+<tr>
+<td align="right">9400</td>
+<td align="left">SICK#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% idiom-adj: "Sick of"--be disgusted with, tired of</td>
+</tr>
+<tr>
+<td align="right">9593</td>
+<td align="left">SNOW#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% verb: 'snowed under'--to be buried as with snow, overcome</td>
+</tr>
+<tr>
+<td align="right">9619</td>
+<td align="left">SOFT#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">3% idiom-noun: "Soft touch"--credulous person--handled by "touch"</td>
+</tr>
+<tr>
+<td align="right">9625</td>
+<td align="left">SOLD#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">5% verb: Convinced - "that sold me on it"</td>
+</tr>
+<tr>
+<td align="right">9663</td>
+<td align="left">SORRY#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% noun-adj: Wretched, poor, useless, pitiful</td>
+</tr>
+<tr>
+<td align="right">9676</td>
+<td align="left">SOUND#7</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% idiom-adv: "Sound asleep"</td>
+</tr>
+<tr>
+<td align="right">9838</td>
+<td align="left">STAND#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% verb: Tolerate, bear, withstand</td>
+</tr>
+<tr>
+<td align="right">9856</td>
+<td align="left">START#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% verb: To jerk or flinch suddenly</td>
+</tr>
+<tr>
+<td align="right">9858</td>
+<td align="left">START#5</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% noun: A jerk or sudden flinch</td>
+</tr>
+<tr>
+<td align="right">9951</td>
+<td align="left">STOOD#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: Tolerated, withstood</td>
+</tr>
+<tr>
+<td align="right">10128</td>
+<td align="left">SUFFER#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% verb: To allow, permit, or let some action take place</td>
+</tr>
+<tr>
+<td align="right">10197</td>
+<td align="left">SUPPOSE#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">36% adj: "Supposed (to)"--expected, under obligation</td>
+</tr>
+<tr>
+<td align="right">10225</td>
+<td align="left">SURPRISE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">6% adj: "Surprised"--affected with a feeling of surprise or wonder</td>
+</tr>
+<tr>
+<td align="right">10382</td>
+<td align="left">TEAR#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">10% verb: To race around without apparent control</td>
+</tr>
+<tr>
+<td align="right">10615</td>
+<td align="left">TIRE#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">13% verb: To become bored or disinterested--"tire of"</td>
+</tr>
+<tr>
+<td align="right">10618</td>
+<td align="left">TIRED#2</td>
+<td align="left">H4Lvd</td>
+<td align="left">27% adj: Exhausted in patience or interest, bored--"tired of doing this"</td>
+</tr>
+<tr>
+<td align="right">10620</td>
+<td align="left">TIRED#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">0% verb: To become bored or uninterested</td>
+</tr>
+<tr>
+<td align="right">10850</td>
+<td align="left">TRY#4</td>
+<td align="left">H4</td>
+<td align="left">0% verb: Put under duress--"that tried my patience"</td>
+</tr>
+<tr>
+<td align="right">10870</td>
+<td align="left">TURN#7</td>
+<td align="left">H4Lvd</td>
+<td align="left">2% verb: "Turn in"--deliver up, submit, tender</td>
+</tr>
+<tr>
+<td align="right">11529</td>
+<td align="left">WHIP#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% idiom-noun: "Whipping boy" - scapegoat</td>
+</tr>
+<tr>
+<td align="right">11600</td>
+<td align="left">WIND#3</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% verb: "Wind up"--to end up, terminate, arrive at a certain condition</td>
+</tr>
+<tr>
+<td align="right">11710</td>
+<td align="left">WOUND#4</td>
+<td align="left">H4Lvd</td>
+<td align="left">4% idiom-verb: 'wound up'--ended up</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+    <!-- Link to previous and/or next page -->
+    
+    <div class="md-footer-nav">
+        <nav class="md-footer-nav__inner md-grid">
+
+            <!-- Link to previous page -->
+            
+            <a href="../pain/" title="Pain"
+                class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+                </div>
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Previous
+                        </span>
+                        Pain
+                    </span>
+                </div>
+            </a>
+            
+
+            <!-- Link to next page -->
+            
+            <a href="../perceiv/" title="Perceiv"
+                class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+                <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+                    <span class="md-flex__ellipsis">
+                        <span class="md-footer-nav__direction">
+                            Next
+                        </span>
+                        Perceiv
+                    </span>
+                </div>
+                <div class="md-flex__cell md-flex__cell--shrink">
+                    <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+                </div>
+            </a>
+            
+        </nav>
+    </div>
+    
+
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+                    Material for MkDocs</a>
+                <p>
+                    <a href="http://www.wjh.harvard.edu/~inquirer/">General Inquirer Homepage</a>
+                </p>
+                <p><strong>Original reference: </strong>
+                    Philip J. Stone, Dexter C. Dunphy, Marshall S. Smith, Daniel M.
+                    Ogilvie, and associates.
+                    The General Inquirer: A Computer Approach to Content Analysis.
+                    MIT Press, 1966.</p>
+            </div>
+
+            <!-- Social links -->
+            
+        </div>
+    </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.808e90bb.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
