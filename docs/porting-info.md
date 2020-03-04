@@ -1,6 +1,6 @@
 # Porting Process
 
-These scripts in `asset_generation` convert the available Excel document of GI categories into json objects, which are then converted into rules formatted for a spaCy Matcher object.
+Programs in the `asset_generation` [folder](https://github.com/pmbaumgartner/general-inquirer-remix/tree/master/asset_generation) convert the available Excel document of GI categories into json objects, which are then converted into rules formatted for a spaCy Matcher object.
 
 ## Why are some categories incomplete?
 
