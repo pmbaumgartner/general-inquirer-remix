@@ -2,6 +2,7 @@ site_name: General Inquirer
 
 theme:
   name: 'material'
+  custom_dir: 'theme'
   font:
     text: 'IBM Plex'
     code: 'IBM Plex Mono'
@@ -11,6 +12,8 @@ theme:
   logo:
     icon: 'import_contacts'
 
+markdown_extensions:
+  - codehilite
 
 repo_name: 'pmbaumgarnter/general-inquirer-remix'
 repo_url: 'https://github.com/pmbaumgartner/general-inquirer-remix'

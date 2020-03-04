@@ -110,3 +110,48 @@ for category, slug in category_slugs.items():
 
     Path(category_docs_path / f"{slug}.md").write_text(category_md)
 
+
+category_statistics = []
+with jsonlines.open(artifacts / "category_statistics.jsonl") as reader:
+    for entry in reader:
+        category_statistics.append(entry)
+
+rename_cols = {
+    "category": "Category",
+    "input_category_counts": "Total",
+    "output_category_counts": "Complete",
+    "excluded_category_counts": "Incomplete",
+    "percent_included": "Percent Complete",
+}
+
+
+def category_link(category):
+    slug = category_slugs[category]
+    return f"[{category}](categories/{slug}.md)"
+
+
+category_statistics_df = (
+    pd.DataFrame(category_statistics)
+    .assign(category=lambda d: d["category"].apply(category_link))
+    .rename(columns=rename_cols)
+    .set_index("Category")
+)
+
+completed_ct = category_statistics_df["Complete"].sum()
+incomplete_ct = category_statistics_df["Incomplete"].sum()
+pct_completed = (completed_ct / (completed_ct + incomplete_ct)) * 100
+
+output_md = f"""# Category Porting Statistics
+
+**Original Terms Completed:** `{completed_ct}`
+
+**Original Terms Incomplete:** `{incomplete_ct}`
+
+**Percent Completed:** `{pct_completed:.1f}%`
+
+"""
+
+output_md += category_statistics_df.to_markdown()
+
+(docs_path / "category-statistics-table.md").write_text(output_md)
+
